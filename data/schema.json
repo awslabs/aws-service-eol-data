@@ -1,0 +1,100 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "AWS Service EOL Data",
+  "description": "Schema for validating aws-service-eol-data entries",
+  "type": "object",
+  "required": ["schemaVersion", "lastUpdated", "services"],
+  "properties": {
+    "schemaVersion": {
+      "type": "string",
+      "pattern": "^\\d+\\.\\d+$"
+    },
+    "_disclaimer": {
+      "type": "string"
+    },
+    "lastUpdated": {
+      "type": "string",
+      "format": "date"
+    },
+    "services": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["serviceCode", "serviceName", "versionType", "versions"],
+        "properties": {
+          "serviceCode": {
+            "type": "string",
+            "minLength": 1
+          },
+          "serviceName": {
+            "type": "string",
+            "minLength": 1
+          },
+          "engine": {
+            "type": ["string", "null"]
+          },
+          "versionType": {
+            "type": "string",
+            "enum": ["kubernetesVersion", "engineMajorVersion", "runtime", "engineVersion"]
+          },
+          "versions": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["version", "status", "postDeprecationBehavior", "dateConfidence", "sourceUrl"],
+              "properties": {
+                "version": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "status": {
+                  "type": "string",
+                  "enum": ["STANDARD_SUPPORT", "EXTENDED_SUPPORT", "DEPRECATED", "END_OF_LIFE"]
+                },
+                "standardSupportEnd": {
+                  "type": ["string", "null"],
+                  "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+                },
+                "extendedSupport": {
+                  "oneOf": [
+                    { "type": "null" },
+                    {
+                      "type": "object",
+                      "required": ["start", "end"],
+                      "properties": {
+                        "start": {
+                          "type": "string",
+                          "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+                        },
+                        "end": {
+                          "type": "string",
+                          "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+                        }
+                      }
+                    }
+                  ]
+                },
+                "postDeprecationBehavior": {
+                  "type": "string",
+                  "enum": ["CHARGES_APPLY", "AUTO_UPGRADE", "CREATE_BLOCKED", "NO_PATCHES"]
+                },
+                "postExtendedSupportBehavior": {
+                  "type": ["string", "null"],
+                  "enum": ["AUTO_UPGRADE", "DOMAIN_ISOLATED", "NO_PATCHES", null]
+                },
+                "dateConfidence": {
+                  "type": "string",
+                  "enum": ["COMMITTED", "PROJECTED", "TENTATIVE"]
+                },
+                "sourceUrl": {
+                  "type": "string",
+                  "pattern": "^https://docs\\.aws\\.amazon\\.com/|^https://aws\\.amazon\\.com/"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

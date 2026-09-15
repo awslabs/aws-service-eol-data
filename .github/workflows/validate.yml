@@ -1,0 +1,119 @@
+name: Validate EOL Data
+
+on:
+  push:
+    paths:
+      - 'data/eol.json'
+  pull_request:
+    paths:
+      - 'data/eol.json'
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install jsonschema
+
+      - name: Validate JSON syntax
+        run: python -c "import json; json.load(open('data/eol.json'))"
+
+      - name: Validate against schema
+        run: |
+          python -c "
+          import json
+          from jsonschema import validate, ValidationError
+
+          with open('data/schema.json') as f:
+              schema = json.load(f)
+          with open('data/eol.json') as f:
+              data = json.load(f)
+
+          try:
+              validate(instance=data, schema=schema)
+              print('Schema validation PASSED')
+          except ValidationError as e:
+              print(f'Schema validation FAILED: {e.message}')
+              print(f'Path: {list(e.path)}')
+              exit(1)
+          "
+
+      - name: Check date consistency
+        run: |
+          python -c "
+          import json
+          from datetime import datetime
+
+          with open('data/eol.json') as f:
+              data = json.load(f)
+
+          errors = []
+          for svc in data['services']:
+              for v in svc['versions']:
+                  vid = f\"{svc['serviceCode']}/{svc.get('engine', '')}/{v['version']}\"
+
+                  # Check: extendedSupport.start should be after standardSupportEnd
+                  if v.get('extendedSupport') and v.get('standardSupportEnd'):
+                      eos = v['standardSupportEnd']
+                      es_start = v['extendedSupport']['start']
+                      if es_start < eos:
+                          errors.append(f'{vid}: extendedSupport.start ({es_start}) is before standardSupportEnd ({eos})')
+
+                  # Check: extendedSupport.end should be after extendedSupport.start
+                  if v.get('extendedSupport'):
+                      es_start = v['extendedSupport']['start']
+                      es_end = v['extendedSupport']['end']
+                      if es_end <= es_start:
+                          errors.append(f'{vid}: extendedSupport.end ({es_end}) is not after start ({es_start})')
+
+                  # Check: status consistency with dates
+                  if v.get('standardSupportEnd'):
+                      eos_date = datetime.strptime(v['standardSupportEnd'], '%Y-%m-%d')
+                      today = datetime.now()
+                      if v['status'] == 'STANDARD_SUPPORT' and eos_date < today:
+                          errors.append(f'{vid}: status is STANDARD_SUPPORT but standardSupportEnd ({v[\"standardSupportEnd\"]}) is in the past')
+
+                  # Check: EXTENDED_SUPPORT but extended support end date is in the past
+                  if v['status'] == 'EXTENDED_SUPPORT' and v.get('extendedSupport') and v['extendedSupport'].get('end'):
+                      es_end_date = datetime.strptime(v['extendedSupport']['end'], '%Y-%m-%d')
+                      today = datetime.now()
+                      if es_end_date < today:
+                          errors.append(f'{vid}: status is EXTENDED_SUPPORT but extendedSupport.end ({v[\"extendedSupport\"][\"end\"]}) is in the past')
+
+                  # Check: sourceUrl is not empty
+                  if not v.get('sourceUrl', '').startswith('https://'):
+                      errors.append(f'{vid}: sourceUrl is missing or invalid')
+
+          if errors:
+              print(f'Date consistency check FAILED with {len(errors)} error(s):')
+              for e in errors:
+                  print(f'  - {e}')
+              exit(1)
+          else:
+              print(f'Date consistency check PASSED ({sum(len(s[\"versions\"]) for s in data[\"services\"])} versions validated)')
+          "
+
+      - name: Check freshness
+        run: |
+          python -c "
+          import json
+          from datetime import datetime, timedelta
+
+          with open('data/eol.json') as f:
+              data = json.load(f)
+
+          last_updated = datetime.strptime(data['lastUpdated'], '%Y-%m-%d')
+          age_days = (datetime.now() - last_updated).days
+
+          if age_days > 30:
+              print(f'WARNING: Dataset is {age_days} days old (last updated: {data[\"lastUpdated\"]}). Consider refreshing.')
+          else:
+              print(f'Freshness check PASSED (last updated: {data[\"lastUpdated\"]}, {age_days} days ago)')
+          "

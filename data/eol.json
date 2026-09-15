@@ -1,0 +1,1572 @@
+{
+  "schemaVersion": "1.0",
+  "lastUpdated": "2026-09-13",
+  "_disclaimer": "This is community-maintained data, NOT an official AWS API. Verify dates against sourceUrl before making business decisions. For production use, pin to a tagged release rather than tracking main branch.",
+  "services": [
+    {
+      "serviceCode": "eks",
+      "serviceName": "Amazon EKS",
+      "engine": null,
+      "versionType": "kubernetesVersion",
+      "versions": [
+        {
+          "version": "1.36",
+          "status": "STANDARD_SUPPORT",
+          "standardSupportEnd": "2027-08-02",
+          "extendedSupport": {
+            "start": "2027-08-03",
+            "end": "2028-08-02"
+          },
+          "postDeprecationBehavior": "CHARGES_APPLY",
+          "postExtendedSupportBehavior": "AUTO_UPGRADE",
+          "dateConfidence": "COMMITTED",
+          "sourceUrl": "https://docs.aws.amazon.com/eks/latest/userguide/kubernetes-versions.html"
+        },
+        {
+          "version": "1.35",
+          "status": "STANDARD_SUPPORT",
+          "standardSupportEnd": "2027-03-27",
+          "extendedSupport": {
+            "start": "2027-03-28",
+            "end": "2028-03-27"
+          },
+          "postDeprecationBehavior": "CHARGES_APPLY",
+          "dateConfidence": "COMMITTED",
+          "sourceUrl": "https://docs.aws.amazon.com/eks/latest/userguide/kubernetes-versions.html",
+          "postExtendedSupportBehavior": "AUTO_UPGRADE"
+        },
+        {
+          "version": "1.34",
+          "status": "STANDARD_SUPPORT",
+          "standardSupportEnd": "2026-12-02",
+          "extendedSupport": {
+            "start": "2026-12-03",
+            "end": "2027-12-02"
+          },
+          "postDeprecationBehavior": "CHARGES_APPLY",
+          "dateConfidence": "COMMITTED",
+          "sourceUrl": "https://docs.aws.amazon.com/eks/latest/userguide/kubernetes-versions.html",
+          "postExtendedSupportBehavior": "AUTO_UPGRADE"
+        },
+        {
+          "version": "1.33",
+          "status": "EXTENDED_SUPPORT",
+          "standardSupportEnd": "2026-07-29",
+          "extendedSupport": {
+            "start": "2026-07-30",
+            "end": "2027-07-29"
+          },
+          "postDeprecationBehavior": "CHARGES_APPLY",
+          "dateConfidence": "COMMITTED",
+          "sourceUrl": "https://docs.aws.amazon.com/eks/latest/userguide/kubernetes-versions.html",
+          "postExtendedSupportBehavior": "AUTO_UPGRADE"
+        },
+        {
+          "version": "1.32",
+          "status": "EXTENDED_SUPPORT",
+          "standardSupportEnd": "2026-03-23",
+          "extendedSupport": {
+            "start": "2026-03-24",
+            "end": "2027-03-23"
+          },
+          "postDeprecationBehavior": "CHARGES_APPLY",
+          "dateConfidence": "COMMITTED",
+          "sourceUrl": "https://docs.aws.amazon.com/eks/latest/userguide/kubernetes-versions.html",
+          "postExtendedSupportBehavior": "AUTO_UPGRADE"
+        },
+        {
+          "version": "1.31",
+          "status": "EXTENDED_SUPPORT",
+          "standardSupportEnd": "2025-11-26",
+          "extendedSupport": {
+            "start": "2025-11-27",
+            "end": "2026-11-26"
+          },
+          "postDeprecationBehavior": "CHARGES_APPLY",
+          "dateConfidence": "COMMITTED",
+          "sourceUrl": "https://docs.aws.amazon.com/eks/latest/userguide/kubernetes-versions.html",
+          "postExtendedSupportBehavior": "AUTO_UPGRADE"
+        },
+        {
+          "version": "1.30",
+          "status": "END_OF_LIFE",
+          "standardSupportEnd": "2025-07-23",
+          "extendedSupport": {
+            "start": "2025-07-24",
+            "end": "2026-07-23"
+          },
+          "postDeprecationBehavior": "CHARGES_APPLY",
+          "dateConfidence": "COMMITTED",
+          "sourceUrl": "https://docs.aws.amazon.com/eks/latest/userguide/kubernetes-versions.html",
+          "postExtendedSupportBehavior": "AUTO_UPGRADE"
+        },
+        {
+          "version": "1.29",
+          "status": "END_OF_LIFE",
+          "standardSupportEnd": "2025-03-23",
+          "extendedSupport": {
+            "start": "2025-03-24",
+            "end": "2026-03-23"
+          },
+          "postDeprecationBehavior": "CHARGES_APPLY",
+          "postExtendedSupportBehavior": "AUTO_UPGRADE",
+          "dateConfidence": "COMMITTED",
+          "sourceUrl": "https://docs.aws.amazon.com/eks/latest/userguide/kubernetes-versions.html"
+        }
+      ]
+    },
+    {
+      "serviceCode": "lambda",
+      "serviceName": "AWS Lambda",
+      "engine": null,
+      "versionType": "runtime",
+      "versions": [
+        {
+          "version": "python3.14",
+          "status": "STANDARD_SUPPORT",
+          "standardSupportEnd": "2029-06-30",
+          "extendedSupport": null,
+          "postDeprecationBehavior": "CREATE_BLOCKED",
+          "dateConfidence": "COMMITTED",
+          "sourceUrl": "https://docs.aws.amazon.com/lambda/latest/dg/lambda-runtimes.html",
+          "postExtendedSupportBehavior": null
+        },
+        {
+          "version": "python3.13",
+          "status": "STANDARD_SUPPORT",
+          "standardSupportEnd": "2029-06-30",
+          "extendedSupport": null,
+          "postDeprecationBehavior": "CREATE_BLOCKED",
+          "dateConfidence": "COMMITTED",
+          "sourceUrl": "https://docs.aws.amazon.com/lambda/latest/dg/lambda-runtimes.html",
+          "postExtendedSupportBehavior": null
+        },
+        {
+          "version": "python3.12",
+          "status": "STANDARD_SUPPORT",
+          "standardSupportEnd": "2028-10-31",
+          "extendedSupport": null,
+          "postDeprecationBehavior": "CREATE_BLOCKED",
+          "dateConfidence": "COMMITTED",
+          "sourceUrl": "https://docs.aws.amazon.com/lambda/latest/dg/lambda-runtimes.html",
+          "postExtendedSupportBehavior": null
+        },
+        {
+          "version": "python3.11",
+          "status": "STANDARD_SUPPORT",
+          "standardSupportEnd": "2027-06-30",
+          "extendedSupport": null,
+          "postDeprecationBehavior": "CREATE_BLOCKED",
+          "dateConfidence": "COMMITTED",
+          "sourceUrl": "https://docs.aws.amazon.com/lambda/latest/dg/lambda-runtimes.html",
+          "postExtendedSupportBehavior": null
+        },
+        {
+          "version": "python3.10",
+          "status": "STANDARD_SUPPORT",
+          "standardSupportEnd": "2026-10-31",
+          "extendedSupport": null,
+          "postDeprecationBehavior": "CREATE_BLOCKED",
+          "dateConfidence": "COMMITTED",
+          "sourceUrl": "https://docs.aws.amazon.com/lambda/latest/dg/lambda-runtimes.html",
+          "postExtendedSupportBehavior": null
+        },
+        {
+          "version": "python3.9",
+          "status": "DEPRECATED",
+          "standardSupportEnd": "2025-12-15",
+          "extendedSupport": null,
+          "postDeprecationBehavior": "CREATE_BLOCKED",
+          "dateConfidence": "COMMITTED",
+          "sourceUrl": "https://docs.aws.amazon.com/lambda/latest/dg/lambda-runtimes.html",
+          "postExtendedSupportBehavior": null
+        },
+        {
+          "version": "python3.8",
+          "status": "DEPRECATED",
+          "standardSupportEnd": "2024-10-14",
+          "extendedSupport": null,
+          "postDeprecationBehavior": "CREATE_BLOCKED",
+          "dateConfidence": "COMMITTED",
+          "sourceUrl": "https://docs.aws.amazon.com/lambda/latest/dg/lambda-runtimes.html",
+          "postExtendedSupportBehavior": null
+        },
+        {
+          "version": "nodejs24.x",
+          "status": "STANDARD_SUPPORT",
+          "standardSupportEnd": "2028-04-30",
+          "extendedSupport": null,
+          "postDeprecationBehavior": "CREATE_BLOCKED",
+          "dateConfidence": "COMMITTED",
+          "sourceUrl": "https://docs.aws.amazon.com/lambda/latest/dg/lambda-runtimes.html",
+          "postExtendedSupportBehavior": null
+        },
+        {
+          "version": "nodejs22.x",
+          "status": "STANDARD_SUPPORT",
+          "standardSupportEnd": "2027-04-30",
+          "extendedSupport": null,
+          "postDeprecationBehavior": "CREATE_BLOCKED",
+          "dateConfidence": "COMMITTED",
+          "sourceUrl": "https://docs.aws.amazon.com/lambda/latest/dg/lambda-runtimes.html",
+          "postExtendedSupportBehavior": null
+        },
+        {
+          "version": "nodejs20.x",
+          "status": "DEPRECATED",
+          "standardSupportEnd": "2026-04-30",
+          "extendedSupport": null,
+          "postDeprecationBehavior": "CREATE_BLOCKED",
+          "dateConfidence": "COMMITTED",
+          "sourceUrl": "https://docs.aws.amazon.com/lambda/latest/dg/lambda-runtimes.html",
+          "postExtendedSupportBehavior": null
+        },
+        {
+          "version": "nodejs18.x",
+          "status": "DEPRECATED",
+          "standardSupportEnd": "2025-09-01",
+          "extendedSupport": null,
+          "postDeprecationBehavior": "CREATE_BLOCKED",
+          "dateConfidence": "COMMITTED",
+          "sourceUrl": "https://docs.aws.amazon.com/lambda/latest/dg/lambda-runtimes.html",
+          "postExtendedSupportBehavior": null
+        },
+        {
+          "version": "nodejs16.x",
+          "status": "DEPRECATED",
+          "standardSupportEnd": "2024-06-12",
+          "extendedSupport": null,
+          "postDeprecationBehavior": "CREATE_BLOCKED",
+          "dateConfidence": "COMMITTED",
+          "sourceUrl": "https://docs.aws.amazon.com/lambda/latest/dg/lambda-runtimes.html",
+          "postExtendedSupportBehavior": null
+        },
+        {
+          "version": "java25",
+          "status": "STANDARD_SUPPORT",
+          "standardSupportEnd": "2029-06-30",
+          "extendedSupport": null,
+          "postDeprecationBehavior": "CREATE_BLOCKED",
+          "dateConfidence": "COMMITTED",
+          "sourceUrl": "https://docs.aws.amazon.com/lambda/latest/dg/lambda-runtimes.html",
+          "postExtendedSupportBehavior": null
+        },
+        {
+          "version": "java21",
+          "status": "STANDARD_SUPPORT",
+          "standardSupportEnd": "2029-06-30",
+          "extendedSupport": null,
+          "postDeprecationBehavior": "CREATE_BLOCKED",
+          "dateConfidence": "COMMITTED",
+          "sourceUrl": "https://docs.aws.amazon.com/lambda/latest/dg/lambda-runtimes.html",
+          "postExtendedSupportBehavior": null
+        },
+        {
+          "version": "java17",
+          "status": "STANDARD_SUPPORT",
+          "standardSupportEnd": "2027-06-30",
+          "extendedSupport": null,
+          "postDeprecationBehavior": "CREATE_BLOCKED",
+          "dateConfidence": "COMMITTED",
+          "sourceUrl": "https://docs.aws.amazon.com/lambda/latest/dg/lambda-runtimes.html",
+          "postExtendedSupportBehavior": null
+        },
+        {
+          "version": "java11",
+          "status": "STANDARD_SUPPORT",
+          "standardSupportEnd": "2027-06-30",
+          "extendedSupport": null,
+          "postDeprecationBehavior": "CREATE_BLOCKED",
+          "dateConfidence": "COMMITTED",
+          "sourceUrl": "https://docs.aws.amazon.com/lambda/latest/dg/lambda-runtimes.html",
+          "postExtendedSupportBehavior": null
+        },
+        {
+          "version": "java8.al2",
+          "status": "STANDARD_SUPPORT",
+          "standardSupportEnd": "2027-06-30",
+          "extendedSupport": null,
+          "postDeprecationBehavior": "CREATE_BLOCKED",
+          "dateConfidence": "COMMITTED",
+          "sourceUrl": "https://docs.aws.amazon.com/lambda/latest/dg/lambda-runtimes.html",
+          "postExtendedSupportBehavior": null
+        },
+        {
+          "version": "dotnet10",
+          "status": "STANDARD_SUPPORT",
+          "standardSupportEnd": "2028-11-14",
+          "extendedSupport": null,
+          "postDeprecationBehavior": "CREATE_BLOCKED",
+          "dateConfidence": "COMMITTED",
+          "sourceUrl": "https://docs.aws.amazon.com/lambda/latest/dg/lambda-runtimes.html",
+          "postExtendedSupportBehavior": null
+        },
+        {
+          "version": "dotnet9",
+          "status": "STANDARD_SUPPORT",
+          "standardSupportEnd": "2026-11-10",
+          "extendedSupport": null,
+          "postDeprecationBehavior": "CREATE_BLOCKED",
+          "dateConfidence": "COMMITTED",
+          "sourceUrl": "https://docs.aws.amazon.com/lambda/latest/dg/lambda-runtimes.html",
+          "postExtendedSupportBehavior": null
+        },
+        {
+          "version": "dotnet8",
+          "status": "STANDARD_SUPPORT",
+          "standardSupportEnd": "2026-11-10",
+          "extendedSupport": null,
+          "postDeprecationBehavior": "CREATE_BLOCKED",
+          "dateConfidence": "COMMITTED",
+          "sourceUrl": "https://docs.aws.amazon.com/lambda/latest/dg/lambda-runtimes.html",
+          "postExtendedSupportBehavior": null
+        },
+        {
+          "version": "ruby4.0",
+          "status": "STANDARD_SUPPORT",
+          "standardSupportEnd": "2029-03-31",
+          "extendedSupport": null,
+          "postDeprecationBehavior": "CREATE_BLOCKED",
+          "dateConfidence": "COMMITTED",
+          "sourceUrl": "https://docs.aws.amazon.com/lambda/latest/dg/lambda-runtimes.html",
+          "postExtendedSupportBehavior": null
+        },
+        {
+          "version": "ruby3.4",
+          "status": "STANDARD_SUPPORT",
+          "standardSupportEnd": "2028-03-31",
+          "extendedSupport": null,
+          "postDeprecationBehavior": "CREATE_BLOCKED",
+          "dateConfidence": "COMMITTED",
+          "sourceUrl": "https://docs.aws.amazon.com/lambda/latest/dg/lambda-runtimes.html",
+          "postExtendedSupportBehavior": null
+        },
+        {
+          "version": "ruby3.3",
+          "status": "STANDARD_SUPPORT",
+          "standardSupportEnd": "2027-03-31",
+          "extendedSupport": null,
+          "postDeprecationBehavior": "CREATE_BLOCKED",
+          "dateConfidence": "COMMITTED",
+          "sourceUrl": "https://docs.aws.amazon.com/lambda/latest/dg/lambda-runtimes.html",
+          "postExtendedSupportBehavior": null
+        },
+        {
+          "version": "ruby3.2",
+          "status": "DEPRECATED",
+          "standardSupportEnd": "2026-03-31",
+          "extendedSupport": null,
+          "postDeprecationBehavior": "CREATE_BLOCKED",
+          "dateConfidence": "COMMITTED",
+          "sourceUrl": "https://docs.aws.amazon.com/lambda/latest/dg/lambda-runtimes.html",
+          "postExtendedSupportBehavior": null
+        }
+      ]
+    },
+    {
+      "serviceCode": "rds",
+      "serviceName": "Amazon RDS",
+      "engine": "mysql",
+      "versionType": "engineMajorVersion",
+      "versions": [
+        {
+          "version": "8.4",
+          "status": "STANDARD_SUPPORT",
+          "standardSupportEnd": "2029-07-31",
+          "extendedSupport": {
+            "start": "2029-08-01",
+            "end": "2032-07-31"
+          },
+          "postDeprecationBehavior": "CHARGES_APPLY",
+          "dateConfidence": "COMMITTED",
+          "sourceUrl": "https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/MySQL.Concepts.VersionMgmt.html",
+          "postExtendedSupportBehavior": "AUTO_UPGRADE"
+        },
+        {
+          "version": "8.0",
+          "status": "EXTENDED_SUPPORT",
+          "standardSupportEnd": "2026-07-31",
+          "extendedSupport": {
+            "start": "2026-08-01",
+            "end": "2029-07-31"
+          },
+          "postDeprecationBehavior": "CHARGES_APPLY",
+          "dateConfidence": "COMMITTED",
+          "sourceUrl": "https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/MySQL.Concepts.VersionMgmt.html",
+          "postExtendedSupportBehavior": "AUTO_UPGRADE"
+        },
+        {
+          "version": "5.7",
+          "status": "EXTENDED_SUPPORT",
+          "standardSupportEnd": "2024-02-29",
+          "extendedSupport": {
+            "start": "2024-03-01",
+            "end": "2027-02-28"
+          },
+          "postDeprecationBehavior": "CHARGES_APPLY",
+          "dateConfidence": "COMMITTED",
+          "sourceUrl": "https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/MySQL.Concepts.VersionMgmt.html",
+          "postExtendedSupportBehavior": "AUTO_UPGRADE"
+        }
+      ]
+    },
+    {
+      "serviceCode": "rds",
+      "serviceName": "Amazon RDS",
+      "engine": "postgresql",
+      "versionType": "engineMajorVersion",
+      "versions": [
+        {
+          "version": "18",
+          "status": "STANDARD_SUPPORT",
+          "standardSupportEnd": "2031-02-28",
+          "extendedSupport": {
+            "start": "2031-03-01",
+            "end": "2034-02-28"
+          },
+          "postDeprecationBehavior": "CHARGES_APPLY",
+          "dateConfidence": "COMMITTED",
+          "sourceUrl": "https://docs.aws.amazon.com/AmazonRDS/latest/PostgreSQLReleaseNotes/postgresql-release-calendar.html",
+          "postExtendedSupportBehavior": "AUTO_UPGRADE"
+        },
+        {
+          "version": "17",
+          "status": "STANDARD_SUPPORT",
+          "standardSupportEnd": "2030-02-28",
+          "extendedSupport": {
+            "start": "2030-03-01",
+            "end": "2033-02-28"
+          },
+          "postDeprecationBehavior": "CHARGES_APPLY",
+          "dateConfidence": "COMMITTED",
+          "sourceUrl": "https://docs.aws.amazon.com/AmazonRDS/latest/PostgreSQLReleaseNotes/postgresql-release-calendar.html",
+          "postExtendedSupportBehavior": "AUTO_UPGRADE"
+        },
+        {
+          "version": "16",
+          "status": "STANDARD_SUPPORT",
+          "standardSupportEnd": "2029-02-28",
+          "extendedSupport": {
+            "start": "2029-03-01",
+            "end": "2032-02-29"
+          },
+          "postDeprecationBehavior": "CHARGES_APPLY",
+          "dateConfidence": "COMMITTED",
+          "sourceUrl": "https://docs.aws.amazon.com/AmazonRDS/latest/PostgreSQLReleaseNotes/postgresql-release-calendar.html",
+          "postExtendedSupportBehavior": "AUTO_UPGRADE"
+        },
+        {
+          "version": "15",
+          "status": "STANDARD_SUPPORT",
+          "standardSupportEnd": "2028-02-29",
+          "extendedSupport": {
+            "start": "2028-03-01",
+            "end": "2031-02-28"
+          },
+          "postDeprecationBehavior": "CHARGES_APPLY",
+          "dateConfidence": "COMMITTED",
+          "sourceUrl": "https://docs.aws.amazon.com/AmazonRDS/latest/PostgreSQLReleaseNotes/postgresql-release-calendar.html",
+          "postExtendedSupportBehavior": "AUTO_UPGRADE"
+        },
+        {
+          "version": "14",
+          "status": "STANDARD_SUPPORT",
+          "standardSupportEnd": "2027-02-28",
+          "extendedSupport": {
+            "start": "2027-03-01",
+            "end": "2030-02-28"
+          },
+          "postDeprecationBehavior": "CHARGES_APPLY",
+          "dateConfidence": "COMMITTED",
+          "sourceUrl": "https://docs.aws.amazon.com/AmazonRDS/latest/PostgreSQLReleaseNotes/postgresql-release-calendar.html",
+          "postExtendedSupportBehavior": "AUTO_UPGRADE"
+        },
+        {
+          "version": "13",
+          "status": "EXTENDED_SUPPORT",
+          "standardSupportEnd": "2026-02-28",
+          "extendedSupport": {
+            "start": "2026-03-01",
+            "end": "2029-02-28"
+          },
+          "postDeprecationBehavior": "CHARGES_APPLY",
+          "dateConfidence": "COMMITTED",
+          "sourceUrl": "https://docs.aws.amazon.com/AmazonRDS/latest/PostgreSQLReleaseNotes/postgresql-release-calendar.html",
+          "postExtendedSupportBehavior": "AUTO_UPGRADE"
+        },
+        {
+          "version": "12",
+          "status": "EXTENDED_SUPPORT",
+          "standardSupportEnd": "2025-02-28",
+          "extendedSupport": {
+            "start": "2025-03-01",
+            "end": "2028-02-29"
+          },
+          "postDeprecationBehavior": "CHARGES_APPLY",
+          "dateConfidence": "COMMITTED",
+          "sourceUrl": "https://docs.aws.amazon.com/AmazonRDS/latest/PostgreSQLReleaseNotes/postgresql-release-calendar.html",
+          "postExtendedSupportBehavior": "AUTO_UPGRADE"
+        },
+        {
+          "version": "11",
+          "status": "EXTENDED_SUPPORT",
+          "standardSupportEnd": "2024-02-29",
+          "extendedSupport": {
+            "start": "2024-04-01",
+            "end": "2027-03-31"
+          },
+          "postDeprecationBehavior": "CHARGES_APPLY",
+          "dateConfidence": "COMMITTED",
+          "sourceUrl": "https://docs.aws.amazon.com/AmazonRDS/latest/PostgreSQLReleaseNotes/postgresql-release-calendar.html",
+          "postExtendedSupportBehavior": "AUTO_UPGRADE"
+        }
+      ]
+    },
+    {
+      "serviceCode": "aurora",
+      "serviceName": "Amazon Aurora",
+      "engine": "mysql",
+      "versionType": "engineMajorVersion",
+      "versions": [
+        {
+          "version": "8.4",
+          "status": "STANDARD_SUPPORT",
+          "standardSupportEnd": "2032-04-30",
+          "extendedSupport": null,
+          "postDeprecationBehavior": "CHARGES_APPLY",
+          "dateConfidence": "PROJECTED",
+          "sourceUrl": "https://docs.aws.amazon.com/AmazonRDS/latest/AuroraMySQLReleaseNotes/AuroraMySQL.release-calendars.html",
+          "postExtendedSupportBehavior": "AUTO_UPGRADE"
+        },
+        {
+          "version": "3",
+          "status": "STANDARD_SUPPORT",
+          "standardSupportEnd": "2028-04-30",
+          "extendedSupport": {
+            "start": "2028-05-01",
+            "end": "2029-07-31"
+          },
+          "postDeprecationBehavior": "CHARGES_APPLY",
+          "dateConfidence": "COMMITTED",
+          "sourceUrl": "https://docs.aws.amazon.com/AmazonRDS/latest/AuroraMySQLReleaseNotes/AuroraMySQL.release-calendars.html",
+          "postExtendedSupportBehavior": "AUTO_UPGRADE"
+        },
+        {
+          "version": "2",
+          "status": "EXTENDED_SUPPORT",
+          "standardSupportEnd": "2024-10-31",
+          "extendedSupport": {
+            "start": "2024-12-01",
+            "end": "2029-06-30"
+          },
+          "postDeprecationBehavior": "CHARGES_APPLY",
+          "dateConfidence": "COMMITTED",
+          "sourceUrl": "https://docs.aws.amazon.com/AmazonRDS/latest/AuroraMySQLReleaseNotes/AuroraMySQL.release-calendars.html",
+          "postExtendedSupportBehavior": "AUTO_UPGRADE"
+        }
+      ]
+    },
+    {
+      "serviceCode": "elasticache",
+      "serviceName": "Amazon ElastiCache",
+      "engine": "redis",
+      "versionType": "engineMajorVersion",
+      "versions": [
+        {
+          "version": "4",
+          "status": "EXTENDED_SUPPORT",
+          "standardSupportEnd": "2026-01-31",
+          "extendedSupport": {
+            "start": "2026-02-01",
+            "end": "2029-01-31"
+          },
+          "postDeprecationBehavior": "CHARGES_APPLY",
+          "dateConfidence": "COMMITTED",
+          "sourceUrl": "https://docs.aws.amazon.com/AmazonElastiCache/latest/dg/extended-support-versions.html",
+          "postExtendedSupportBehavior": "AUTO_UPGRADE"
+        },
+        {
+          "version": "5",
+          "status": "EXTENDED_SUPPORT",
+          "standardSupportEnd": "2026-01-31",
+          "extendedSupport": {
+            "start": "2026-02-01",
+            "end": "2029-01-31"
+          },
+          "postDeprecationBehavior": "CHARGES_APPLY",
+          "dateConfidence": "COMMITTED",
+          "sourceUrl": "https://docs.aws.amazon.com/AmazonElastiCache/latest/dg/extended-support-versions.html",
+          "postExtendedSupportBehavior": "AUTO_UPGRADE"
+        },
+        {
+          "version": "6",
+          "status": "STANDARD_SUPPORT",
+          "standardSupportEnd": "2027-01-31",
+          "extendedSupport": {
+            "start": "2027-02-01",
+            "end": "2030-01-31"
+          },
+          "postDeprecationBehavior": "CHARGES_APPLY",
+          "dateConfidence": "COMMITTED",
+          "sourceUrl": "https://docs.aws.amazon.com/AmazonElastiCache/latest/dg/extended-support-versions.html",
+          "postExtendedSupportBehavior": "AUTO_UPGRADE"
+        },
+        {
+          "version": "7",
+          "status": "STANDARD_SUPPORT",
+          "standardSupportEnd": null,
+          "extendedSupport": null,
+          "postDeprecationBehavior": "CHARGES_APPLY",
+          "postExtendedSupportBehavior": "AUTO_UPGRADE",
+          "dateConfidence": "TENTATIVE",
+          "sourceUrl": "https://docs.aws.amazon.com/AmazonElastiCache/latest/dg/engine-versions.html"
+        }
+      ]
+    },
+    {
+      "serviceCode": "opensearch",
+      "serviceName": "Amazon OpenSearch Service",
+      "engine": "opensearch",
+      "versionType": "engineVersion",
+      "versions": [
+        {
+          "version": "1.0",
+          "status": "EXTENDED_SUPPORT",
+          "standardSupportEnd": "2025-11-07",
+          "extendedSupport": {
+            "start": "2025-11-08",
+            "end": "2026-11-07"
+          },
+          "postDeprecationBehavior": "CHARGES_APPLY",
+          "dateConfidence": "COMMITTED",
+          "sourceUrl": "https://aws.amazon.com/blogs/big-data/amazon-opensearch-service-announces-standard-and-extended-support-dates-for-elasticsearch-and-opensearch-versions/",
+          "postExtendedSupportBehavior": "DOMAIN_ISOLATED"
+        },
+        {
+          "version": "1.1",
+          "status": "EXTENDED_SUPPORT",
+          "standardSupportEnd": "2025-11-07",
+          "extendedSupport": {
+            "start": "2025-11-08",
+            "end": "2026-11-07"
+          },
+          "postDeprecationBehavior": "CHARGES_APPLY",
+          "dateConfidence": "COMMITTED",
+          "sourceUrl": "https://aws.amazon.com/blogs/big-data/amazon-opensearch-service-announces-standard-and-extended-support-dates-for-elasticsearch-and-opensearch-versions/",
+          "postExtendedSupportBehavior": "DOMAIN_ISOLATED"
+        },
+        {
+          "version": "1.2",
+          "status": "EXTENDED_SUPPORT",
+          "standardSupportEnd": "2025-11-07",
+          "extendedSupport": {
+            "start": "2025-11-08",
+            "end": "2026-11-07"
+          },
+          "postDeprecationBehavior": "CHARGES_APPLY",
+          "dateConfidence": "COMMITTED",
+          "sourceUrl": "https://aws.amazon.com/blogs/big-data/amazon-opensearch-service-announces-standard-and-extended-support-dates-for-elasticsearch-and-opensearch-versions/",
+          "postExtendedSupportBehavior": "DOMAIN_ISOLATED"
+        },
+        {
+          "version": "2.3",
+          "status": "EXTENDED_SUPPORT",
+          "standardSupportEnd": "2025-11-07",
+          "extendedSupport": {
+            "start": "2025-11-08",
+            "end": "2026-11-07"
+          },
+          "postDeprecationBehavior": "CHARGES_APPLY",
+          "dateConfidence": "COMMITTED",
+          "sourceUrl": "https://aws.amazon.com/blogs/big-data/amazon-opensearch-service-announces-standard-and-extended-support-dates-for-elasticsearch-and-opensearch-versions/",
+          "postExtendedSupportBehavior": "DOMAIN_ISOLATED"
+        },
+        {
+          "version": "2.4",
+          "status": "EXTENDED_SUPPORT",
+          "standardSupportEnd": "2025-11-07",
+          "extendedSupport": {
+            "start": "2025-11-08",
+            "end": "2026-11-07"
+          },
+          "postDeprecationBehavior": "CHARGES_APPLY",
+          "dateConfidence": "COMMITTED",
+          "sourceUrl": "https://aws.amazon.com/blogs/big-data/amazon-opensearch-service-announces-standard-and-extended-support-dates-for-elasticsearch-and-opensearch-versions/",
+          "postExtendedSupportBehavior": "DOMAIN_ISOLATED"
+        },
+        {
+          "version": "2.5",
+          "status": "EXTENDED_SUPPORT",
+          "standardSupportEnd": "2025-11-07",
+          "extendedSupport": {
+            "start": "2025-11-08",
+            "end": "2026-11-07"
+          },
+          "postDeprecationBehavior": "CHARGES_APPLY",
+          "dateConfidence": "COMMITTED",
+          "sourceUrl": "https://aws.amazon.com/blogs/big-data/amazon-opensearch-service-announces-standard-and-extended-support-dates-for-elasticsearch-and-opensearch-versions/",
+          "postExtendedSupportBehavior": "DOMAIN_ISOLATED"
+        },
+        {
+          "version": "2.6",
+          "status": "EXTENDED_SUPPORT",
+          "standardSupportEnd": "2025-11-07",
+          "extendedSupport": {
+            "start": "2025-11-08",
+            "end": "2026-11-07"
+          },
+          "postDeprecationBehavior": "CHARGES_APPLY",
+          "dateConfidence": "COMMITTED",
+          "sourceUrl": "https://aws.amazon.com/blogs/big-data/amazon-opensearch-service-announces-standard-and-extended-support-dates-for-elasticsearch-and-opensearch-versions/",
+          "postExtendedSupportBehavior": "DOMAIN_ISOLATED"
+        },
+        {
+          "version": "2.7",
+          "status": "EXTENDED_SUPPORT",
+          "standardSupportEnd": "2025-11-07",
+          "extendedSupport": {
+            "start": "2025-11-08",
+            "end": "2026-11-07"
+          },
+          "postDeprecationBehavior": "CHARGES_APPLY",
+          "dateConfidence": "COMMITTED",
+          "sourceUrl": "https://aws.amazon.com/blogs/big-data/amazon-opensearch-service-announces-standard-and-extended-support-dates-for-elasticsearch-and-opensearch-versions/",
+          "postExtendedSupportBehavior": "DOMAIN_ISOLATED"
+        },
+        {
+          "version": "2.8",
+          "status": "EXTENDED_SUPPORT",
+          "standardSupportEnd": "2025-11-07",
+          "extendedSupport": {
+            "start": "2025-11-08",
+            "end": "2026-11-07"
+          },
+          "postDeprecationBehavior": "CHARGES_APPLY",
+          "dateConfidence": "COMMITTED",
+          "sourceUrl": "https://aws.amazon.com/blogs/big-data/amazon-opensearch-service-announces-standard-and-extended-support-dates-for-elasticsearch-and-opensearch-versions/",
+          "postExtendedSupportBehavior": "DOMAIN_ISOLATED"
+        },
+        {
+          "version": "2.9",
+          "status": "EXTENDED_SUPPORT",
+          "standardSupportEnd": "2025-11-07",
+          "extendedSupport": {
+            "start": "2025-11-08",
+            "end": "2026-11-07"
+          },
+          "postDeprecationBehavior": "CHARGES_APPLY",
+          "dateConfidence": "COMMITTED",
+          "sourceUrl": "https://aws.amazon.com/blogs/big-data/amazon-opensearch-service-announces-standard-and-extended-support-dates-for-elasticsearch-and-opensearch-versions/",
+          "postExtendedSupportBehavior": "DOMAIN_ISOLATED"
+        },
+        {
+          "version": "1.3",
+          "status": "STANDARD_SUPPORT",
+          "standardSupportEnd": null,
+          "extendedSupport": null,
+          "postDeprecationBehavior": "CHARGES_APPLY",
+          "postExtendedSupportBehavior": "DOMAIN_ISOLATED",
+          "dateConfidence": "TENTATIVE",
+          "sourceUrl": "https://aws.amazon.com/blogs/big-data/amazon-opensearch-service-announces-standard-and-extended-support-dates-for-elasticsearch-and-opensearch-versions/"
+        },
+        {
+          "version": "2.11+",
+          "status": "STANDARD_SUPPORT",
+          "standardSupportEnd": null,
+          "extendedSupport": null,
+          "postDeprecationBehavior": "CHARGES_APPLY",
+          "postExtendedSupportBehavior": "DOMAIN_ISOLATED",
+          "dateConfidence": "TENTATIVE",
+          "sourceUrl": "https://aws.amazon.com/blogs/big-data/amazon-opensearch-service-announces-standard-and-extended-support-dates-for-elasticsearch-and-opensearch-versions/"
+        }
+      ]
+    },
+    {
+      "serviceCode": "opensearch",
+      "serviceName": "Amazon OpenSearch Service",
+      "engine": "elasticsearch",
+      "versionType": "engineVersion",
+      "versions": [
+        {
+          "version": "7.1",
+          "status": "EXTENDED_SUPPORT",
+          "standardSupportEnd": "2025-11-07",
+          "extendedSupport": {
+            "start": "2025-11-08",
+            "end": "2026-11-07"
+          },
+          "postDeprecationBehavior": "CHARGES_APPLY",
+          "dateConfidence": "COMMITTED",
+          "sourceUrl": "https://aws.amazon.com/blogs/big-data/amazon-opensearch-service-announces-standard-and-extended-support-dates-for-elasticsearch-and-opensearch-versions/",
+          "postExtendedSupportBehavior": "DOMAIN_ISOLATED"
+        },
+        {
+          "version": "7.2",
+          "status": "EXTENDED_SUPPORT",
+          "standardSupportEnd": "2025-11-07",
+          "extendedSupport": {
+            "start": "2025-11-08",
+            "end": "2026-11-07"
+          },
+          "postDeprecationBehavior": "CHARGES_APPLY",
+          "dateConfidence": "COMMITTED",
+          "sourceUrl": "https://aws.amazon.com/blogs/big-data/amazon-opensearch-service-announces-standard-and-extended-support-dates-for-elasticsearch-and-opensearch-versions/",
+          "postExtendedSupportBehavior": "DOMAIN_ISOLATED"
+        },
+        {
+          "version": "7.3",
+          "status": "EXTENDED_SUPPORT",
+          "standardSupportEnd": "2025-11-07",
+          "extendedSupport": {
+            "start": "2025-11-08",
+            "end": "2026-11-07"
+          },
+          "postDeprecationBehavior": "CHARGES_APPLY",
+          "dateConfidence": "COMMITTED",
+          "sourceUrl": "https://aws.amazon.com/blogs/big-data/amazon-opensearch-service-announces-standard-and-extended-support-dates-for-elasticsearch-and-opensearch-versions/",
+          "postExtendedSupportBehavior": "DOMAIN_ISOLATED"
+        },
+        {
+          "version": "7.4",
+          "status": "EXTENDED_SUPPORT",
+          "standardSupportEnd": "2025-11-07",
+          "extendedSupport": {
+            "start": "2025-11-08",
+            "end": "2026-11-07"
+          },
+          "postDeprecationBehavior": "CHARGES_APPLY",
+          "dateConfidence": "COMMITTED",
+          "sourceUrl": "https://aws.amazon.com/blogs/big-data/amazon-opensearch-service-announces-standard-and-extended-support-dates-for-elasticsearch-and-opensearch-versions/",
+          "postExtendedSupportBehavior": "DOMAIN_ISOLATED"
+        },
+        {
+          "version": "7.5",
+          "status": "EXTENDED_SUPPORT",
+          "standardSupportEnd": "2025-11-07",
+          "extendedSupport": {
+            "start": "2025-11-08",
+            "end": "2026-11-07"
+          },
+          "postDeprecationBehavior": "CHARGES_APPLY",
+          "dateConfidence": "COMMITTED",
+          "sourceUrl": "https://aws.amazon.com/blogs/big-data/amazon-opensearch-service-announces-standard-and-extended-support-dates-for-elasticsearch-and-opensearch-versions/",
+          "postExtendedSupportBehavior": "DOMAIN_ISOLATED"
+        },
+        {
+          "version": "7.6",
+          "status": "EXTENDED_SUPPORT",
+          "standardSupportEnd": "2025-11-07",
+          "extendedSupport": {
+            "start": "2025-11-08",
+            "end": "2026-11-07"
+          },
+          "postDeprecationBehavior": "CHARGES_APPLY",
+          "dateConfidence": "COMMITTED",
+          "sourceUrl": "https://aws.amazon.com/blogs/big-data/amazon-opensearch-service-announces-standard-and-extended-support-dates-for-elasticsearch-and-opensearch-versions/",
+          "postExtendedSupportBehavior": "DOMAIN_ISOLATED"
+        },
+        {
+          "version": "7.7",
+          "status": "EXTENDED_SUPPORT",
+          "standardSupportEnd": "2025-11-07",
+          "extendedSupport": {
+            "start": "2025-11-08",
+            "end": "2026-11-07"
+          },
+          "postDeprecationBehavior": "CHARGES_APPLY",
+          "dateConfidence": "COMMITTED",
+          "sourceUrl": "https://aws.amazon.com/blogs/big-data/amazon-opensearch-service-announces-standard-and-extended-support-dates-for-elasticsearch-and-opensearch-versions/",
+          "postExtendedSupportBehavior": "DOMAIN_ISOLATED"
+        },
+        {
+          "version": "7.8",
+          "status": "EXTENDED_SUPPORT",
+          "standardSupportEnd": "2025-11-07",
+          "extendedSupport": {
+            "start": "2025-11-08",
+            "end": "2026-11-07"
+          },
+          "postDeprecationBehavior": "CHARGES_APPLY",
+          "dateConfidence": "COMMITTED",
+          "sourceUrl": "https://aws.amazon.com/blogs/big-data/amazon-opensearch-service-announces-standard-and-extended-support-dates-for-elasticsearch-and-opensearch-versions/",
+          "postExtendedSupportBehavior": "DOMAIN_ISOLATED"
+        },
+        {
+          "version": "6.0",
+          "status": "EXTENDED_SUPPORT",
+          "standardSupportEnd": "2025-11-07",
+          "extendedSupport": {
+            "start": "2025-11-08",
+            "end": "2026-11-07"
+          },
+          "postDeprecationBehavior": "CHARGES_APPLY",
+          "dateConfidence": "COMMITTED",
+          "sourceUrl": "https://aws.amazon.com/blogs/big-data/amazon-opensearch-service-announces-standard-and-extended-support-dates-for-elasticsearch-and-opensearch-versions/",
+          "postExtendedSupportBehavior": "DOMAIN_ISOLATED"
+        },
+        {
+          "version": "6.1",
+          "status": "EXTENDED_SUPPORT",
+          "standardSupportEnd": "2025-11-07",
+          "extendedSupport": {
+            "start": "2025-11-08",
+            "end": "2026-11-07"
+          },
+          "postDeprecationBehavior": "CHARGES_APPLY",
+          "dateConfidence": "COMMITTED",
+          "sourceUrl": "https://aws.amazon.com/blogs/big-data/amazon-opensearch-service-announces-standard-and-extended-support-dates-for-elasticsearch-and-opensearch-versions/",
+          "postExtendedSupportBehavior": "DOMAIN_ISOLATED"
+        },
+        {
+          "version": "6.2",
+          "status": "EXTENDED_SUPPORT",
+          "standardSupportEnd": "2025-11-07",
+          "extendedSupport": {
+            "start": "2025-11-08",
+            "end": "2026-11-07"
+          },
+          "postDeprecationBehavior": "CHARGES_APPLY",
+          "dateConfidence": "COMMITTED",
+          "sourceUrl": "https://aws.amazon.com/blogs/big-data/amazon-opensearch-service-announces-standard-and-extended-support-dates-for-elasticsearch-and-opensearch-versions/",
+          "postExtendedSupportBehavior": "DOMAIN_ISOLATED"
+        },
+        {
+          "version": "6.3",
+          "status": "EXTENDED_SUPPORT",
+          "standardSupportEnd": "2025-11-07",
+          "extendedSupport": {
+            "start": "2025-11-08",
+            "end": "2026-11-07"
+          },
+          "postDeprecationBehavior": "CHARGES_APPLY",
+          "dateConfidence": "COMMITTED",
+          "sourceUrl": "https://aws.amazon.com/blogs/big-data/amazon-opensearch-service-announces-standard-and-extended-support-dates-for-elasticsearch-and-opensearch-versions/",
+          "postExtendedSupportBehavior": "DOMAIN_ISOLATED"
+        },
+        {
+          "version": "6.4",
+          "status": "EXTENDED_SUPPORT",
+          "standardSupportEnd": "2025-11-07",
+          "extendedSupport": {
+            "start": "2025-11-08",
+            "end": "2026-11-07"
+          },
+          "postDeprecationBehavior": "CHARGES_APPLY",
+          "dateConfidence": "COMMITTED",
+          "sourceUrl": "https://aws.amazon.com/blogs/big-data/amazon-opensearch-service-announces-standard-and-extended-support-dates-for-elasticsearch-and-opensearch-versions/",
+          "postExtendedSupportBehavior": "DOMAIN_ISOLATED"
+        },
+        {
+          "version": "6.5",
+          "status": "EXTENDED_SUPPORT",
+          "standardSupportEnd": "2025-11-07",
+          "extendedSupport": {
+            "start": "2025-11-08",
+            "end": "2026-11-07"
+          },
+          "postDeprecationBehavior": "CHARGES_APPLY",
+          "dateConfidence": "COMMITTED",
+          "sourceUrl": "https://aws.amazon.com/blogs/big-data/amazon-opensearch-service-announces-standard-and-extended-support-dates-for-elasticsearch-and-opensearch-versions/",
+          "postExtendedSupportBehavior": "DOMAIN_ISOLATED"
+        },
+        {
+          "version": "6.6",
+          "status": "EXTENDED_SUPPORT",
+          "standardSupportEnd": "2025-11-07",
+          "extendedSupport": {
+            "start": "2025-11-08",
+            "end": "2026-11-07"
+          },
+          "postDeprecationBehavior": "CHARGES_APPLY",
+          "dateConfidence": "COMMITTED",
+          "sourceUrl": "https://aws.amazon.com/blogs/big-data/amazon-opensearch-service-announces-standard-and-extended-support-dates-for-elasticsearch-and-opensearch-versions/",
+          "postExtendedSupportBehavior": "DOMAIN_ISOLATED"
+        },
+        {
+          "version": "6.7",
+          "status": "EXTENDED_SUPPORT",
+          "standardSupportEnd": "2025-11-07",
+          "extendedSupport": {
+            "start": "2025-11-08",
+            "end": "2026-11-07"
+          },
+          "postDeprecationBehavior": "CHARGES_APPLY",
+          "dateConfidence": "COMMITTED",
+          "sourceUrl": "https://aws.amazon.com/blogs/big-data/amazon-opensearch-service-announces-standard-and-extended-support-dates-for-elasticsearch-and-opensearch-versions/",
+          "postExtendedSupportBehavior": "DOMAIN_ISOLATED"
+        },
+        {
+          "version": "5.6",
+          "status": "EXTENDED_SUPPORT",
+          "standardSupportEnd": "2025-11-07",
+          "extendedSupport": {
+            "start": "2025-11-08",
+            "end": "2028-11-07"
+          },
+          "postDeprecationBehavior": "CHARGES_APPLY",
+          "dateConfidence": "COMMITTED",
+          "sourceUrl": "https://aws.amazon.com/blogs/big-data/amazon-opensearch-service-announces-standard-and-extended-support-dates-for-elasticsearch-and-opensearch-versions/",
+          "postExtendedSupportBehavior": "DOMAIN_ISOLATED"
+        },
+        {
+          "version": "5.1",
+          "status": "EXTENDED_SUPPORT",
+          "standardSupportEnd": "2025-11-07",
+          "extendedSupport": {
+            "start": "2025-11-08",
+            "end": "2026-11-07"
+          },
+          "postDeprecationBehavior": "CHARGES_APPLY",
+          "dateConfidence": "COMMITTED",
+          "sourceUrl": "https://aws.amazon.com/blogs/big-data/amazon-opensearch-service-announces-standard-and-extended-support-dates-for-elasticsearch-and-opensearch-versions/",
+          "postExtendedSupportBehavior": "DOMAIN_ISOLATED"
+        },
+        {
+          "version": "5.2",
+          "status": "EXTENDED_SUPPORT",
+          "standardSupportEnd": "2025-11-07",
+          "extendedSupport": {
+            "start": "2025-11-08",
+            "end": "2026-11-07"
+          },
+          "postDeprecationBehavior": "CHARGES_APPLY",
+          "dateConfidence": "COMMITTED",
+          "sourceUrl": "https://aws.amazon.com/blogs/big-data/amazon-opensearch-service-announces-standard-and-extended-support-dates-for-elasticsearch-and-opensearch-versions/",
+          "postExtendedSupportBehavior": "DOMAIN_ISOLATED"
+        },
+        {
+          "version": "5.3",
+          "status": "EXTENDED_SUPPORT",
+          "standardSupportEnd": "2025-11-07",
+          "extendedSupport": {
+            "start": "2025-11-08",
+            "end": "2026-11-07"
+          },
+          "postDeprecationBehavior": "CHARGES_APPLY",
+          "dateConfidence": "COMMITTED",
+          "sourceUrl": "https://aws.amazon.com/blogs/big-data/amazon-opensearch-service-announces-standard-and-extended-support-dates-for-elasticsearch-and-opensearch-versions/",
+          "postExtendedSupportBehavior": "DOMAIN_ISOLATED"
+        },
+        {
+          "version": "5.4",
+          "status": "EXTENDED_SUPPORT",
+          "standardSupportEnd": "2025-11-07",
+          "extendedSupport": {
+            "start": "2025-11-08",
+            "end": "2026-11-07"
+          },
+          "postDeprecationBehavior": "CHARGES_APPLY",
+          "dateConfidence": "COMMITTED",
+          "sourceUrl": "https://aws.amazon.com/blogs/big-data/amazon-opensearch-service-announces-standard-and-extended-support-dates-for-elasticsearch-and-opensearch-versions/",
+          "postExtendedSupportBehavior": "DOMAIN_ISOLATED"
+        },
+        {
+          "version": "5.5",
+          "status": "EXTENDED_SUPPORT",
+          "standardSupportEnd": "2025-11-07",
+          "extendedSupport": {
+            "start": "2025-11-08",
+            "end": "2026-11-07"
+          },
+          "postDeprecationBehavior": "CHARGES_APPLY",
+          "dateConfidence": "COMMITTED",
+          "sourceUrl": "https://aws.amazon.com/blogs/big-data/amazon-opensearch-service-announces-standard-and-extended-support-dates-for-elasticsearch-and-opensearch-versions/",
+          "postExtendedSupportBehavior": "DOMAIN_ISOLATED"
+        },
+        {
+          "version": "1.5",
+          "status": "EXTENDED_SUPPORT",
+          "standardSupportEnd": "2025-11-07",
+          "extendedSupport": {
+            "start": "2025-11-08",
+            "end": "2026-11-07"
+          },
+          "postDeprecationBehavior": "CHARGES_APPLY",
+          "dateConfidence": "COMMITTED",
+          "sourceUrl": "https://aws.amazon.com/blogs/big-data/amazon-opensearch-service-announces-standard-and-extended-support-dates-for-elasticsearch-and-opensearch-versions/",
+          "postExtendedSupportBehavior": "DOMAIN_ISOLATED"
+        },
+        {
+          "version": "2.3",
+          "status": "EXTENDED_SUPPORT",
+          "standardSupportEnd": "2025-11-07",
+          "extendedSupport": {
+            "start": "2025-11-08",
+            "end": "2026-11-07"
+          },
+          "postDeprecationBehavior": "CHARGES_APPLY",
+          "dateConfidence": "COMMITTED",
+          "sourceUrl": "https://aws.amazon.com/blogs/big-data/amazon-opensearch-service-announces-standard-and-extended-support-dates-for-elasticsearch-and-opensearch-versions/",
+          "postExtendedSupportBehavior": "DOMAIN_ISOLATED"
+        },
+        {
+          "version": "6.8",
+          "status": "STANDARD_SUPPORT",
+          "standardSupportEnd": null,
+          "extendedSupport": null,
+          "postDeprecationBehavior": "CHARGES_APPLY",
+          "postExtendedSupportBehavior": "DOMAIN_ISOLATED",
+          "dateConfidence": "TENTATIVE",
+          "sourceUrl": "https://aws.amazon.com/blogs/big-data/amazon-opensearch-service-announces-standard-and-extended-support-dates-for-elasticsearch-and-opensearch-versions/"
+        },
+        {
+          "version": "7.9",
+          "status": "STANDARD_SUPPORT",
+          "standardSupportEnd": null,
+          "extendedSupport": null,
+          "postDeprecationBehavior": "CHARGES_APPLY",
+          "postExtendedSupportBehavior": "DOMAIN_ISOLATED",
+          "dateConfidence": "TENTATIVE",
+          "sourceUrl": "https://aws.amazon.com/blogs/big-data/amazon-opensearch-service-announces-standard-and-extended-support-dates-for-elasticsearch-and-opensearch-versions/"
+        },
+        {
+          "version": "7.10",
+          "status": "STANDARD_SUPPORT",
+          "standardSupportEnd": null,
+          "extendedSupport": null,
+          "postDeprecationBehavior": "CHARGES_APPLY",
+          "postExtendedSupportBehavior": "DOMAIN_ISOLATED",
+          "dateConfidence": "TENTATIVE",
+          "sourceUrl": "https://aws.amazon.com/blogs/big-data/amazon-opensearch-service-announces-standard-and-extended-support-dates-for-elasticsearch-and-opensearch-versions/"
+        }
+      ]
+    },
+    {
+      "serviceCode": "aurora",
+      "serviceName": "Amazon Aurora",
+      "engine": "postgresql",
+      "versionType": "engineMajorVersion",
+      "versions": [
+        {
+          "version": "18",
+          "status": "STANDARD_SUPPORT",
+          "standardSupportEnd": "2031-02-28",
+          "extendedSupport": {
+            "start": "2031-03-01",
+            "end": "2034-02-28"
+          },
+          "postDeprecationBehavior": "CHARGES_APPLY",
+          "postExtendedSupportBehavior": "AUTO_UPGRADE",
+          "dateConfidence": "COMMITTED",
+          "sourceUrl": "https://docs.aws.amazon.com/AmazonRDS/latest/AuroraPostgreSQLReleaseNotes/aurorapostgresql-release-calendar.html"
+        },
+        {
+          "version": "17",
+          "status": "STANDARD_SUPPORT",
+          "standardSupportEnd": "2030-02-28",
+          "extendedSupport": {
+            "start": "2030-03-01",
+            "end": "2033-02-28"
+          },
+          "postDeprecationBehavior": "CHARGES_APPLY",
+          "postExtendedSupportBehavior": "AUTO_UPGRADE",
+          "dateConfidence": "COMMITTED",
+          "sourceUrl": "https://docs.aws.amazon.com/AmazonRDS/latest/AuroraPostgreSQLReleaseNotes/aurorapostgresql-release-calendar.html"
+        },
+        {
+          "version": "16",
+          "status": "STANDARD_SUPPORT",
+          "standardSupportEnd": "2029-02-28",
+          "extendedSupport": {
+            "start": "2029-03-01",
+            "end": "2032-02-28"
+          },
+          "postDeprecationBehavior": "CHARGES_APPLY",
+          "postExtendedSupportBehavior": "AUTO_UPGRADE",
+          "dateConfidence": "COMMITTED",
+          "sourceUrl": "https://docs.aws.amazon.com/AmazonRDS/latest/AuroraPostgreSQLReleaseNotes/aurorapostgresql-release-calendar.html"
+        },
+        {
+          "version": "15",
+          "status": "STANDARD_SUPPORT",
+          "standardSupportEnd": "2028-02-29",
+          "extendedSupport": {
+            "start": "2028-03-01",
+            "end": "2031-02-28"
+          },
+          "postDeprecationBehavior": "CHARGES_APPLY",
+          "postExtendedSupportBehavior": "AUTO_UPGRADE",
+          "dateConfidence": "COMMITTED",
+          "sourceUrl": "https://docs.aws.amazon.com/AmazonRDS/latest/AuroraPostgreSQLReleaseNotes/aurorapostgresql-release-calendar.html"
+        },
+        {
+          "version": "14",
+          "status": "STANDARD_SUPPORT",
+          "standardSupportEnd": "2027-02-28",
+          "extendedSupport": {
+            "start": "2027-03-01",
+            "end": "2030-02-28"
+          },
+          "postDeprecationBehavior": "CHARGES_APPLY",
+          "postExtendedSupportBehavior": "AUTO_UPGRADE",
+          "dateConfidence": "COMMITTED",
+          "sourceUrl": "https://docs.aws.amazon.com/AmazonRDS/latest/AuroraPostgreSQLReleaseNotes/aurorapostgresql-release-calendar.html"
+        },
+        {
+          "version": "13",
+          "status": "EXTENDED_SUPPORT",
+          "standardSupportEnd": "2026-02-28",
+          "extendedSupport": {
+            "start": "2026-03-01",
+            "end": "2029-02-28"
+          },
+          "postDeprecationBehavior": "CHARGES_APPLY",
+          "postExtendedSupportBehavior": "AUTO_UPGRADE",
+          "dateConfidence": "COMMITTED",
+          "sourceUrl": "https://docs.aws.amazon.com/AmazonRDS/latest/AuroraPostgreSQLReleaseNotes/aurorapostgresql-release-calendar.html"
+        },
+        {
+          "version": "12",
+          "status": "EXTENDED_SUPPORT",
+          "standardSupportEnd": "2025-02-28",
+          "extendedSupport": {
+            "start": "2025-03-01",
+            "end": "2028-02-29"
+          },
+          "postDeprecationBehavior": "CHARGES_APPLY",
+          "postExtendedSupportBehavior": "AUTO_UPGRADE",
+          "dateConfidence": "COMMITTED",
+          "sourceUrl": "https://docs.aws.amazon.com/AmazonRDS/latest/AuroraPostgreSQLReleaseNotes/aurorapostgresql-release-calendar.html"
+        },
+        {
+          "version": "11",
+          "status": "EXTENDED_SUPPORT",
+          "standardSupportEnd": "2024-02-29",
+          "extendedSupport": {
+            "start": "2024-04-01",
+            "end": "2027-03-31"
+          },
+          "postDeprecationBehavior": "CHARGES_APPLY",
+          "postExtendedSupportBehavior": "AUTO_UPGRADE",
+          "dateConfidence": "COMMITTED",
+          "sourceUrl": "https://docs.aws.amazon.com/AmazonRDS/latest/AuroraPostgreSQLReleaseNotes/aurorapostgresql-release-calendar.html"
+        }
+      ]
+    },
+    {
+      "serviceCode": "msk",
+      "serviceName": "Amazon MSK",
+      "engine": "kafka",
+      "versionType": "engineVersion",
+      "versions": [
+        {
+          "version": "2.6",
+          "status": "END_OF_LIFE",
+          "standardSupportEnd": "2024-09-11",
+          "extendedSupport": null,
+          "postDeprecationBehavior": "AUTO_UPGRADE",
+          "postExtendedSupportBehavior": null,
+          "dateConfidence": "COMMITTED",
+          "sourceUrl": "https://docs.aws.amazon.com/msk/latest/developerguide/supported-kafka-versions.html"
+        },
+        {
+          "version": "2.7",
+          "status": "END_OF_LIFE",
+          "standardSupportEnd": "2024-09-11",
+          "extendedSupport": null,
+          "postDeprecationBehavior": "AUTO_UPGRADE",
+          "postExtendedSupportBehavior": null,
+          "dateConfidence": "COMMITTED",
+          "sourceUrl": "https://docs.aws.amazon.com/msk/latest/developerguide/supported-kafka-versions.html"
+        },
+        {
+          "version": "2.8",
+          "status": "END_OF_LIFE",
+          "standardSupportEnd": "2024-09-11",
+          "extendedSupport": null,
+          "postDeprecationBehavior": "AUTO_UPGRADE",
+          "postExtendedSupportBehavior": null,
+          "dateConfidence": "COMMITTED",
+          "sourceUrl": "https://docs.aws.amazon.com/msk/latest/developerguide/supported-kafka-versions.html"
+        },
+        {
+          "version": "3.1",
+          "status": "END_OF_LIFE",
+          "standardSupportEnd": "2024-09-11",
+          "extendedSupport": null,
+          "postDeprecationBehavior": "AUTO_UPGRADE",
+          "postExtendedSupportBehavior": null,
+          "dateConfidence": "COMMITTED",
+          "sourceUrl": "https://docs.aws.amazon.com/msk/latest/developerguide/supported-kafka-versions.html"
+        },
+        {
+          "version": "3.2",
+          "status": "END_OF_LIFE",
+          "standardSupportEnd": "2024-09-11",
+          "extendedSupport": null,
+          "postDeprecationBehavior": "AUTO_UPGRADE",
+          "postExtendedSupportBehavior": null,
+          "dateConfidence": "COMMITTED",
+          "sourceUrl": "https://docs.aws.amazon.com/msk/latest/developerguide/supported-kafka-versions.html"
+        },
+        {
+          "version": "3.3",
+          "status": "END_OF_LIFE",
+          "standardSupportEnd": "2024-09-11",
+          "extendedSupport": null,
+          "postDeprecationBehavior": "AUTO_UPGRADE",
+          "postExtendedSupportBehavior": null,
+          "dateConfidence": "COMMITTED",
+          "sourceUrl": "https://docs.aws.amazon.com/msk/latest/developerguide/supported-kafka-versions.html"
+        },
+        {
+          "version": "3.4",
+          "status": "END_OF_LIFE",
+          "standardSupportEnd": "2025-08-04",
+          "extendedSupport": null,
+          "postDeprecationBehavior": "AUTO_UPGRADE",
+          "postExtendedSupportBehavior": null,
+          "dateConfidence": "COMMITTED",
+          "sourceUrl": "https://docs.aws.amazon.com/msk/latest/developerguide/supported-kafka-versions.html"
+        },
+        {
+          "version": "3.5",
+          "status": "END_OF_LIFE",
+          "standardSupportEnd": "2025-10-23",
+          "extendedSupport": null,
+          "postDeprecationBehavior": "AUTO_UPGRADE",
+          "postExtendedSupportBehavior": null,
+          "dateConfidence": "COMMITTED",
+          "sourceUrl": "https://docs.aws.amazon.com/msk/latest/developerguide/supported-kafka-versions.html"
+        },
+        {
+          "version": "3.6",
+          "status": "END_OF_LIFE",
+          "standardSupportEnd": "2026-06-01",
+          "extendedSupport": null,
+          "postDeprecationBehavior": "AUTO_UPGRADE",
+          "postExtendedSupportBehavior": null,
+          "dateConfidence": "COMMITTED",
+          "sourceUrl": "https://docs.aws.amazon.com/msk/latest/developerguide/supported-kafka-versions.html"
+        },
+        {
+          "version": "3.7",
+          "status": "END_OF_LIFE",
+          "standardSupportEnd": "2026-09-01",
+          "extendedSupport": null,
+          "postDeprecationBehavior": "AUTO_UPGRADE",
+          "postExtendedSupportBehavior": null,
+          "dateConfidence": "COMMITTED",
+          "sourceUrl": "https://docs.aws.amazon.com/msk/latest/developerguide/supported-kafka-versions.html"
+        },
+        {
+          "version": "3.8",
+          "status": "STANDARD_SUPPORT",
+          "standardSupportEnd": null,
+          "extendedSupport": null,
+          "postDeprecationBehavior": "AUTO_UPGRADE",
+          "postExtendedSupportBehavior": null,
+          "dateConfidence": "TENTATIVE",
+          "sourceUrl": "https://docs.aws.amazon.com/msk/latest/developerguide/supported-kafka-versions.html"
+        },
+        {
+          "version": "3.9",
+          "status": "STANDARD_SUPPORT",
+          "standardSupportEnd": null,
+          "extendedSupport": null,
+          "postDeprecationBehavior": "AUTO_UPGRADE",
+          "postExtendedSupportBehavior": null,
+          "dateConfidence": "TENTATIVE",
+          "sourceUrl": "https://docs.aws.amazon.com/msk/latest/developerguide/supported-kafka-versions.html"
+        },
+        {
+          "version": "4.0",
+          "status": "STANDARD_SUPPORT",
+          "standardSupportEnd": null,
+          "extendedSupport": null,
+          "postDeprecationBehavior": "AUTO_UPGRADE",
+          "postExtendedSupportBehavior": null,
+          "dateConfidence": "TENTATIVE",
+          "sourceUrl": "https://docs.aws.amazon.com/msk/latest/developerguide/supported-kafka-versions.html"
+        },
+        {
+          "version": "4.1",
+          "status": "STANDARD_SUPPORT",
+          "standardSupportEnd": null,
+          "extendedSupport": null,
+          "postDeprecationBehavior": "AUTO_UPGRADE",
+          "postExtendedSupportBehavior": null,
+          "dateConfidence": "TENTATIVE",
+          "sourceUrl": "https://docs.aws.amazon.com/msk/latest/developerguide/supported-kafka-versions.html"
+        }
+      ]
+    },
+    {
+      "serviceCode": "mq",
+      "serviceName": "Amazon MQ",
+      "engine": "activemq",
+      "versionType": "engineVersion",
+      "versions": [
+        {
+          "version": "5.15",
+          "status": "END_OF_LIFE",
+          "standardSupportEnd": "2024-09-16",
+          "extendedSupport": null,
+          "postDeprecationBehavior": "AUTO_UPGRADE",
+          "postExtendedSupportBehavior": null,
+          "dateConfidence": "COMMITTED",
+          "sourceUrl": "https://docs.aws.amazon.com/amazon-mq/latest/developer-guide/activemq-version-management.html"
+        },
+        {
+          "version": "5.16",
+          "status": "END_OF_LIFE",
+          "standardSupportEnd": "2024-11-15",
+          "extendedSupport": null,
+          "postDeprecationBehavior": "AUTO_UPGRADE",
+          "postExtendedSupportBehavior": null,
+          "dateConfidence": "COMMITTED",
+          "sourceUrl": "https://docs.aws.amazon.com/amazon-mq/latest/developer-guide/activemq-version-management.html"
+        },
+        {
+          "version": "5.17",
+          "status": "DEPRECATED",
+          "standardSupportEnd": "2025-06-16",
+          "extendedSupport": null,
+          "postDeprecationBehavior": "AUTO_UPGRADE",
+          "postExtendedSupportBehavior": null,
+          "dateConfidence": "COMMITTED",
+          "sourceUrl": "https://docs.aws.amazon.com/amazon-mq/latest/developer-guide/activemq-version-management.html"
+        },
+        {
+          "version": "5.18",
+          "status": "STANDARD_SUPPORT",
+          "standardSupportEnd": null,
+          "extendedSupport": null,
+          "postDeprecationBehavior": "AUTO_UPGRADE",
+          "postExtendedSupportBehavior": null,
+          "dateConfidence": "TENTATIVE",
+          "sourceUrl": "https://docs.aws.amazon.com/amazon-mq/latest/developer-guide/activemq-version-management.html"
+        },
+        {
+          "version": "5.19",
+          "status": "STANDARD_SUPPORT",
+          "standardSupportEnd": null,
+          "extendedSupport": null,
+          "postDeprecationBehavior": "AUTO_UPGRADE",
+          "postExtendedSupportBehavior": null,
+          "dateConfidence": "TENTATIVE",
+          "sourceUrl": "https://docs.aws.amazon.com/amazon-mq/latest/developer-guide/activemq-version-management.html"
+        }
+      ]
+    },
+    {
+      "serviceCode": "mq",
+      "serviceName": "Amazon MQ",
+      "engine": "rabbitmq",
+      "versionType": "engineVersion",
+      "versions": [
+        {
+          "version": "3.9",
+          "status": "END_OF_LIFE",
+          "standardSupportEnd": "2024-09-16",
+          "extendedSupport": null,
+          "postDeprecationBehavior": "AUTO_UPGRADE",
+          "postExtendedSupportBehavior": null,
+          "dateConfidence": "COMMITTED",
+          "sourceUrl": "https://docs.aws.amazon.com/amazon-mq/latest/developer-guide/rabbitmq-version-support.html"
+        },
+        {
+          "version": "3.10",
+          "status": "END_OF_LIFE",
+          "standardSupportEnd": "2024-10-15",
+          "extendedSupport": null,
+          "postDeprecationBehavior": "AUTO_UPGRADE",
+          "postExtendedSupportBehavior": null,
+          "dateConfidence": "COMMITTED",
+          "sourceUrl": "https://docs.aws.amazon.com/amazon-mq/latest/developer-guide/rabbitmq-version-support.html"
+        },
+        {
+          "version": "3.11",
+          "status": "END_OF_LIFE",
+          "standardSupportEnd": "2025-02-17",
+          "extendedSupport": null,
+          "postDeprecationBehavior": "AUTO_UPGRADE",
+          "postExtendedSupportBehavior": null,
+          "dateConfidence": "COMMITTED",
+          "sourceUrl": "https://docs.aws.amazon.com/amazon-mq/latest/developer-guide/rabbitmq-version-support.html"
+        },
+        {
+          "version": "3.12",
+          "status": "DEPRECATED",
+          "standardSupportEnd": "2025-03-17",
+          "extendedSupport": null,
+          "postDeprecationBehavior": "AUTO_UPGRADE",
+          "postExtendedSupportBehavior": null,
+          "dateConfidence": "COMMITTED",
+          "sourceUrl": "https://docs.aws.amazon.com/amazon-mq/latest/developer-guide/rabbitmq-version-support.html"
+        },
+        {
+          "version": "3.13",
+          "status": "STANDARD_SUPPORT",
+          "standardSupportEnd": null,
+          "extendedSupport": null,
+          "postDeprecationBehavior": "AUTO_UPGRADE",
+          "postExtendedSupportBehavior": null,
+          "dateConfidence": "TENTATIVE",
+          "sourceUrl": "https://docs.aws.amazon.com/amazon-mq/latest/developer-guide/rabbitmq-version-support.html"
+        },
+        {
+          "version": "4.2",
+          "status": "STANDARD_SUPPORT",
+          "standardSupportEnd": null,
+          "extendedSupport": null,
+          "postDeprecationBehavior": "AUTO_UPGRADE",
+          "postExtendedSupportBehavior": null,
+          "dateConfidence": "TENTATIVE",
+          "sourceUrl": "https://docs.aws.amazon.com/amazon-mq/latest/developer-guide/rabbitmq-version-support.html"
+        }
+      ]
+    },
+    {
+      "serviceCode": "docdb",
+      "serviceName": "Amazon DocumentDB",
+      "engine": "docdb",
+      "versionType": "engineMajorVersion",
+      "versions": [
+        {
+          "version": "3.6",
+          "status": "EXTENDED_SUPPORT",
+          "standardSupportEnd": "2026-03-30",
+          "extendedSupport": {
+            "start": "2026-03-31",
+            "end": "2029-03-30"
+          },
+          "postDeprecationBehavior": "CHARGES_APPLY",
+          "postExtendedSupportBehavior": "AUTO_UPGRADE",
+          "dateConfidence": "COMMITTED",
+          "sourceUrl": "https://docs.aws.amazon.com/documentdb/latest/devguide/docdb-version-support-dates.html"
+        },
+        {
+          "version": "4.0",
+          "status": "STANDARD_SUPPORT",
+          "standardSupportEnd": null,
+          "extendedSupport": null,
+          "postDeprecationBehavior": "CHARGES_APPLY",
+          "postExtendedSupportBehavior": "AUTO_UPGRADE",
+          "dateConfidence": "TENTATIVE",
+          "sourceUrl": "https://docs.aws.amazon.com/documentdb/latest/devguide/docdb-version-support-dates.html"
+        },
+        {
+          "version": "5.0",
+          "status": "STANDARD_SUPPORT",
+          "standardSupportEnd": null,
+          "extendedSupport": null,
+          "postDeprecationBehavior": "CHARGES_APPLY",
+          "postExtendedSupportBehavior": "AUTO_UPGRADE",
+          "dateConfidence": "TENTATIVE",
+          "sourceUrl": "https://docs.aws.amazon.com/documentdb/latest/devguide/docdb-version-support-dates.html"
+        },
+        {
+          "version": "8.0",
+          "status": "STANDARD_SUPPORT",
+          "standardSupportEnd": null,
+          "extendedSupport": null,
+          "postDeprecationBehavior": "CHARGES_APPLY",
+          "postExtendedSupportBehavior": "AUTO_UPGRADE",
+          "dateConfidence": "TENTATIVE",
+          "sourceUrl": "https://docs.aws.amazon.com/documentdb/latest/devguide/docdb-version-support-dates.html"
+        }
+      ]
+    }
+  ]
+}
