@@ -8,6 +8,9 @@ on:
     paths:
       - 'data/eol.json'
 
+permissions:
+  contents: read
+
 jobs:
   validate:
     runs-on: ubuntu-latest
