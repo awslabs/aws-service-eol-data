@@ -1,0 +1,54 @@
+name: perms-test
+
+# Throwaway test: does an explicit permissions block let GITHUB_TOKEN write,
+# open a PR, and open an issue, despite the org read-only DEFAULT?
+# Triggered by pushing the ci-perms-test branch (no need to touch main).
+# Delete this file after the test.
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [ci-perms-test]
+
+permissions:
+  contents: write
+  pull-requests: write
+  issues: write
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Configure git identity
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Test contents:write (push a branch)
+        run: |
+          BR="perms-test-pr-${{ github.run_id }}"
+          git checkout -b "$BR"
+          echo "permissions test $(date -u)" > PERMS_TEST.md
+          git add PERMS_TEST.md
+          git commit -m "test: verify Actions write permissions"
+          git push origin "$BR"
+
+      - name: Test pull-requests:write (open a PR)
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh pr create --base main --head "perms-test-pr-${{ github.run_id }}" \
+            --title "TEST: Actions write-permission check" \
+            --body "Automated permissions test. If this PR exists, GITHUB_TOKEN can open PRs. Safe to close and delete the branch."
+
+      - name: Test issues:write (open an issue)
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh issue create \
+            --title "TEST: Actions issue-write check" \
+            --body "Automated permissions test. Safe to close."
