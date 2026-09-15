@@ -2,13 +2,13 @@
 
 > **NOT AN OFFICIAL AWS API.** This is a community-maintained dataset provided on a best-effort basis. It is not an official AWS product, service, or commitment. Always verify dates against the official AWS documentation linked in each entry's `sourceUrl` field before making business decisions.
 
-A machine-readable dataset of AWS service version lifecycle dates — end of standard support, extended support periods, and post-deprecation behaviors.
+A machine-readable dataset of AWS service version lifecycle dates: end of standard support, extended support periods, and post-deprecation behaviors.
 
 ## Why This Exists
 
-Managing version lifecycles across multiple AWS services requires consolidating information from many different documentation sources — each service publishes its own lifecycle dates in its own format. For organizations running workloads across EKS, RDS, Lambda, OpenSearch, and ElastiCache, keeping track of upcoming end-of-support dates at scale is a significant operational effort.
+Managing version lifecycles across multiple AWS services requires consolidating information from many different documentation sources, each service publishes its own lifecycle dates in its own format. For organizations running workloads across EKS, RDS, Lambda, OpenSearch, and ElastiCache, keeping track of upcoming end-of-support dates at scale is a significant operational effort.
 
-This repository provides a consolidated, machine-readable dataset of AWS service lifecycle dates, enabling customers to programmatically integrate lifecycle intelligence into their FinOps platforms, ITSM systems, compliance dashboards, and upgrade planning workflows — all from a single source.
+This repository provides a consolidated, machine-readable dataset of AWS service lifecycle dates, enabling customers to programmatically integrate lifecycle intelligence into their FinOps platforms, ITSM systems, compliance dashboards, and upgrade planning workflows, all from a single source.
 
 
 ### File Location
@@ -59,7 +59,7 @@ data/eol.json
 | `versionType` | string | What the version represents: `kubernetesVersion`, `engineMajorVersion`, `runtime`, `engineVersion` |
 | `versions[].version` | string | The version identifier |
 | `versions[].status` | enum | Current lifecycle status (see below) |
-| `versions[].standardSupportEnd` | string | ISO 8601 date — last day of standard support |
+| `versions[].standardSupportEnd` | string | ISO 8601 date, last day of standard support |
 | `versions[].extendedSupport` | object \| null | Extended support period (`start`, `end`) or `null` if not available |
 | `versions[].postDeprecationBehavior` | enum | What happens after standard support ends (see below) |
 | `versions[].postExtendedSupportBehavior` | enum \| null | What happens after extended support ends (see below). `null` for services without extended support |
@@ -127,7 +127,7 @@ for service in data['services']:
     for v in service['versions']:
         eos = v['standardSupportEnd']
         if today <= eos <= cutoff:
-            print(f"{service['serviceName']} {v['version']} — EOS: {eos}")
+            print(f"{service['serviceName']} {v['version']} - EOS: {eos}")
 ```
 
 ### Integrate with Terraform pre-plan checks
@@ -151,7 +151,7 @@ for service in data['services']:
     for v in service['versions']:
         if v['status'] == 'EXTENDED_SUPPORT' and v['postDeprecationBehavior'] == 'CHARGES_APPLY':
             create_ticket(
-                title=f"Upgrade {service['serviceName']} {v['version']} — Extended Support charges active",
+                title=f"Upgrade {service['serviceName']} {v['version']} - Extended Support charges active",
                 due_date=v['extendedSupport']['end'],
                 priority="high"
             )
