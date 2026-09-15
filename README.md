@@ -171,6 +171,13 @@ for service in data['services']:
 | Amazon MQ | ActiveMQ, RabbitMQ |
 | Amazon DocumentDB | Engine major versions |
 
+## Companion dataset
+
+For end-to-end automation, pair this with the companion pricing dataset,
+[aws-service-extended-support-pricing](https://github.com/awslabs/aws-service-extended-support-pricing),
+which provides the Extended Support pricing models. Together they answer two
+questions: "When does my version lose support?" and "What will it cost if I don't upgrade?"
+
 ## Update Cadence
 
 This dataset is updated manually as AWS announces new lifecycle dates. Each entry includes a `sourceUrl` pointing to the official AWS documentation for independent verification.
