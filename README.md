@@ -16,6 +16,19 @@ Managing version lifecycles across multiple AWS services requires consolidating 
 
 This repository provides a consolidated, machine-readable dataset of AWS service lifecycle dates, enabling customers to programmatically integrate lifecycle intelligence into their FinOps platforms, ITSM systems, compliance dashboards, and upgrade planning workflows, all from a single source.
 
+## Examples of use cases
+
+- **Upgrade planning and roadmaps** - see which versions are approaching or past end of standard support and schedule upgrades before they hit Extended Support.
+- **Dashboards and reports** - power executive and operational reporting (CID, QuickSight, Grafana, or internal) on lifecycle exposure across the fleet, each date backed by a `sourceUrl`.
+- **CI/CD gates** - warn or block a pipeline when it deploys an image, runtime, or engine version that is end of life or nearing end of support.
+- **Change management workflows** - feed structured lifecycle dates into change and approval processes so upgrades are planned and approved ahead of the deadline.
+- **Security and compliance** - show that workloads run supported versions, and audit the fleet against a "no unsupported versions" policy with citable dates.
+- **ITSM integration** - auto-raise tickets or tasks (ServiceNow, Jira, and similar) when a version enters Extended Support or reaches end of life.
+- **Proactive alerting** - notify owners on lifecycle transitions, driven off structured dates instead of scraped web pages.
+- **Fleet and account audits** - join your running versions (EKS, RDS, Aurora, Lambda, ElastiCache, OpenSearch, MSK, Amazon MQ, DocumentDB) against the lifecycle dates to find exposure.
+- **Agents and chatbots** - answer "when does X lose support?" from a structured source with a citation.
+- **Pair with [aws-service-extended-support-pricing](https://github.com/awslabs/aws-service-extended-support-pricing)** to answer "when does my version lose support, and what will it cost if I don't upgrade?"
+
 
 ### File Location
 
