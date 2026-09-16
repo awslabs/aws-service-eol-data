@@ -19,7 +19,7 @@ This repository provides a consolidated, machine-readable dataset of AWS service
 ## Examples of use cases
 
 - **Upgrade planning and roadmaps** - see which versions are approaching or past end of standard support and schedule upgrades before they hit Extended Support.
-- **Dashboards and reports** - power executive and operational reporting (CID, QuickSight, Grafana, or internal) on lifecycle exposure across the fleet, each date backed by a `sourceUrl`.
+- **Dashboards and reports** - power executive and operational reporting in any BI or dashboard tool (such as QuickSight, Grafana, Tableau, or your own internal tooling) on lifecycle exposure across the fleet, each date backed by a `sourceUrl`.
 - **CI/CD gates** - warn or block a pipeline when it deploys an image, runtime, or engine version that is end of life or nearing end of support.
 - **Change management workflows** - feed structured lifecycle dates into change and approval processes so upgrades are planned and approved ahead of the deadline.
 - **Security and compliance** - show that workloads run supported versions, and audit the fleet against a "no unsupported versions" policy with citable dates.
