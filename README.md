@@ -1,5 +1,11 @@
 # AWS Service End-of-Life Data
 
+![License](https://img.shields.io/github/license/awslabs/aws-service-eol-data)
+![Last commit](https://img.shields.io/github/last-commit/awslabs/aws-service-eol-data)
+![Latest release](https://img.shields.io/github/v/release/awslabs/aws-service-eol-data?sort=semver)
+[![Validate](https://github.com/awslabs/aws-service-eol-data/actions/workflows/validate.yml/badge.svg)](https://github.com/awslabs/aws-service-eol-data/actions/workflows/validate.yml)
+[![Discussions](https://img.shields.io/github/discussions/awslabs/aws-service-eol-data)](https://github.com/awslabs/aws-service-eol-data/discussions)
+
 > **NOT AN OFFICIAL AWS API.** This is a community-maintained dataset provided on a best-effort basis. It is not an official AWS product, service, or commitment. Always verify dates against the official AWS documentation linked in each entry's `sourceUrl` field before making business decisions.
 
 A machine-readable dataset of AWS service version lifecycle dates: end of standard support, extended support periods, and post-deprecation behaviors.

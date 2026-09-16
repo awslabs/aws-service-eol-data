@@ -1,0 +1,21 @@
+name: Coverage request
+description: Ask for a service, engine, or version to be added
+title: "[coverage]: "
+labels: ["coverage-request"]
+body:
+  - type: input
+    id: what
+    attributes:
+      label: What should we add
+      placeholder: "RDS MySQL 8.4, or a new service"
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Official AWS source URL (if known)
+      description: A version-support page with the dates helps us add it faster
+  - type: textarea
+    id: usecase
+    attributes:
+      label: Why / use case (optional)
