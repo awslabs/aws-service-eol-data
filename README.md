@@ -178,6 +178,45 @@ For end-to-end automation, pair this with the companion pricing dataset,
 which provides the Extended Support pricing models. Together they answer two
 questions: "When does my version lose support?" and "What will it cost if I don't upgrade?"
 
+### Example: cost a version that is in Extended Support
+
+Join on `serviceCode` + `engine`. For per-instance services (DocumentDB by instance family, ElastiCache by node type) the rate lives in `instanceRates[region][instanceKey][tier]`:
+
+```python
+import json
+from datetime import datetime
+
+with open('data/eol.json') as f:
+    lifecycle = json.load(f)
+with open('../aws-service-extended-support-pricing/data/pricing.json') as f:
+    pricing = json.load(f)
+
+today = datetime.now().strftime('%Y-%m-%d')
+
+# Illustrative resource: 10 DocumentDB r5 instances, 2 vCPU each, in us-east-1.
+region, family, vcpus, instances, hours = 'us-east-1', 'r5', 2, 10, 730
+
+for lc in lifecycle['services']:
+    if lc['serviceCode'] != 'docdb':
+        continue
+    price = next((s for s in pricing['services']
+                  if s['serviceCode'] == lc['serviceCode']
+                  and s.get('engine') == lc.get('engine')), None)
+    if not price or 'instanceRates' not in price:
+        break
+    rate = price['instanceRates'][region][family]['year1_2']  # $/vCPU-hour
+    for v in lc['versions']:
+        ext = v.get('extendedSupport') or {}
+        in_es = (v.get('standardSupportEnd') or '') <= today < (ext.get('end') or '')
+        if in_es and v.get('postDeprecationBehavior') == 'CHARGES_APPLY':
+            monthly = rate * vcpus * instances * hours
+            print(f"{lc['serviceName']} {v['version']} in Extended Support -> "
+                  f"{instances}x {family} ({vcpus} vCPU) in {region}: "
+                  f"${monthly:,.2f}/month (Year 1-2)")
+```
+
+For ElastiCache, use `serviceCode == 'elasticache'` and index `instanceRates` by node type (e.g. `instanceRates[region]['cache.r6g.large']['year1_2']`) times node count instead of vCPUs.
+
 ## Update Cadence
 
 This dataset is updated manually as AWS announces new lifecycle dates. Each entry includes a `sourceUrl` pointing to the official AWS documentation for independent verification.
