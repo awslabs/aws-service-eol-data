@@ -7,7 +7,7 @@ body:
     id: what
     attributes:
       label: What should we add
-      placeholder: "RDS MySQL 8.4, or a new service"
+      placeholder: "RDS for SQL Server 2019, or a new service"
     validations:
       required: true
   - type: input

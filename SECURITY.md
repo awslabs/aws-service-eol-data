@@ -15,12 +15,12 @@ This repository contains a static JSON dataset with no executable code. Security
 ## Security Controls
 
 - All data changes require CODEOWNERS approval before merge
-- CI validates JSON schema, date consistency, and sourceUrl patterns on every PR
-- Every entry includes a `sourceUrl` pointing to official AWS documentation for independent verification
-- The `lastUpdated` field signals dataset freshness
+- CI validates the JSON schema (including an official AWS `sourceUrl` on every documentation-sourced entry), date consistency, and freshness on every change
+- Every `behavior` and every documentation-sourced entry links official AWS documentation for independent verification; API-sourced dates come from the AWS Health Version Catalog (`DescribeServiceLifecycle`)
+- The `generatedAt` field shows when the dataset was last checked against its sources, and `lastUpdated` when the data last changed
 
 ## Consumer Guidance
 
-- For critical business decisions (upgrade deadlines, cost forecasting, compliance), always verify dates against the `sourceUrl` provided in each entry
+- For critical business decisions (upgrade deadlines, cost forecasting, compliance), always verify dates against the official AWS documentation linked in the entry (`behavior.sourceUrl`, or `provenance.sourceUrl` for documentation-sourced entries)
 - Pin to tagged releases rather than tracking the main branch for production integrations
 - Treat the `status` field as advisory; validate against date fields programmatically for automated decisions
