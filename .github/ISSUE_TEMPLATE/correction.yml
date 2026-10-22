@@ -7,15 +7,15 @@ body:
     id: entry
     attributes:
       label: Which entry
-      description: serviceCode / engine / version
-      placeholder: "docdb / docdb / 3.6"
+      description: serviceCode / engine / version, as they appear in data/eol.json (engine can be null)
+      placeholder: "docdb / null / 3.6"
     validations:
       required: true
   - type: input
     id: field
     attributes:
       label: Which field
-      placeholder: "standardSupportEnd, extendedSupport.end, status, or sourceUrl"
+      placeholder: "the date of a lifecycleEvents event (for example STANDARD_SUPPORT_END), status, a behavior outcome, or a sourceUrl"
     validations:
       required: true
   - type: input

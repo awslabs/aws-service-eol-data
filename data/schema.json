@@ -1,95 +1,95 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "title": "AWS Service EOL Data",
-  "description": "Schema for validating aws-service-eol-data entries",
+  "title": "AWS Service EOL Data (rebuilt on the AWS Health Version Catalog)",
+  "description": "Flat per-version lifecycle records mirroring DescribeServiceLifecycle, extended with serviceCode/engine/versionNumber, a computed status, a merged per-event behavior block, and provenance. Fields this dataset defines (serviceCode, behavior outcomes) are closed enums. Fields copied from the API (lifecycleEventType, impactRisks) stay open strings, so a new AWS value does not break validation.",
+  "definitions": {
+    "outcome": {
+      "type": "string",
+      "enum": [
+        "ACCESS_LOSS_IF_INACTIVE", "AUTO_UPGRADE", "CHARGES_APPLY", "CREATE_BLOCKED",
+        "DOMAIN_ISOLATED", "ENTERS_LEGACY", "EOL_INACCESSIBLE", "RUNS_UNPATCHED",
+        "UPDATE_BLOCKED"
+      ]
+    }
+  },
   "type": "object",
-  "required": ["schemaVersion", "lastUpdated", "services"],
+  "required": ["schemaVersion", "lastUpdated", "generatedAt", "entries"],
   "properties": {
-    "schemaVersion": {
-      "type": "string",
-      "pattern": "^\\d+\\.\\d+$"
-    },
-    "_disclaimer": {
-      "type": "string"
-    },
+    "schemaVersion": { "type": "string", "pattern": "^\\d+\\.\\d+$" },
     "lastUpdated": {
-      "type": "string",
-      "format": "date"
+      "type": "string", "format": "date",
+      "description": "Date the data last changed (any entry added, removed, or changed, ignoring the per-build lastVerified of API entries)."
     },
-    "services": {
+    "generatedAt": {
+      "type": "string", "format": "date",
+      "description": "Date of the build that produced this file (the last check against the API)."
+    },
+    "_disclaimer": { "type": "string" },
+    "entries": {
       "type": "array",
       "items": {
         "type": "object",
-        "required": ["serviceCode", "serviceName", "versionType", "versions"],
+        "required": ["service", "serviceCode", "version", "lifecycleEvents", "status", "provenance"],
         "properties": {
+          "service": { "type": "string", "minLength": 1 },
           "serviceCode": {
             "type": "string",
-            "minLength": 1
+            "enum": ["bedrock", "docdb", "eks", "elasticache", "emr", "lambda", "mq", "msk", "opensearch", "rds", "rds-aurora"]
           },
-          "serviceName": {
+          "engine": { "type": ["string", "null"] },
+          "version": { "type": "string", "minLength": 1 },
+          "versionNumber": { "type": ["string", "null"] },
+          "title": { "type": ["string", "null"] },
+          "recommendedVersion": { "type": ["string", "null"] },
+          "status": {
             "type": "string",
-            "minLength": 1
+            "enum": ["STANDARD_SUPPORT", "EXTENDED_SUPPORT", "DEPRECATED", "END_OF_LIFE"]
           },
-          "engine": {
-            "type": ["string", "null"]
-          },
-          "versionType": {
-            "type": "string",
-            "enum": ["kubernetesVersion", "engineMajorVersion", "runtime", "engineVersion"]
-          },
-          "versions": {
+          "lifecycleEvents": {
             "type": "array",
             "items": {
               "type": "object",
-              "required": ["version", "status", "postDeprecationBehavior", "dateConfidence", "sourceUrl"],
+              "required": ["lifecycleEventType"],
               "properties": {
-                "version": {
-                  "type": "string",
-                  "minLength": 1
-                },
-                "status": {
-                  "type": "string",
-                  "enum": ["STANDARD_SUPPORT", "EXTENDED_SUPPORT", "DEPRECATED", "END_OF_LIFE"]
-                },
-                "standardSupportEnd": {
-                  "type": ["string", "null"],
-                  "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
-                },
-                "extendedSupport": {
-                  "oneOf": [
-                    { "type": "null" },
-                    {
-                      "type": "object",
-                      "required": ["start", "end"],
-                      "properties": {
-                        "start": {
-                          "type": "string",
-                          "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
-                        },
-                        "end": {
-                          "type": "string",
-                          "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
-                        }
-                      }
-                    }
-                  ]
-                },
-                "postDeprecationBehavior": {
-                  "type": "string",
-                  "enum": ["CHARGES_APPLY", "AUTO_UPGRADE", "CREATE_BLOCKED", "NO_PATCHES"]
-                },
-                "postExtendedSupportBehavior": {
-                  "type": ["string", "null"],
-                  "enum": ["AUTO_UPGRADE", "DOMAIN_ISOLATED", "NO_PATCHES", null]
-                },
-                "dateConfidence": {
-                  "type": "string",
-                  "enum": ["COMMITTED", "PROJECTED", "TENTATIVE"]
-                },
-                "sourceUrl": {
-                  "type": "string",
-                  "pattern": "^https://docs\\.aws\\.amazon\\.com/|^https://aws\\.amazon\\.com/"
+                "lifecycleEventType": { "type": "string", "minLength": 1 },
+                "date": { "type": ["string", "null"], "pattern": "^\\d{4}-\\d{2}-\\d{2}$" },
+                "regions": { "type": "array", "items": { "type": "string" } },
+                "impactRisks": { "type": "array", "items": { "type": "string" } },
+                "description": { "type": "string" },
+                "behavior": {
+                  "type": "object",
+                  "required": ["sourceUrl"],
+                  "properties": {
+                    "conditionalOn": { "type": ["string", "null"] },
+                    "branches": { "type": "object", "additionalProperties": { "$ref": "#/definitions/outcome" } },
+                    "default": { "$ref": "#/definitions/outcome" },
+                    "outcome": { "$ref": "#/definitions/outcome" },
+                    "note": { "type": "string" },
+                    "sourceUrl": { "type": "string" },
+                    "confidence": { "type": "string", "enum": ["VERIFIED", "NEEDS_REVIEW"] }
+                  }
                 }
+              }
+            }
+          },
+          "provenance": {
+            "type": "object",
+            "required": ["source", "lastVerified"],
+            "properties": {
+              "source": { "type": "string", "enum": ["API", "DOCS_CRAWLED", "DERIVED"] },
+              "confidence": { "type": "string", "enum": ["VERIFIED", "NEEDS_REVIEW"] },
+              "sourceUrl": { "type": ["string", "null"] },
+              "lastVerified": { "type": "string", "format": "date" }
+            },
+            "if": {
+              "properties": { "source": { "const": "DOCS_CRAWLED" } },
+              "required": ["source"]
+            },
+            "then": {
+              "required": ["sourceUrl", "confidence"],
+              "properties": {
+                "sourceUrl": { "type": "string", "pattern": "^https://(docs\\.)?aws\\.amazon\\.com/" },
+                "confidence": { "const": "NEEDS_REVIEW" }
               }
             }
           }
