@@ -208,6 +208,36 @@ Outcome vocabulary, defined by effect on **new** vs **existing** resources:
 | `sourceUrl` | The AWS documentation page the entry came from. Set when `source = DOCS_CRAWLED`, `null` for API entries |
 | `lastVerified` | ISO date. For API entries, the build date. For `DOCS_CRAWLED` entries, the date someone last checked the cited page; the build warns when that is more than 35 days old |
 
+#### Corrected dates
+
+When the API returns a date that the AWS documentation contradicts, the dataset uses the documented date for that one event and marks it. The event carries a `correction` object, and the entry keeps `provenance.source: "API"` but has `provenance.confidence: "NEEDS_REVIEW"`:
+
+```json
+{
+  "lifecycleEventType": "BLOCK_RESOURCE_CREATE",
+  "date": "2027-07-29",
+  "correction": {
+    "apiDate": "2027-06-01",
+    "source": "DOCS_CRAWLED",
+    "sourceUrl": "https://docs.aws.amazon.com/lambda/latest/dg/lambda-runtimes.html",
+    "lastVerified": "2026-10-24"
+  }
+}
+```
+
+`apiDate` is the date the API returned. When the documentation gives the date only as a month (AWS marks those as approximate), `date` is `null`: the contradicted API date is removed and no day is invented. A correction stays only while the API still returns that date; once the API is fixed, the next monthly update drops it. To use API dates only, take `correction.apiDate` wherever a `correction` is present.
+
+Corrected entries today:
+
+| Entry | Event | API date | Dataset date | Source |
+|-------|-------|----------|--------------|--------|
+| Lambda `nodejs22.x` | `BLOCK_RESOURCE_CREATE` | 2027-06-01 | 2027-07-29 | [Lambda runtimes](https://docs.aws.amazon.com/lambda/latest/dg/lambda-runtimes.html) |
+| Lambda `nodejs22.x` | `BLOCK_RESOURCE_UPDATE` | 2027-07-01 | 2027-08-31 | [Lambda runtimes](https://docs.aws.amazon.com/lambda/latest/dg/lambda-runtimes.html) |
+| RDS `mariadb/10.5` | `STANDARD_SUPPORT_END` | 2026-02-28 | 2026-08-31 | [RDS for MariaDB versions](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/MariaDB.Concepts.VersionMgmt.html) |
+| RDS `mariadb/11.8` | `STANDARD_SUPPORT_END` | 2030-06-30 | `null` (docs: June 2028) | [RDS for MariaDB versions](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/MariaDB.Concepts.VersionMgmt.html) |
+| Aurora `aurora-postgresql/14` | `SUPPORTED` | 2022-03-10 | 2022-02-24 | [Aurora PostgreSQL release calendar](https://docs.aws.amazon.com/AmazonRDS/latest/AuroraPostgreSQLReleaseNotes/aurorapostgresql-release-calendar.html) |
+| RDS `postgresql/16` | `SUPPORTED` | 2023-11-17 | 2023-11-20 | [RDS PostgreSQL release calendar](https://docs.aws.amazon.com/AmazonRDS/latest/PostgreSQLReleaseNotes/postgresql-release-calendar.html) |
+
 ### Reading dates and status
 
 Dates live inside `lifecycleEvents`, not in flattened top-level fields. A small helper recreates `status` from the events:
@@ -359,6 +389,8 @@ for e in data["entries"]:
 The Health Version Catalog does not return most deprecated Lambda runtimes. v2.0 adds 13 of them from the [Lambda runtimes](https://docs.aws.amazon.com/lambda/latest/dg/lambda-runtimes.html) deprecated-runtimes table (for example `python3.9`, `nodejs18.x`, `dotnet6`, `java8`, `go1.x`), marked `DOCS_CRAWLED` / `NEEDS_REVIEW` with `provenance.sourceUrl` set. These are the deprecated runtimes whose block-function-update date has not passed. Runtimes that can no longer be updated at all (for example `dotnetcore3.1`, `nodejs12.x`) are not included, so a CI/CD check like the one above still fails closed on them as "not found".
 
 The Health Version Catalog also does not return Amazon Aurora PostgreSQL 18 or Aurora MySQL 8.4 yet. v2.0 adds both from the Aurora release calendars, marked `DOCS_CRAWLED` / `NEEDS_REVIEW`. Aurora PostgreSQL 18 has its release, end of standard support and end of Extended Support dates. Aurora MySQL 8.4 has no lifecycle events yet, because the calendar gives end of standard support as a month only (April 2032) and Extended Support dates as to be determined; it reports `STANDARD_SUPPORT` until AWS publishes exact dates.
+
+The Health Version Catalog also does not return Amazon RDS for MariaDB 12.3 yet. It is added from the [RDS for MariaDB versions](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/MariaDB.Concepts.VersionMgmt.html) page, marked `DOCS_CRAWLED` / `NEEDS_REVIEW`, with its RDS release date (2026-08-07) only: the page gives end of standard support as a month (June 2029).
 
 Amazon MQ (ActiveMQ, RabbitMQ) is not in the Health Version Catalog. v2.0 carries every version listed in the Amazon MQ version-support tables, from the [ActiveMQ](https://docs.aws.amazon.com/amazon-mq/latest/developer-guide/activemq-version-management.html) and [RabbitMQ](https://docs.aws.amazon.com/amazon-mq/latest/developer-guide/rabbitmq-version-support.html) pages, marked `DOCS_CRAWLED` / `NEEDS_REVIEW`: ActiveMQ 5.15 to 5.19 and RabbitMQ 3.12, 3.13, 4.2 and 4.3. The `version` field reads `activemq/5.18` or `rabbitmq/3.13`, and `engine` is `activemq` or `rabbitmq`. Versions with an end-of-support date carry one `END_OF_SUPPORT` event whose `behavior` is `AUTO_UPGRADE`: Amazon MQ upgrades the brokers to the next supported version within 45 days. Versions the tables list without a date have no events yet. RabbitMQ 3.9, 3.10 and 3.11, which `v1.0.0` carried, are no longer in the Amazon MQ tables, so they are not in v2.0; their brokers were upgraded automatically after end of support.
 

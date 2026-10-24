@@ -4,6 +4,36 @@ All notable changes to this dataset are recorded here. The format is based on
 Keep a Changelog. Releases are dated; consumers should pin to a tagged release
 rather than tracking `main`.
 
+## [2.0.1] - 2026-10-24
+
+### Fixed
+- **Dates the API returns but the AWS documentation contradicts.** Found in community
+  checks against the AWS docs (#15, #16, and a check of all 38 Lambda entries); thank you.
+  The dataset now uses the documented dates (see README, "Corrected dates"):
+  - Lambda `nodejs22.x`: BLOCK_RESOURCE_CREATE 2027-06-01 -> 2027-07-29 and
+    BLOCK_RESOURCE_UPDATE 2027-07-01 -> 2027-08-31 (Lambda runtimes page).
+    END_OF_SUPPORT (2027-04-30) was already correct.
+  - RDS for MariaDB 10.5: STANDARD_SUPPORT_END 2026-02-28 -> 2026-08-31.
+  - RDS for MariaDB 11.8: STANDARD_SUPPORT_END 2030-06-30 -> no date. The RDS for
+    MariaDB page gives June 2028, a month only, so the API date (two years later) is
+    removed and no day is invented. It gets a date once AWS publishes an exact day.
+  - Aurora PostgreSQL 14: SUPPORTED 2022-03-10 -> 2022-02-24 (Aurora release calendar).
+  - RDS for PostgreSQL 16: SUPPORTED 2023-11-17 -> 2023-11-20 (RDS release calendar).
+- Not changed: Aurora PostgreSQL 16 end of Extended Support stays 2032-02-29. The API
+  and the RDS PostgreSQL calendar give 29 February 2032; the Aurora calendar gives
+  28 February 2032. The AWS pages disagree, so the API date stands (#16).
+
+### Added
+- **Amazon RDS for MariaDB 12.3** (documentation-sourced): release date 2026-08-07 only;
+  end of standard support is published as a month (June 2029).
+- **Corrected dates.** A lifecycle event whose API date the AWS documentation
+  contradicts now uses the documented date and carries a `correction` object
+  (`apiDate`, `source: "DOCS_CRAWLED"`, `sourceUrl`, `lastVerified`). The entry keeps
+  `provenance.source: "API"` with `confidence: "NEEDS_REVIEW"`. A correction is dropped
+  automatically once the API returns the documented date. `data/schema.json` defines
+  the new object; it is additive, so existing consumers are unaffected. See README,
+  "Corrected dates".
+
 ## [2.0.0] - 2026-10-21
 
 ### Changed

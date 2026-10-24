@@ -1,7 +1,7 @@
 {
   "schemaVersion": "2.0",
-  "lastUpdated": "2026-10-21",
-  "generatedAt": "2026-10-21",
+  "lastUpdated": "2026-10-24",
+  "generatedAt": "2026-10-24",
   "_disclaimer": "Community republication of AWS lifecycle data, NOT an official AWS API. Dates come from the AWS Health Version Catalog API, plus clearly marked documentation-sourced entries (provenance.source DOCS_CRAWLED) for versions the API does not return. For production use, pin to a tagged release rather than tracking the main branch.",
   "entries": [
     {
@@ -68,7 +68,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -135,7 +135,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -162,7 +162,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -189,7 +189,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -216,7 +216,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -243,7 +243,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -310,7 +310,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -337,7 +337,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -364,7 +364,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -431,7 +431,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -458,7 +458,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -525,7 +525,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -592,7 +592,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -659,7 +659,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -686,7 +686,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -713,7 +713,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -740,7 +740,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -767,7 +767,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -794,7 +794,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -861,7 +861,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -928,7 +928,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -995,7 +995,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -1062,7 +1062,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -1089,7 +1089,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -1116,7 +1116,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -1143,7 +1143,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -1170,7 +1170,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -1237,7 +1237,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -1264,7 +1264,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -1291,7 +1291,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -1318,7 +1318,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -1345,7 +1345,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -1412,7 +1412,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -1439,7 +1439,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -1466,7 +1466,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -1533,7 +1533,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -1560,7 +1560,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -1627,7 +1627,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -1654,7 +1654,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -1681,7 +1681,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -1748,7 +1748,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -1815,7 +1815,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -1842,7 +1842,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -1869,7 +1869,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -1896,7 +1896,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -1923,7 +1923,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -1950,7 +1950,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -1977,7 +1977,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -2004,7 +2004,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -2031,7 +2031,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -2058,7 +2058,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -2085,7 +2085,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -2112,7 +2112,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -2179,7 +2179,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -2246,7 +2246,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -2313,7 +2313,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -2380,7 +2380,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -2407,7 +2407,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -2434,7 +2434,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -2461,7 +2461,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -2488,7 +2488,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -2515,7 +2515,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -2542,7 +2542,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -2569,7 +2569,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -2596,7 +2596,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -2623,7 +2623,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -2650,7 +2650,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -2677,7 +2677,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -2704,7 +2704,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -2731,7 +2731,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -2758,7 +2758,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -2785,7 +2785,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -2812,7 +2812,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -2839,7 +2839,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -2866,7 +2866,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -2893,7 +2893,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -2920,7 +2920,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -2947,7 +2947,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -2974,7 +2974,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -3001,7 +3001,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -3028,7 +3028,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -3055,7 +3055,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -3082,7 +3082,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -3109,7 +3109,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -3136,7 +3136,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -3163,7 +3163,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -3190,7 +3190,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -3217,7 +3217,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -3244,7 +3244,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -3271,7 +3271,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -3298,7 +3298,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -3325,7 +3325,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -3352,7 +3352,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -3379,7 +3379,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -3406,7 +3406,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -3433,7 +3433,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -3460,7 +3460,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -3487,7 +3487,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -3514,7 +3514,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -3541,7 +3541,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -3568,7 +3568,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -3595,7 +3595,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -3622,7 +3622,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -3649,7 +3649,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -3676,7 +3676,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -3703,7 +3703,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -3730,7 +3730,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -3757,7 +3757,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -3784,7 +3784,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -3811,7 +3811,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -3838,7 +3838,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -3865,7 +3865,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -3892,7 +3892,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -3919,7 +3919,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -3946,7 +3946,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -3973,7 +3973,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -4040,7 +4040,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -4067,7 +4067,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -4094,7 +4094,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -4121,7 +4121,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -4148,7 +4148,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -4175,7 +4175,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -4202,7 +4202,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -4229,7 +4229,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -4256,7 +4256,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -4283,7 +4283,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -4310,7 +4310,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -4337,7 +4337,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -4364,7 +4364,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -4429,7 +4429,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -4456,7 +4456,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -4483,7 +4483,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -4510,7 +4510,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -4537,7 +4537,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -4564,7 +4564,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -4633,7 +4633,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -4702,7 +4702,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -4771,7 +4771,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -4840,7 +4840,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -4909,7 +4909,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -4978,7 +4978,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -5047,7 +5047,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -5116,7 +5116,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -5172,7 +5172,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -5228,7 +5228,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -5284,7 +5284,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -5340,7 +5340,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -5367,7 +5367,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -5394,7 +5394,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -5421,7 +5421,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -5448,7 +5448,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -5475,7 +5475,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -5502,7 +5502,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -5529,7 +5529,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -5556,7 +5556,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -5583,7 +5583,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -5647,7 +5647,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -5711,7 +5711,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -5775,7 +5775,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -5839,7 +5839,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -5903,7 +5903,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -5967,7 +5967,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -6030,7 +6030,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -6093,7 +6093,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -6156,7 +6156,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -6220,7 +6220,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -6284,7 +6284,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -6348,7 +6348,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -6412,7 +6412,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -6476,7 +6476,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -6540,7 +6540,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -6604,7 +6604,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -6668,7 +6668,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -6732,7 +6732,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -6876,7 +6876,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -6912,7 +6912,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -6984,7 +6984,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -7200,7 +7200,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -7272,7 +7272,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -7344,7 +7344,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -7416,7 +7416,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -7488,7 +7488,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -7560,7 +7560,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -7632,7 +7632,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -7704,7 +7704,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -8003,7 +8003,7 @@
       "lifecycleEvents": [
         {
           "lifecycleEventType": "BLOCK_RESOURCE_CREATE",
-          "date": "2027-06-01",
+          "date": "2027-07-29",
           "regions": [
             "all"
           ],
@@ -8011,6 +8011,12 @@
             "AVAILABILITY"
           ],
           "description": "Cannot create new Lambda functions using this runtime",
+          "correction": {
+            "apiDate": "2027-06-01",
+            "source": "DOCS_CRAWLED",
+            "sourceUrl": "https://docs.aws.amazon.com/lambda/latest/dg/lambda-runtimes.html",
+            "lastVerified": "2026-10-24"
+          },
           "behavior": {
             "conditionalOn": null,
             "outcome": "CREATE_BLOCKED",
@@ -8021,7 +8027,7 @@
         },
         {
           "lifecycleEventType": "BLOCK_RESOURCE_UPDATE",
-          "date": "2027-07-01",
+          "date": "2027-08-31",
           "regions": [
             "all"
           ],
@@ -8029,6 +8035,12 @@
             "AVAILABILITY"
           ],
           "description": "Cannot update existing Lambda functions using this runtime",
+          "correction": {
+            "apiDate": "2027-07-01",
+            "source": "DOCS_CRAWLED",
+            "sourceUrl": "https://docs.aws.amazon.com/lambda/latest/dg/lambda-runtimes.html",
+            "lastVerified": "2026-10-24"
+          },
           "behavior": {
             "conditionalOn": null,
             "outcome": "UPDATE_BLOCKED",
@@ -8062,9 +8074,9 @@
       "status": "STANDARD_SUPPORT",
       "provenance": {
         "source": "API",
-        "confidence": "VERIFIED",
+        "confidence": "NEEDS_REVIEW",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -8136,7 +8148,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -8153,7 +8165,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -8297,7 +8309,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -8369,7 +8381,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -8657,7 +8669,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -8729,7 +8741,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -8801,7 +8813,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -8873,7 +8885,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -8945,7 +8957,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -8962,7 +8974,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -9178,7 +9190,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -9250,7 +9262,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -9322,7 +9334,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -9592,7 +9604,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -9629,7 +9641,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -9675,7 +9687,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -9721,7 +9733,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -9767,7 +9779,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -9813,7 +9825,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -9859,7 +9871,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -9905,7 +9917,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -9951,7 +9963,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -9997,7 +10009,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -10043,7 +10055,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -10089,7 +10101,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -10135,7 +10147,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -10181,7 +10193,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -10227,7 +10239,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -10273,7 +10285,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -10319,7 +10331,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -10365,7 +10377,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -10411,7 +10423,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -10457,7 +10469,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -10503,7 +10515,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -10549,7 +10561,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -10595,7 +10607,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -10641,7 +10653,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -10706,7 +10718,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -10733,7 +10745,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -10760,7 +10772,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -10787,7 +10799,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -10814,7 +10826,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -10841,7 +10853,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -10897,7 +10909,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -10953,7 +10965,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -11009,7 +11021,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -11065,7 +11077,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -11121,7 +11133,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -11177,7 +11189,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -11233,7 +11245,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -11289,7 +11301,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -11345,7 +11357,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -11401,7 +11413,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -11457,7 +11469,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -11513,7 +11525,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -11569,7 +11581,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -11625,7 +11637,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -11681,7 +11693,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -11737,7 +11749,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -11793,7 +11805,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -11849,7 +11861,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -11905,7 +11917,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -11961,7 +11973,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -12017,7 +12029,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -12073,7 +12085,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -12129,7 +12141,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -12185,7 +12197,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -12241,7 +12253,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -12297,7 +12309,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -12353,7 +12365,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -12409,7 +12421,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -12465,7 +12477,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -12521,7 +12533,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -12577,7 +12589,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -12633,7 +12645,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -12650,7 +12662,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -12667,7 +12679,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -12684,7 +12696,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -12695,7 +12707,7 @@
       "lifecycleEvents": [
         {
           "lifecycleEventType": "STANDARD_SUPPORT_END",
-          "date": "2026-02-28",
+          "date": "2026-08-31",
           "regions": [
             "all"
           ],
@@ -12704,6 +12716,12 @@
             "BILLING"
           ],
           "description": "Standard Support End for Amazon RDS for MariaDB 10.5",
+          "correction": {
+            "apiDate": "2026-02-28",
+            "source": "DOCS_CRAWLED",
+            "sourceUrl": "https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/MariaDB.Concepts.VersionMgmt.html",
+            "lastVerified": "2026-10-24"
+          },
           "behavior": {
             "conditionalOn": null,
             "outcome": "AUTO_UPGRADE",
@@ -12728,9 +12746,9 @@
       "status": "DEPRECATED",
       "provenance": {
         "source": "API",
-        "confidence": "VERIFIED",
+        "confidence": "NEEDS_REVIEW",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -12776,7 +12794,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -12822,7 +12840,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -12868,7 +12886,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -12879,7 +12897,7 @@
       "lifecycleEvents": [
         {
           "lifecycleEventType": "STANDARD_SUPPORT_END",
-          "date": "2030-06-30",
+          "date": null,
           "regions": [
             "all"
           ],
@@ -12888,6 +12906,12 @@
             "BILLING"
           ],
           "description": "Standard Support End for Amazon RDS for MariaDB 11.8",
+          "correction": {
+            "apiDate": "2030-06-30",
+            "source": "DOCS_CRAWLED",
+            "sourceUrl": "https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/MariaDB.Concepts.VersionMgmt.html",
+            "lastVerified": "2026-10-24"
+          },
           "behavior": {
             "conditionalOn": null,
             "outcome": "AUTO_UPGRADE",
@@ -12912,9 +12936,36 @@
       "status": "STANDARD_SUPPORT",
       "provenance": {
         "source": "API",
-        "confidence": "VERIFIED",
+        "confidence": "NEEDS_REVIEW",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
+      }
+    },
+    {
+      "service": "RDS",
+      "version": "mariadb/12.3",
+      "title": "Amazon RDS for MariaDB 12.3",
+      "recommendedVersion": null,
+      "lifecycleEvents": [
+        {
+          "lifecycleEventType": "SUPPORTED",
+          "date": "2026-08-07",
+          "regions": [
+            "all"
+          ],
+          "impactRisks": [],
+          "description": "Amazon RDS for MariaDB 12.3 released on Amazon RDS"
+        }
+      ],
+      "serviceCode": "rds",
+      "engine": "mariadb",
+      "versionNumber": "12.3",
+      "status": "STANDARD_SUPPORT",
+      "provenance": {
+        "source": "DOCS_CRAWLED",
+        "confidence": "NEEDS_REVIEW",
+        "sourceUrl": "https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/MariaDB.Concepts.VersionMgmt.html",
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -12983,7 +13034,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -13052,7 +13103,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -13121,7 +13172,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -13190,7 +13241,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -13259,7 +13310,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -13328,7 +13379,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -13397,7 +13448,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -13466,7 +13517,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -13519,12 +13570,18 @@
         },
         {
           "lifecycleEventType": "SUPPORTED",
-          "date": "2023-11-17",
+          "date": "2023-11-20",
           "regions": [
             "all"
           ],
           "impactRisks": [],
-          "description": "Amazon RDS for PostgreSQL 16 released on Amazon RDS"
+          "description": "Amazon RDS for PostgreSQL 16 released on Amazon RDS",
+          "correction": {
+            "apiDate": "2023-11-17",
+            "source": "DOCS_CRAWLED",
+            "sourceUrl": "https://docs.aws.amazon.com/AmazonRDS/latest/PostgreSQLReleaseNotes/postgresql-release-calendar.html",
+            "lastVerified": "2026-10-24"
+          }
         }
       ],
       "serviceCode": "rds",
@@ -13533,9 +13590,9 @@
       "status": "STANDARD_SUPPORT",
       "provenance": {
         "source": "API",
-        "confidence": "VERIFIED",
+        "confidence": "NEEDS_REVIEW",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -13604,7 +13661,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -13673,7 +13730,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -13742,7 +13799,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -13811,7 +13868,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -13897,7 +13954,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -13966,7 +14023,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -14035,7 +14092,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -14088,12 +14145,18 @@
         },
         {
           "lifecycleEventType": "SUPPORTED",
-          "date": "2022-03-10",
+          "date": "2022-02-24",
           "regions": [
             "all"
           ],
           "impactRisks": [],
-          "description": "Amazon Aurora PostgreSQL 14 released on Amazon RDS"
+          "description": "Amazon Aurora PostgreSQL 14 released on Amazon RDS",
+          "correction": {
+            "apiDate": "2022-03-10",
+            "source": "DOCS_CRAWLED",
+            "sourceUrl": "https://docs.aws.amazon.com/AmazonRDS/latest/AuroraPostgreSQLReleaseNotes/aurorapostgresql-release-calendar.html",
+            "lastVerified": "2026-10-24"
+          }
         }
       ],
       "serviceCode": "rds-aurora",
@@ -14102,9 +14165,9 @@
       "status": "STANDARD_SUPPORT",
       "provenance": {
         "source": "API",
-        "confidence": "VERIFIED",
+        "confidence": "NEEDS_REVIEW",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -14173,7 +14236,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -14242,7 +14305,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
@@ -14311,7 +14374,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-10-24"
       }
     },
     {
