@@ -26,21 +26,34 @@ from official AWS documentation cited in `provenance.sourceUrl`.
 - **`generatedAt` and `lastUpdated`** - when the dataset was last checked, and when
   the data last changed.
 
+## Shipped in v2.1
+
+- **Flat exports** - `data/exports/events.csv` and `events.ndjson`, one row per
+  lifecycle event, for Amazon Athena, Amazon QuickSight, or a spreadsheet.
+- **Release change log** - `data/changes.json`, generated with each build: added and
+  removed versions, status changes, moved dates, and added events.
+- **Retired versions** - a version the API stops returning stays in the dataset with
+  `provenance.source` set to `DERIVED`, its last API sighting in `lastVerified`, and
+  its status recomputed from the dates. If the API returns the version again, the API
+  entry wins.
+- **Lifecycle events from the documentation** - an event the API does not list can be
+  added from AWS documentation (used for AWS Lambda `nodejs26.x` and `python3.15`).
+- **Amazon EMR dates aligned with the EMR documentation** - the API dates for EMR
+  releases differ from the Amazon EMR standard support page, which changed on
+  14 August 2026 (free Extended Support for releases 5.36, 6.6 to 6.15 and 7.0 to
+  7.10). The build replaces the affected API dates with the documented ones, marks
+  each in its `correction` object, and drops a correction once the API returns the
+  documented date. The API lists 5.x and 6.x as ranges; until they are split, those
+  two ranges take the earliest documented date.
+
 ## Planned
 
 - **More coverage through the documentation overlay** - Amazon RDS for SQL Server,
   Oracle, and Db2 (every major or minor version the RDS documentation gives a
   deprecation date for; none of them has RDS Extended Support). Only dates the AWS
   documentation states are added.
-- **Retired versions** - keeping a version in the dataset after the API stops
-  returning it (for example EKS 1.29), because many workloads keep running old
-  versions long after support ends.
-- **Release change log** - a generated `changes.json` per release listing moved dates,
-  added and removed versions, and status changes.
 - **Freshness automation** - a scheduled monthly rebuild with tests, validation, and
   the pricing join check. A person reviews each rebuild before it is published.
-- **Flat exports** - one row per lifecycle event, as CSV and NDJSON, for Amazon
-  Athena, Amazon QuickSight, or a spreadsheet.
 - **Upcoming-milestones view** - a generated file of lifecycle events in the next
   180 days. For automation, computing from `lifecycleEvents` stays the recommended
   path, because a generated view is only as fresh as the last build.

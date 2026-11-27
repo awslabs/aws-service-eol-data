@@ -1,0 +1,620 @@
+{
+  "schemaVersion": "1.0",
+  "from": {
+    "generatedAt": "2026-10-24",
+    "lastUpdated": "2026-10-24",
+    "entries": 314
+  },
+  "to": {
+    "generatedAt": "2026-11-26",
+    "lastUpdated": "2026-11-26",
+    "entries": 318
+  },
+  "summary": {
+    "added": 4,
+    "removed": 0,
+    "carriedForward": 0,
+    "statusChanged": 21,
+    "eventDatesChanged": 30,
+    "eventsAdded": 33,
+    "eventsRemoved": 0
+  },
+  "added": [
+    {
+      "serviceCode": "bedrock",
+      "version": "anthropic.claude-fable-5-2",
+      "status": "STANDARD_SUPPORT",
+      "source": "API"
+    },
+    {
+      "serviceCode": "bedrock",
+      "version": "moonshotai.kimi-k3.1",
+      "status": "STANDARD_SUPPORT",
+      "source": "API"
+    },
+    {
+      "serviceCode": "bedrock",
+      "version": "openai.gpt-6.1-terra",
+      "status": "STANDARD_SUPPORT",
+      "source": "API"
+    },
+    {
+      "serviceCode": "rds",
+      "version": "mysql/9.7",
+      "status": "STANDARD_SUPPORT",
+      "source": "DOCS_CRAWLED"
+    }
+  ],
+  "removed": [],
+  "carriedForward": [],
+  "statusChanged": [
+    {
+      "serviceCode": "bedrock",
+      "version": "ai21.jamba-1-5-large-v1:0",
+      "from": "EXTENDED_SUPPORT",
+      "to": "END_OF_LIFE"
+    },
+    {
+      "serviceCode": "bedrock",
+      "version": "ai21.jamba-1-5-mini-v1:0",
+      "from": "EXTENDED_SUPPORT",
+      "to": "END_OF_LIFE"
+    },
+    {
+      "serviceCode": "bedrock",
+      "version": "deepseek.r1-v1:0",
+      "from": "STANDARD_SUPPORT",
+      "to": "EXTENDED_SUPPORT"
+    },
+    {
+      "serviceCode": "bedrock",
+      "version": "meta.llama3-1-70b-instruct-v1:0",
+      "from": "STANDARD_SUPPORT",
+      "to": "EXTENDED_SUPPORT"
+    },
+    {
+      "serviceCode": "bedrock",
+      "version": "meta.llama3-1-8b-instruct-v1:0",
+      "from": "STANDARD_SUPPORT",
+      "to": "EXTENDED_SUPPORT"
+    },
+    {
+      "serviceCode": "bedrock",
+      "version": "meta.llama3-3-70b-instruct-v1:0",
+      "from": "STANDARD_SUPPORT",
+      "to": "EXTENDED_SUPPORT"
+    },
+    {
+      "serviceCode": "bedrock",
+      "version": "meta.llama3-70b-instruct-v1:0",
+      "from": "STANDARD_SUPPORT",
+      "to": "EXTENDED_SUPPORT"
+    },
+    {
+      "serviceCode": "bedrock",
+      "version": "meta.llama3-8b-instruct-v1:0",
+      "from": "STANDARD_SUPPORT",
+      "to": "EXTENDED_SUPPORT"
+    },
+    {
+      "serviceCode": "bedrock",
+      "version": "meta.llama4-maverick-17b-instruct-v1:0",
+      "from": "STANDARD_SUPPORT",
+      "to": "EXTENDED_SUPPORT"
+    },
+    {
+      "serviceCode": "bedrock",
+      "version": "meta.llama4-scout-17b-instruct-v1:0",
+      "from": "STANDARD_SUPPORT",
+      "to": "EXTENDED_SUPPORT"
+    },
+    {
+      "serviceCode": "bedrock",
+      "version": "mistral.mistral-7b-instruct-v0:2",
+      "from": "STANDARD_SUPPORT",
+      "to": "EXTENDED_SUPPORT"
+    },
+    {
+      "serviceCode": "bedrock",
+      "version": "mistral.mixtral-8x7b-instruct-v0:1",
+      "from": "STANDARD_SUPPORT",
+      "to": "EXTENDED_SUPPORT"
+    },
+    {
+      "serviceCode": "bedrock",
+      "version": "twelvelabs.pegasus-1-2-v1:0",
+      "from": "STANDARD_SUPPORT",
+      "to": "EXTENDED_SUPPORT"
+    },
+    {
+      "serviceCode": "bedrock",
+      "version": "writer.palmyra-x4-v1:0",
+      "from": "STANDARD_SUPPORT",
+      "to": "EXTENDED_SUPPORT"
+    },
+    {
+      "serviceCode": "bedrock",
+      "version": "writer.palmyra-x5-v1:0",
+      "from": "STANDARD_SUPPORT",
+      "to": "EXTENDED_SUPPORT"
+    },
+    {
+      "serviceCode": "eks",
+      "version": "1.31",
+      "from": "EXTENDED_SUPPORT",
+      "to": "END_OF_LIFE"
+    },
+    {
+      "serviceCode": "emr",
+      "version": "7.0.0-7.2.x",
+      "from": "DEPRECATED",
+      "to": "STANDARD_SUPPORT"
+    },
+    {
+      "serviceCode": "emr",
+      "version": "7.3.0",
+      "from": "DEPRECATED",
+      "to": "STANDARD_SUPPORT"
+    },
+    {
+      "serviceCode": "lambda",
+      "version": "dotnet8",
+      "from": "STANDARD_SUPPORT",
+      "to": "DEPRECATED"
+    },
+    {
+      "serviceCode": "lambda",
+      "version": "dotnet9",
+      "from": "STANDARD_SUPPORT",
+      "to": "DEPRECATED"
+    },
+    {
+      "serviceCode": "lambda",
+      "version": "python3.10",
+      "from": "STANDARD_SUPPORT",
+      "to": "DEPRECATED"
+    }
+  ],
+  "eventDatesChanged": [
+    {
+      "serviceCode": "emr",
+      "version": "2.x",
+      "lifecycleEventType": "END_OF_LIFE",
+      "from": "2027-08-01",
+      "to": "2027-09-01",
+      "correctedFromDocs": true
+    },
+    {
+      "serviceCode": "emr",
+      "version": "2.x",
+      "lifecycleEventType": "END_OF_SUPPORT",
+      "from": "2026-07-31",
+      "to": "2026-09-01",
+      "correctedFromDocs": true
+    },
+    {
+      "serviceCode": "emr",
+      "version": "3.x",
+      "lifecycleEventType": "END_OF_LIFE",
+      "from": "2027-08-01",
+      "to": "2027-09-01",
+      "correctedFromDocs": true
+    },
+    {
+      "serviceCode": "emr",
+      "version": "3.x",
+      "lifecycleEventType": "END_OF_SUPPORT",
+      "from": "2026-07-31",
+      "to": "2026-09-01",
+      "correctedFromDocs": true
+    },
+    {
+      "serviceCode": "emr",
+      "version": "4.x",
+      "lifecycleEventType": "END_OF_LIFE",
+      "from": "2027-08-01",
+      "to": "2027-09-01",
+      "correctedFromDocs": true
+    },
+    {
+      "serviceCode": "emr",
+      "version": "4.x",
+      "lifecycleEventType": "END_OF_SUPPORT",
+      "from": "2026-07-31",
+      "to": "2026-09-01",
+      "correctedFromDocs": true
+    },
+    {
+      "serviceCode": "emr",
+      "version": "5.x",
+      "lifecycleEventType": "END_OF_LIFE",
+      "from": "2027-08-01",
+      "to": "2027-09-01",
+      "correctedFromDocs": true
+    },
+    {
+      "serviceCode": "emr",
+      "version": "5.x",
+      "lifecycleEventType": "END_OF_SUPPORT",
+      "from": "2026-07-31",
+      "to": "2026-09-01",
+      "correctedFromDocs": true
+    },
+    {
+      "serviceCode": "emr",
+      "version": "6.x",
+      "lifecycleEventType": "END_OF_LIFE",
+      "from": "2027-08-01",
+      "to": "2027-09-01",
+      "correctedFromDocs": true
+    },
+    {
+      "serviceCode": "emr",
+      "version": "6.x",
+      "lifecycleEventType": "END_OF_SUPPORT",
+      "from": "2026-07-31",
+      "to": "2026-09-01",
+      "correctedFromDocs": true
+    },
+    {
+      "serviceCode": "emr",
+      "version": "7.0.0-7.2.x",
+      "lifecycleEventType": "END_OF_LIFE",
+      "from": "2027-08-01",
+      "to": "2028-08-31",
+      "correctedFromDocs": true
+    },
+    {
+      "serviceCode": "emr",
+      "version": "7.0.0-7.2.x",
+      "lifecycleEventType": "END_OF_SUPPORT",
+      "from": "2026-07-31",
+      "to": "2027-08-31",
+      "correctedFromDocs": true
+    },
+    {
+      "serviceCode": "emr",
+      "version": "7.10.0",
+      "lifecycleEventType": "END_OF_LIFE",
+      "from": "2028-08-15",
+      "to": "2028-08-31",
+      "correctedFromDocs": true
+    },
+    {
+      "serviceCode": "emr",
+      "version": "7.10.0",
+      "lifecycleEventType": "END_OF_SUPPORT",
+      "from": "2027-08-16",
+      "to": "2027-08-31",
+      "correctedFromDocs": true
+    },
+    {
+      "serviceCode": "emr",
+      "version": "7.3.0",
+      "lifecycleEventType": "END_OF_LIFE",
+      "from": "2027-10-16",
+      "to": "2028-08-31",
+      "correctedFromDocs": true
+    },
+    {
+      "serviceCode": "emr",
+      "version": "7.3.0",
+      "lifecycleEventType": "END_OF_SUPPORT",
+      "from": "2026-10-16",
+      "to": "2027-08-31",
+      "correctedFromDocs": true
+    },
+    {
+      "serviceCode": "emr",
+      "version": "7.4.0",
+      "lifecycleEventType": "END_OF_LIFE",
+      "from": "2027-11-13",
+      "to": "2028-08-31",
+      "correctedFromDocs": true
+    },
+    {
+      "serviceCode": "emr",
+      "version": "7.4.0",
+      "lifecycleEventType": "END_OF_SUPPORT",
+      "from": "2026-11-13",
+      "to": "2027-08-31",
+      "correctedFromDocs": true
+    },
+    {
+      "serviceCode": "emr",
+      "version": "7.5.0",
+      "lifecycleEventType": "END_OF_LIFE",
+      "from": "2027-11-21",
+      "to": "2028-08-31",
+      "correctedFromDocs": true
+    },
+    {
+      "serviceCode": "emr",
+      "version": "7.5.0",
+      "lifecycleEventType": "END_OF_SUPPORT",
+      "from": "2026-11-21",
+      "to": "2027-08-31",
+      "correctedFromDocs": true
+    },
+    {
+      "serviceCode": "emr",
+      "version": "7.6.0",
+      "lifecycleEventType": "END_OF_LIFE",
+      "from": "2028-01-10",
+      "to": "2028-08-31",
+      "correctedFromDocs": true
+    },
+    {
+      "serviceCode": "emr",
+      "version": "7.6.0",
+      "lifecycleEventType": "END_OF_SUPPORT",
+      "from": "2027-01-10",
+      "to": "2027-08-31",
+      "correctedFromDocs": true
+    },
+    {
+      "serviceCode": "emr",
+      "version": "7.7.0",
+      "lifecycleEventType": "END_OF_LIFE",
+      "from": "2028-02-06",
+      "to": "2028-08-31",
+      "correctedFromDocs": true
+    },
+    {
+      "serviceCode": "emr",
+      "version": "7.7.0",
+      "lifecycleEventType": "END_OF_SUPPORT",
+      "from": "2027-02-06",
+      "to": "2027-08-31",
+      "correctedFromDocs": true
+    },
+    {
+      "serviceCode": "emr",
+      "version": "7.8.0",
+      "lifecycleEventType": "END_OF_LIFE",
+      "from": "2028-03-07",
+      "to": "2028-08-31",
+      "correctedFromDocs": true
+    },
+    {
+      "serviceCode": "emr",
+      "version": "7.8.0",
+      "lifecycleEventType": "END_OF_SUPPORT",
+      "from": "2027-03-07",
+      "to": "2027-08-31",
+      "correctedFromDocs": true
+    },
+    {
+      "serviceCode": "emr",
+      "version": "7.9.0",
+      "lifecycleEventType": "END_OF_LIFE",
+      "from": "2028-05-19",
+      "to": "2028-08-31",
+      "correctedFromDocs": true
+    },
+    {
+      "serviceCode": "emr",
+      "version": "7.9.0",
+      "lifecycleEventType": "END_OF_SUPPORT",
+      "from": "2027-05-20",
+      "to": "2027-08-31",
+      "correctedFromDocs": true
+    },
+    {
+      "serviceCode": "lambda",
+      "version": "nodejs22.x",
+      "lifecycleEventType": "END_OF_SUPPORT",
+      "from": "2027-04-30",
+      "to": "2027-05-30",
+      "correctedFromDocs": true
+    },
+    {
+      "serviceCode": "rds",
+      "version": "mariadb/11.8",
+      "lifecycleEventType": "STANDARD_SUPPORT_END",
+      "from": null,
+      "to": "2028-06-30"
+    }
+  ],
+  "eventsAdded": [
+    {
+      "serviceCode": "bedrock",
+      "version": "deepseek.r1-v1:0",
+      "lifecycleEventType": "EXTENDED_SUPPORT_END",
+      "date": "2027-03-30"
+    },
+    {
+      "serviceCode": "bedrock",
+      "version": "deepseek.r1-v1:0",
+      "lifecycleEventType": "STANDARD_SUPPORT_END",
+      "date": "2026-09-30"
+    },
+    {
+      "serviceCode": "bedrock",
+      "version": "meta.llama3-1-70b-instruct-v1:0",
+      "lifecycleEventType": "EXTENDED_SUPPORT_END",
+      "date": "2027-03-30"
+    },
+    {
+      "serviceCode": "bedrock",
+      "version": "meta.llama3-1-70b-instruct-v1:0",
+      "lifecycleEventType": "STANDARD_SUPPORT_END",
+      "date": "2026-09-30"
+    },
+    {
+      "serviceCode": "bedrock",
+      "version": "meta.llama3-1-8b-instruct-v1:0",
+      "lifecycleEventType": "EXTENDED_SUPPORT_END",
+      "date": "2027-03-30"
+    },
+    {
+      "serviceCode": "bedrock",
+      "version": "meta.llama3-1-8b-instruct-v1:0",
+      "lifecycleEventType": "STANDARD_SUPPORT_END",
+      "date": "2026-09-30"
+    },
+    {
+      "serviceCode": "bedrock",
+      "version": "meta.llama3-3-70b-instruct-v1:0",
+      "lifecycleEventType": "EXTENDED_SUPPORT_END",
+      "date": "2027-03-30"
+    },
+    {
+      "serviceCode": "bedrock",
+      "version": "meta.llama3-3-70b-instruct-v1:0",
+      "lifecycleEventType": "STANDARD_SUPPORT_END",
+      "date": "2026-09-30"
+    },
+    {
+      "serviceCode": "bedrock",
+      "version": "meta.llama3-70b-instruct-v1:0",
+      "lifecycleEventType": "EXTENDED_SUPPORT_END",
+      "date": "2027-03-30"
+    },
+    {
+      "serviceCode": "bedrock",
+      "version": "meta.llama3-70b-instruct-v1:0",
+      "lifecycleEventType": "STANDARD_SUPPORT_END",
+      "date": "2026-09-30"
+    },
+    {
+      "serviceCode": "bedrock",
+      "version": "meta.llama3-8b-instruct-v1:0",
+      "lifecycleEventType": "EXTENDED_SUPPORT_END",
+      "date": "2027-03-30"
+    },
+    {
+      "serviceCode": "bedrock",
+      "version": "meta.llama3-8b-instruct-v1:0",
+      "lifecycleEventType": "STANDARD_SUPPORT_END",
+      "date": "2026-09-30"
+    },
+    {
+      "serviceCode": "bedrock",
+      "version": "meta.llama4-maverick-17b-instruct-v1:0",
+      "lifecycleEventType": "EXTENDED_SUPPORT_END",
+      "date": "2027-03-30"
+    },
+    {
+      "serviceCode": "bedrock",
+      "version": "meta.llama4-maverick-17b-instruct-v1:0",
+      "lifecycleEventType": "STANDARD_SUPPORT_END",
+      "date": "2026-09-30"
+    },
+    {
+      "serviceCode": "bedrock",
+      "version": "meta.llama4-scout-17b-instruct-v1:0",
+      "lifecycleEventType": "EXTENDED_SUPPORT_END",
+      "date": "2027-03-30"
+    },
+    {
+      "serviceCode": "bedrock",
+      "version": "meta.llama4-scout-17b-instruct-v1:0",
+      "lifecycleEventType": "STANDARD_SUPPORT_END",
+      "date": "2026-09-30"
+    },
+    {
+      "serviceCode": "bedrock",
+      "version": "mistral.mistral-7b-instruct-v0:2",
+      "lifecycleEventType": "EXTENDED_SUPPORT_END",
+      "date": "2027-03-30"
+    },
+    {
+      "serviceCode": "bedrock",
+      "version": "mistral.mistral-7b-instruct-v0:2",
+      "lifecycleEventType": "STANDARD_SUPPORT_END",
+      "date": "2026-09-30"
+    },
+    {
+      "serviceCode": "bedrock",
+      "version": "mistral.mixtral-8x7b-instruct-v0:1",
+      "lifecycleEventType": "EXTENDED_SUPPORT_END",
+      "date": "2027-03-30"
+    },
+    {
+      "serviceCode": "bedrock",
+      "version": "mistral.mixtral-8x7b-instruct-v0:1",
+      "lifecycleEventType": "STANDARD_SUPPORT_END",
+      "date": "2026-09-30"
+    },
+    {
+      "serviceCode": "bedrock",
+      "version": "twelvelabs.pegasus-1-2-v1:0",
+      "lifecycleEventType": "EXTENDED_SUPPORT_END",
+      "date": "2027-03-22"
+    },
+    {
+      "serviceCode": "bedrock",
+      "version": "twelvelabs.pegasus-1-2-v1:0",
+      "lifecycleEventType": "STANDARD_SUPPORT_END",
+      "date": "2026-09-22"
+    },
+    {
+      "serviceCode": "bedrock",
+      "version": "writer.palmyra-x4-v1:0",
+      "lifecycleEventType": "EXTENDED_SUPPORT_END",
+      "date": "2027-03-09"
+    },
+    {
+      "serviceCode": "bedrock",
+      "version": "writer.palmyra-x4-v1:0",
+      "lifecycleEventType": "STANDARD_SUPPORT_END",
+      "date": "2026-09-09"
+    },
+    {
+      "serviceCode": "bedrock",
+      "version": "writer.palmyra-x5-v1:0",
+      "lifecycleEventType": "EXTENDED_SUPPORT_END",
+      "date": "2027-03-21"
+    },
+    {
+      "serviceCode": "bedrock",
+      "version": "writer.palmyra-x5-v1:0",
+      "lifecycleEventType": "STANDARD_SUPPORT_END",
+      "date": "2026-09-21"
+    },
+    {
+      "serviceCode": "lambda",
+      "version": "nodejs26.x",
+      "lifecycleEventType": "BLOCK_RESOURCE_CREATE",
+      "date": "2029-06-01"
+    },
+    {
+      "serviceCode": "lambda",
+      "version": "nodejs26.x",
+      "lifecycleEventType": "BLOCK_RESOURCE_UPDATE",
+      "date": "2029-07-01"
+    },
+    {
+      "serviceCode": "lambda",
+      "version": "nodejs26.x",
+      "lifecycleEventType": "END_OF_SUPPORT",
+      "date": "2029-04-30"
+    },
+    {
+      "serviceCode": "lambda",
+      "version": "python3.15",
+      "lifecycleEventType": "BLOCK_RESOURCE_CREATE",
+      "date": "2029-07-31"
+    },
+    {
+      "serviceCode": "lambda",
+      "version": "python3.15",
+      "lifecycleEventType": "BLOCK_RESOURCE_UPDATE",
+      "date": "2029-08-31"
+    },
+    {
+      "serviceCode": "lambda",
+      "version": "python3.15",
+      "lifecycleEventType": "END_OF_SUPPORT",
+      "date": "2029-06-30"
+    },
+    {
+      "serviceCode": "rds",
+      "version": "mariadb/12.3",
+      "lifecycleEventType": "STANDARD_SUPPORT_END",
+      "date": "2029-06-30"
+    }
+  ],
+  "eventsRemoved": []
+}

@@ -34,7 +34,10 @@ This repository provides a consolidated, machine-readable dataset of AWS service
 ## File Location
 
 ```
-data/eol.json
+data/eol.json                 the dataset
+data/exports/events.csv       one row per lifecycle event, for spreadsheets and Athena
+data/exports/events.ndjson    the same rows as JSON lines
+data/changes.json             what changed since the previous release
 ```
 
 ## Schema
@@ -203,10 +206,14 @@ Outcome vocabulary, defined by effect on **new** vs **existing** resources:
 
 | Field | Meaning |
 |-------|---------|
-| `source` | `API` (from the Health Version Catalog), `DOCS_CRAWLED` (documentation-sourced overlay for versions the API does not return), or `DERIVED` |
-| `confidence` | `VERIFIED` for API-sourced; `NEEDS_REVIEW` for crawled/overlay |
-| `sourceUrl` | The AWS documentation page the entry came from. Set when `source = DOCS_CRAWLED`, `null` for API entries |
-| `lastVerified` | ISO date. For API entries, the build date. For `DOCS_CRAWLED` entries, the date someone last checked the cited page; the build warns when that is more than 35 days old |
+| `source` | `API` (from the Health Version Catalog), `DOCS_CRAWLED` (documentation-sourced overlay for versions the API does not return), or `DERIVED` (a retired version the API no longer returns, kept from an earlier release; see "Retired versions") |
+| `confidence` | `VERIFIED` for API-sourced; `NEEDS_REVIEW` for crawled/overlay and for any entry with a corrected date. `DERIVED` entries are `VERIFIED` (their dates were API values) unless one of them is a correction |
+| `sourceUrl` | The AWS documentation page the entry came from. Set when `source = DOCS_CRAWLED`, `null` for API and `DERIVED` entries |
+| `lastVerified` | ISO date. For API entries, the build date. For `DOCS_CRAWLED` entries, the date someone last checked the cited page; the build warns when that is more than 35 days old. For `DERIVED` entries, the last build that saw the version in the API |
+
+#### Retired versions
+
+AWS stops returning a version some time after it is fully retired (for example, the API no longer returns EKS 1.29, although clusters can still run it). Workloads keep running old versions long after that, and an inventory check that finds no entry tells you nothing. When a version that was in the previous release stops appearing in the API, the dataset keeps it with `provenance.source: "DERIVED"`: same dates, status recomputed (normally `END_OF_LIFE`), and `provenance.lastVerified` set to the last build that saw it in the API. If the API returns the version again, the API entry replaces it. Nothing is kept for a service the API returned no entries for in that build, and documentation-sourced entries are never kept. The release's `data/changes.json` lists each version kept in `carriedForward`.
 
 #### Corrected dates
 
@@ -227,16 +234,44 @@ When the API returns a date that the AWS documentation contradicts, the dataset 
 
 `apiDate` is the date the API returned. When the documentation gives the date only as a month (AWS marks those as approximate), `date` is `null`: the contradicted API date is removed and no day is invented. A correction stays only while the API still returns that date; once the API is fixed, the next monthly update drops it. To use API dates only, take `correction.apiDate` wherever a `correction` is present.
 
+When the API returns no event of a type at all but the documentation gives a date, the dataset adds the event and marks it the same way, with `correction.apiDate: null`. Take the event as documentation-sourced and drop it when you need API data only.
+
 Corrected entries today:
 
 | Entry | Event | API date | Dataset date | Source |
 |-------|-------|----------|--------------|--------|
-| Lambda `nodejs22.x` | `BLOCK_RESOURCE_CREATE` | 2027-06-01 | 2027-07-29 | [Lambda runtimes](https://docs.aws.amazon.com/lambda/latest/dg/lambda-runtimes.html) |
-| Lambda `nodejs22.x` | `BLOCK_RESOURCE_UPDATE` | 2027-07-01 | 2027-08-31 | [Lambda runtimes](https://docs.aws.amazon.com/lambda/latest/dg/lambda-runtimes.html) |
-| RDS `mariadb/10.5` | `STANDARD_SUPPORT_END` | 2026-02-28 | 2026-08-31 | [RDS for MariaDB versions](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/MariaDB.Concepts.VersionMgmt.html) |
-| RDS `mariadb/11.8` | `STANDARD_SUPPORT_END` | 2030-06-30 | `null` (docs: June 2028) | [RDS for MariaDB versions](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/MariaDB.Concepts.VersionMgmt.html) |
+| Lambda `nodejs22.x` | `END_OF_SUPPORT` | 2027-04-30 | 2027-05-30 | [Lambda runtimes](https://docs.aws.amazon.com/lambda/latest/dg/lambda-runtimes.html) |
 | Aurora `aurora-postgresql/14` | `SUPPORTED` | 2022-03-10 | 2022-02-24 | [Aurora PostgreSQL release calendar](https://docs.aws.amazon.com/AmazonRDS/latest/AuroraPostgreSQLReleaseNotes/aurorapostgresql-release-calendar.html) |
 | RDS `postgresql/16` | `SUPPORTED` | 2023-11-17 | 2023-11-20 | [RDS PostgreSQL release calendar](https://docs.aws.amazon.com/AmazonRDS/latest/PostgreSQLReleaseNotes/postgresql-release-calendar.html) |
+| Amazon EMR `2.x`, `3.x`, `4.x`, `5.x`, `6.x` | `END_OF_SUPPORT`, `END_OF_LIFE` | 2026-07-31, 2027-08-01 | 2026-09-01, 2027-09-01 | [EMR standard support](https://docs.aws.amazon.com/emr/latest/ReleaseGuide/emr-standard-support.html) |
+| Amazon EMR `7.0.0-7.2.x`, `7.3.0` to `7.10.0` | `END_OF_SUPPORT`, `END_OF_LIFE` | per release (2026-07-31 to 2027-08-16, 2027-08-01 to 2028-08-15) | 2027-08-31, 2028-08-31 | [EMR standard support](https://docs.aws.amazon.com/emr/latest/ReleaseGuide/emr-standard-support.html) |
+
+The EMR support policy changed on 14 August 2026 (free Extended Support for 5.36, 6.6 to 6.15 and 7.0 to 7.10), and the API dates do not show it yet. The API lists EMR 5.x and 6.x as ranges whose members have different documented dates, so those two ranges take the earliest documented date (5.36 and 6.6 to 6.15 are documented as 2027-06-30 and 2028-07-01).
+
+Events added from the documentation today:
+
+| Entry | Events | Dates | Source |
+|-------|--------|-------|--------|
+| Lambda `nodejs26.x` | `END_OF_SUPPORT`, `BLOCK_RESOURCE_CREATE`, `BLOCK_RESOURCE_UPDATE` | 2029-04-30, 2029-06-01, 2029-07-01 | [Lambda runtimes](https://docs.aws.amazon.com/lambda/latest/dg/lambda-runtimes.html) |
+| Lambda `python3.15` | `END_OF_SUPPORT`, `BLOCK_RESOURCE_CREATE`, `BLOCK_RESOURCE_UPDATE` | 2029-06-30, 2029-07-31, 2029-08-31 | [Lambda runtimes](https://docs.aws.amazon.com/lambda/latest/dg/lambda-runtimes.html) |
+
+### Flat exports
+
+`data/exports/events.csv` and `data/exports/events.ndjson` hold the same data as `data/eol.json` with one row per lifecycle event, so you can load it into Amazon Athena, Amazon QuickSight or a spreadsheet without unnesting JSON. Rows follow the entry order, and events inside an entry are in date order (undated last).
+
+| Column | Meaning |
+|--------|---------|
+| `serviceCode`, `service`, `engine`, `version`, `versionNumber`, `title`, `status` | The entry fields, repeated on each row |
+| `lifecycleEventType`, `date` | The event. `date` is empty (CSV) or null (NDJSON) when the event has no date |
+| `regions`, `impactRisks` | CSV: values joined with `;`. NDJSON: arrays |
+| `behaviorOutcome` | The outcome at this event (`outcome`, or the `default` of a conditional event). Empty for events with no behavior, such as `SUPPORTED` |
+| `behaviorConditionalOn`, `behaviorBranches` | For conditional events: the setting that decides the outcome, and the outcome per setting value (CSV: `value=OUTCOME;value=OUTCOME`) |
+| `provenanceSource`, `provenanceConfidence`, `lastVerified` | The entry's provenance |
+| `correctedApiDate` | The date the API returned when this event's date is a documentation correction (empty when the event was added from the docs or is not corrected) |
+
+### Release change log
+
+`data/changes.json` lists what changed since the previous release: versions added and removed, retired versions kept (`carriedForward`), status changes, lifecycle event dates that moved (`eventDatesChanged`, with `correctedFromDocs` when the new date is a documentation correction), and events added or removed. A status change is listed even when no date moved, because `status` is computed from the dates and the build date. The `summary` object gives the counts, and `from` and `to` give the dates of the two datasets.
 
 ### Reading dates and status
 
