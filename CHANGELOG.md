@@ -4,6 +4,25 @@ All notable changes to this dataset are recorded here. The format is based on
 Keep a Changelog. Releases are dated; consumers should pin to a tagged release
 rather than tracking `main`.
 
+## [2.1.0] - 2026-11-26
+
+### Added
+- **Flat exports.** `data/exports/events.csv` and `data/exports/events.ndjson` have one row per lifecycle event, for Amazon Athena, Amazon QuickSight or a spreadsheet (README, "Flat exports").
+- **Release change log.** `data/changes.json` lists what changed since the previous release: versions added and removed, status changes, moved event dates, and events added or removed (README, "Release change log").
+- **Retired versions are kept.** A version that was in the previous release and that the API no longer returns stays in the dataset with `provenance.source: "DERIVED"`, its dates, a recomputed status and `lastVerified` set to the last API sighting. The API entry replaces it if the API returns the version again (README, "Retired versions"). No version is affected in this release.
+- **Events added from the documentation.** A correction with `apiDate: null` adds an event the API does not return. Used for Lambda `nodejs26.x` and `python3.15`, which the API returns with no events: `END_OF_SUPPORT`, `BLOCK_RESOURCE_CREATE` and `BLOCK_RESOURCE_UPDATE` (2029-04-30, 2029-06-01, 2029-07-01 and 2029-06-30, 2029-07-31, 2029-08-31). `correction.apiDate` in `data/schema.json` now accepts `null`.
+- **Amazon RDS for MySQL 9.7** (documentation-sourced, released 2026-11-18): end of standard support 2031-07-31, end of Extended Support 2034-07-31. It is replaced by the API entry once the API returns it.
+- Three Amazon Bedrock models returned by the API: `anthropic.claude-fable-5-2`, `moonshotai.kimi-k3.1` and `openai.gpt-6.1-terra`.
+
+### Fixed
+- **Amazon EMR dates now follow the EMR documentation.** The API END_OF_SUPPORT and END_OF_LIFE dates do not show the EMR support policy changes of 31 July and 14 August 2026 (Bridge support to 31 August 2026; free Extended Support for 5.36, 6.6 to 6.15 and 7.0 to 7.10). Releases 7.0.0-7.2.x and 7.3.0 were `DEPRECATED` in v2.0.1 and are `STANDARD_SUPPORT` now. 2.x to 6.x take 2026-09-01 and 2027-09-01, and 7.0 to 7.10 take 2027-08-31 and 2028-08-31. The API lists 5.x and 6.x as ranges, so 5.36 and 6.6 to 6.15 (documented as 2027-06-30 and 2028-07-01) are understated until the ranges are split. Each corrected event carries a `correction` object with the API date. 1-day differences on 7.11 to 7.13 are not corrected.
+- Lambda `nodejs22.x` `END_OF_SUPPORT`: 2027-04-30 -> 2027-05-30 (Lambda runtimes page).
+
+### Changed
+- **AWS fixed four of the v2.0.1 corrections in the API**, so they are removed: Lambda `nodejs22.x` block create and block update, RDS for MariaDB 10.5, and RDS for MariaDB 11.8, whose API date is now 2028-06-30 (the docs say June 2028). RDS for MariaDB 12.3 is now returned by the API (with end of standard support 2029-06-30), so its documentation-sourced entry is removed.
+- **Status changes since v2.0.1:** EKS 1.31 is `END_OF_LIFE`; Lambda `dotnet8`, `dotnet9` and `python3.10` are `DEPRECATED`; 14 Amazon Bedrock models moved to `EXTENDED_SUPPORT` (Legacy dates 2026-09-09 to 2026-09-30, end of life 2027-03-09 to 2027-03-30) and two Jamba models are `END_OF_LIFE`. The full list is in `data/changes.json`.
+- `generatedAt` and `lastUpdated` are 2026-11-26.
+
 ## [2.0.1] - 2026-10-24
 
 ### Fixed

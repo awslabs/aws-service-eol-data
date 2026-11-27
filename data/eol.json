@@ -1,7 +1,7 @@
 {
   "schemaVersion": "2.0",
-  "lastUpdated": "2026-10-24",
-  "generatedAt": "2026-10-24",
+  "lastUpdated": "2026-11-26",
+  "generatedAt": "2026-11-26",
   "_disclaimer": "Community republication of AWS lifecycle data, NOT an official AWS API. Dates come from the AWS Health Version Catalog API, plus clearly marked documentation-sourced entries (provenance.source DOCS_CRAWLED) for versions the API does not return. For production use, pin to a tagged release rather than tracking the main branch.",
   "entries": [
     {
@@ -63,12 +63,12 @@
       "serviceCode": "bedrock",
       "engine": "ai21",
       "versionNumber": null,
-      "status": "EXTENDED_SUPPORT",
+      "status": "END_OF_LIFE",
       "provenance": {
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -130,12 +130,12 @@
       "serviceCode": "bedrock",
       "engine": "ai21",
       "versionNumber": null,
-      "status": "EXTENDED_SUPPORT",
+      "status": "END_OF_LIFE",
       "provenance": {
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -162,7 +162,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -189,7 +189,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -216,7 +216,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -243,7 +243,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -310,7 +310,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -337,7 +337,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -364,7 +364,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -431,7 +431,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -458,7 +458,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -525,7 +525,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -592,7 +592,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -659,7 +659,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -686,7 +686,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -713,7 +713,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -740,7 +740,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -767,7 +767,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -794,7 +794,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -861,7 +861,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -928,7 +928,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -995,7 +995,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -1062,7 +1062,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -1089,7 +1089,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -1116,7 +1116,34 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
+      }
+    },
+    {
+      "service": "BEDROCK",
+      "version": "anthropic.claude-fable-5-2",
+      "title": "Anthropic Claude Fable 5.2",
+      "recommendedVersion": null,
+      "lifecycleEvents": [
+        {
+          "lifecycleEventType": "SUPPORTED",
+          "date": "2026-10-14",
+          "regions": [
+            "all"
+          ],
+          "impactRisks": [],
+          "description": "Anthropic Claude Fable 5.2 available on Amazon Bedrock"
+        }
+      ],
+      "serviceCode": "bedrock",
+      "engine": "anthropic",
+      "versionNumber": null,
+      "status": "STANDARD_SUPPORT",
+      "provenance": {
+        "source": "API",
+        "confidence": "VERIFIED",
+        "sourceUrl": null,
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -1143,7 +1170,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -1170,7 +1197,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -1237,7 +1264,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -1264,7 +1291,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -1291,7 +1318,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -1318,7 +1345,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -1345,7 +1372,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -1412,7 +1439,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -1439,7 +1466,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -1466,7 +1493,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -1533,7 +1560,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -1560,7 +1587,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -1627,7 +1654,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -1654,7 +1681,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -1681,7 +1708,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -1748,7 +1775,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -1815,7 +1842,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -1842,7 +1869,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -1869,7 +1896,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -1896,7 +1923,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -1923,7 +1950,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -1932,6 +1959,46 @@
       "title": "DeepSeek DeepSeek-R1",
       "recommendedVersion": null,
       "lifecycleEvents": [
+        {
+          "lifecycleEventType": "EXTENDED_SUPPORT_END",
+          "date": "2027-03-30",
+          "regions": [
+            "all"
+          ],
+          "impactRisks": [
+            "AVAILABILITY"
+          ],
+          "description": "Model is no longer available for inference",
+          "behavior": {
+            "conditionalOn": null,
+            "outcome": "EOL_INACCESSIBLE",
+            "note": "At EOL the model is completely inaccessible in all regions; API requests fail. No in-place upgrade, migrate to another model.",
+            "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/understanding-amazon-bedrock-model-lifecycle/",
+            "confidence": "VERIFIED"
+          }
+        },
+        {
+          "lifecycleEventType": "STANDARD_SUPPORT_END",
+          "date": "2026-09-30",
+          "regions": [
+            "all"
+          ],
+          "impactRisks": [
+            "END_OF_SUPPORT"
+          ],
+          "description": "Model enters Legacy state — no longer actively maintained",
+          "behavior": {
+            "conditionalOn": "accountActivity",
+            "branches": {
+              "active": "ENTERS_LEGACY",
+              "inactive_15d": "ACCESS_LOSS_IF_INACTIVE"
+            },
+            "default": "ENTERS_LEGACY",
+            "note": "Model enters Legacy (>=6 months notice before EOL). Existing active users continue; new provisioned throughput blocked; new customers may be unable to access; inactive accounts (no inference call for 15+ days) may lose access. Public-extended-access sub-phase may raise pricing.",
+            "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/understanding-amazon-bedrock-model-lifecycle/",
+            "confidence": "VERIFIED"
+          }
+        },
         {
           "lifecycleEventType": "SUPPORTED",
           "date": "2025-03-10",
@@ -1945,12 +2012,12 @@
       "serviceCode": "bedrock",
       "engine": "deepseek",
       "versionNumber": null,
-      "status": "STANDARD_SUPPORT",
+      "status": "EXTENDED_SUPPORT",
       "provenance": {
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -1977,7 +2044,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -2004,7 +2071,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -2031,7 +2098,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -2058,7 +2125,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -2067,6 +2134,46 @@
       "title": "Meta Llama 3.1 8B Instruct",
       "recommendedVersion": null,
       "lifecycleEvents": [
+        {
+          "lifecycleEventType": "EXTENDED_SUPPORT_END",
+          "date": "2027-03-30",
+          "regions": [
+            "all"
+          ],
+          "impactRisks": [
+            "AVAILABILITY"
+          ],
+          "description": "Model is no longer available for inference",
+          "behavior": {
+            "conditionalOn": null,
+            "outcome": "EOL_INACCESSIBLE",
+            "note": "At EOL the model is completely inaccessible in all regions; API requests fail. No in-place upgrade, migrate to another model.",
+            "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/understanding-amazon-bedrock-model-lifecycle/",
+            "confidence": "VERIFIED"
+          }
+        },
+        {
+          "lifecycleEventType": "STANDARD_SUPPORT_END",
+          "date": "2026-09-30",
+          "regions": [
+            "all"
+          ],
+          "impactRisks": [
+            "END_OF_SUPPORT"
+          ],
+          "description": "Model enters Legacy state — no longer actively maintained",
+          "behavior": {
+            "conditionalOn": "accountActivity",
+            "branches": {
+              "active": "ENTERS_LEGACY",
+              "inactive_15d": "ACCESS_LOSS_IF_INACTIVE"
+            },
+            "default": "ENTERS_LEGACY",
+            "note": "Model enters Legacy (>=6 months notice before EOL). Existing active users continue; new provisioned throughput blocked; new customers may be unable to access; inactive accounts (no inference call for 15+ days) may lose access. Public-extended-access sub-phase may raise pricing.",
+            "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/understanding-amazon-bedrock-model-lifecycle/",
+            "confidence": "VERIFIED"
+          }
+        },
         {
           "lifecycleEventType": "SUPPORTED",
           "date": "2024-07-23",
@@ -2080,12 +2187,12 @@
       "serviceCode": "bedrock",
       "engine": "meta",
       "versionNumber": null,
-      "status": "STANDARD_SUPPORT",
+      "status": "EXTENDED_SUPPORT",
       "provenance": {
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -2094,6 +2201,46 @@
       "title": "Meta Llama 3.1 70B Instruct",
       "recommendedVersion": null,
       "lifecycleEvents": [
+        {
+          "lifecycleEventType": "EXTENDED_SUPPORT_END",
+          "date": "2027-03-30",
+          "regions": [
+            "all"
+          ],
+          "impactRisks": [
+            "AVAILABILITY"
+          ],
+          "description": "Model is no longer available for inference",
+          "behavior": {
+            "conditionalOn": null,
+            "outcome": "EOL_INACCESSIBLE",
+            "note": "At EOL the model is completely inaccessible in all regions; API requests fail. No in-place upgrade, migrate to another model.",
+            "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/understanding-amazon-bedrock-model-lifecycle/",
+            "confidence": "VERIFIED"
+          }
+        },
+        {
+          "lifecycleEventType": "STANDARD_SUPPORT_END",
+          "date": "2026-09-30",
+          "regions": [
+            "all"
+          ],
+          "impactRisks": [
+            "END_OF_SUPPORT"
+          ],
+          "description": "Model enters Legacy state — no longer actively maintained",
+          "behavior": {
+            "conditionalOn": "accountActivity",
+            "branches": {
+              "active": "ENTERS_LEGACY",
+              "inactive_15d": "ACCESS_LOSS_IF_INACTIVE"
+            },
+            "default": "ENTERS_LEGACY",
+            "note": "Model enters Legacy (>=6 months notice before EOL). Existing active users continue; new provisioned throughput blocked; new customers may be unable to access; inactive accounts (no inference call for 15+ days) may lose access. Public-extended-access sub-phase may raise pricing.",
+            "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/understanding-amazon-bedrock-model-lifecycle/",
+            "confidence": "VERIFIED"
+          }
+        },
         {
           "lifecycleEventType": "SUPPORTED",
           "date": "2024-07-23",
@@ -2107,12 +2254,12 @@
       "serviceCode": "bedrock",
       "engine": "meta",
       "versionNumber": null,
-      "status": "STANDARD_SUPPORT",
+      "status": "EXTENDED_SUPPORT",
       "provenance": {
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -2179,7 +2326,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -2246,7 +2393,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -2313,7 +2460,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -2380,7 +2527,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -2389,6 +2536,46 @@
       "title": "Meta Llama 3.3 70B Instruct",
       "recommendedVersion": null,
       "lifecycleEvents": [
+        {
+          "lifecycleEventType": "EXTENDED_SUPPORT_END",
+          "date": "2027-03-30",
+          "regions": [
+            "all"
+          ],
+          "impactRisks": [
+            "AVAILABILITY"
+          ],
+          "description": "Model is no longer available for inference",
+          "behavior": {
+            "conditionalOn": null,
+            "outcome": "EOL_INACCESSIBLE",
+            "note": "At EOL the model is completely inaccessible in all regions; API requests fail. No in-place upgrade, migrate to another model.",
+            "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/understanding-amazon-bedrock-model-lifecycle/",
+            "confidence": "VERIFIED"
+          }
+        },
+        {
+          "lifecycleEventType": "STANDARD_SUPPORT_END",
+          "date": "2026-09-30",
+          "regions": [
+            "all"
+          ],
+          "impactRisks": [
+            "END_OF_SUPPORT"
+          ],
+          "description": "Model enters Legacy state — no longer actively maintained",
+          "behavior": {
+            "conditionalOn": "accountActivity",
+            "branches": {
+              "active": "ENTERS_LEGACY",
+              "inactive_15d": "ACCESS_LOSS_IF_INACTIVE"
+            },
+            "default": "ENTERS_LEGACY",
+            "note": "Model enters Legacy (>=6 months notice before EOL). Existing active users continue; new provisioned throughput blocked; new customers may be unable to access; inactive accounts (no inference call for 15+ days) may lose access. Public-extended-access sub-phase may raise pricing.",
+            "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/understanding-amazon-bedrock-model-lifecycle/",
+            "confidence": "VERIFIED"
+          }
+        },
         {
           "lifecycleEventType": "SUPPORTED",
           "date": "2024-12-19",
@@ -2402,12 +2589,12 @@
       "serviceCode": "bedrock",
       "engine": "meta",
       "versionNumber": null,
-      "status": "STANDARD_SUPPORT",
+      "status": "EXTENDED_SUPPORT",
       "provenance": {
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -2416,6 +2603,46 @@
       "title": "Meta Llama 3 8B Instruct",
       "recommendedVersion": null,
       "lifecycleEvents": [
+        {
+          "lifecycleEventType": "EXTENDED_SUPPORT_END",
+          "date": "2027-03-30",
+          "regions": [
+            "all"
+          ],
+          "impactRisks": [
+            "AVAILABILITY"
+          ],
+          "description": "Model is no longer available for inference",
+          "behavior": {
+            "conditionalOn": null,
+            "outcome": "EOL_INACCESSIBLE",
+            "note": "At EOL the model is completely inaccessible in all regions; API requests fail. No in-place upgrade, migrate to another model.",
+            "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/understanding-amazon-bedrock-model-lifecycle/",
+            "confidence": "VERIFIED"
+          }
+        },
+        {
+          "lifecycleEventType": "STANDARD_SUPPORT_END",
+          "date": "2026-09-30",
+          "regions": [
+            "all"
+          ],
+          "impactRisks": [
+            "END_OF_SUPPORT"
+          ],
+          "description": "Model enters Legacy state — no longer actively maintained",
+          "behavior": {
+            "conditionalOn": "accountActivity",
+            "branches": {
+              "active": "ENTERS_LEGACY",
+              "inactive_15d": "ACCESS_LOSS_IF_INACTIVE"
+            },
+            "default": "ENTERS_LEGACY",
+            "note": "Model enters Legacy (>=6 months notice before EOL). Existing active users continue; new provisioned throughput blocked; new customers may be unable to access; inactive accounts (no inference call for 15+ days) may lose access. Public-extended-access sub-phase may raise pricing.",
+            "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/understanding-amazon-bedrock-model-lifecycle/",
+            "confidence": "VERIFIED"
+          }
+        },
         {
           "lifecycleEventType": "SUPPORTED",
           "date": "2024-04-23",
@@ -2429,12 +2656,12 @@
       "serviceCode": "bedrock",
       "engine": "meta",
       "versionNumber": null,
-      "status": "STANDARD_SUPPORT",
+      "status": "EXTENDED_SUPPORT",
       "provenance": {
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -2443,6 +2670,46 @@
       "title": "Meta Llama 3 70B Instruct",
       "recommendedVersion": null,
       "lifecycleEvents": [
+        {
+          "lifecycleEventType": "EXTENDED_SUPPORT_END",
+          "date": "2027-03-30",
+          "regions": [
+            "all"
+          ],
+          "impactRisks": [
+            "AVAILABILITY"
+          ],
+          "description": "Model is no longer available for inference",
+          "behavior": {
+            "conditionalOn": null,
+            "outcome": "EOL_INACCESSIBLE",
+            "note": "At EOL the model is completely inaccessible in all regions; API requests fail. No in-place upgrade, migrate to another model.",
+            "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/understanding-amazon-bedrock-model-lifecycle/",
+            "confidence": "VERIFIED"
+          }
+        },
+        {
+          "lifecycleEventType": "STANDARD_SUPPORT_END",
+          "date": "2026-09-30",
+          "regions": [
+            "all"
+          ],
+          "impactRisks": [
+            "END_OF_SUPPORT"
+          ],
+          "description": "Model enters Legacy state — no longer actively maintained",
+          "behavior": {
+            "conditionalOn": "accountActivity",
+            "branches": {
+              "active": "ENTERS_LEGACY",
+              "inactive_15d": "ACCESS_LOSS_IF_INACTIVE"
+            },
+            "default": "ENTERS_LEGACY",
+            "note": "Model enters Legacy (>=6 months notice before EOL). Existing active users continue; new provisioned throughput blocked; new customers may be unable to access; inactive accounts (no inference call for 15+ days) may lose access. Public-extended-access sub-phase may raise pricing.",
+            "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/understanding-amazon-bedrock-model-lifecycle/",
+            "confidence": "VERIFIED"
+          }
+        },
         {
           "lifecycleEventType": "SUPPORTED",
           "date": "2024-04-23",
@@ -2456,12 +2723,12 @@
       "serviceCode": "bedrock",
       "engine": "meta",
       "versionNumber": null,
-      "status": "STANDARD_SUPPORT",
+      "status": "EXTENDED_SUPPORT",
       "provenance": {
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -2470,6 +2737,46 @@
       "title": "Meta Llama 4 Maverick 17B Instruct",
       "recommendedVersion": null,
       "lifecycleEvents": [
+        {
+          "lifecycleEventType": "EXTENDED_SUPPORT_END",
+          "date": "2027-03-30",
+          "regions": [
+            "all"
+          ],
+          "impactRisks": [
+            "AVAILABILITY"
+          ],
+          "description": "Model is no longer available for inference",
+          "behavior": {
+            "conditionalOn": null,
+            "outcome": "EOL_INACCESSIBLE",
+            "note": "At EOL the model is completely inaccessible in all regions; API requests fail. No in-place upgrade, migrate to another model.",
+            "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/understanding-amazon-bedrock-model-lifecycle/",
+            "confidence": "VERIFIED"
+          }
+        },
+        {
+          "lifecycleEventType": "STANDARD_SUPPORT_END",
+          "date": "2026-09-30",
+          "regions": [
+            "all"
+          ],
+          "impactRisks": [
+            "END_OF_SUPPORT"
+          ],
+          "description": "Model enters Legacy state — no longer actively maintained",
+          "behavior": {
+            "conditionalOn": "accountActivity",
+            "branches": {
+              "active": "ENTERS_LEGACY",
+              "inactive_15d": "ACCESS_LOSS_IF_INACTIVE"
+            },
+            "default": "ENTERS_LEGACY",
+            "note": "Model enters Legacy (>=6 months notice before EOL). Existing active users continue; new provisioned throughput blocked; new customers may be unable to access; inactive accounts (no inference call for 15+ days) may lose access. Public-extended-access sub-phase may raise pricing.",
+            "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/understanding-amazon-bedrock-model-lifecycle/",
+            "confidence": "VERIFIED"
+          }
+        },
         {
           "lifecycleEventType": "SUPPORTED",
           "date": "2025-04-28",
@@ -2483,12 +2790,12 @@
       "serviceCode": "bedrock",
       "engine": "meta",
       "versionNumber": null,
-      "status": "STANDARD_SUPPORT",
+      "status": "EXTENDED_SUPPORT",
       "provenance": {
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -2497,6 +2804,46 @@
       "title": "Meta Llama 4 Scout 17B Instruct",
       "recommendedVersion": null,
       "lifecycleEvents": [
+        {
+          "lifecycleEventType": "EXTENDED_SUPPORT_END",
+          "date": "2027-03-30",
+          "regions": [
+            "all"
+          ],
+          "impactRisks": [
+            "AVAILABILITY"
+          ],
+          "description": "Model is no longer available for inference",
+          "behavior": {
+            "conditionalOn": null,
+            "outcome": "EOL_INACCESSIBLE",
+            "note": "At EOL the model is completely inaccessible in all regions; API requests fail. No in-place upgrade, migrate to another model.",
+            "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/understanding-amazon-bedrock-model-lifecycle/",
+            "confidence": "VERIFIED"
+          }
+        },
+        {
+          "lifecycleEventType": "STANDARD_SUPPORT_END",
+          "date": "2026-09-30",
+          "regions": [
+            "all"
+          ],
+          "impactRisks": [
+            "END_OF_SUPPORT"
+          ],
+          "description": "Model enters Legacy state — no longer actively maintained",
+          "behavior": {
+            "conditionalOn": "accountActivity",
+            "branches": {
+              "active": "ENTERS_LEGACY",
+              "inactive_15d": "ACCESS_LOSS_IF_INACTIVE"
+            },
+            "default": "ENTERS_LEGACY",
+            "note": "Model enters Legacy (>=6 months notice before EOL). Existing active users continue; new provisioned throughput blocked; new customers may be unable to access; inactive accounts (no inference call for 15+ days) may lose access. Public-extended-access sub-phase may raise pricing.",
+            "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/understanding-amazon-bedrock-model-lifecycle/",
+            "confidence": "VERIFIED"
+          }
+        },
         {
           "lifecycleEventType": "SUPPORTED",
           "date": "2025-04-28",
@@ -2510,12 +2857,12 @@
       "serviceCode": "bedrock",
       "engine": "meta",
       "versionNumber": null,
-      "status": "STANDARD_SUPPORT",
+      "status": "EXTENDED_SUPPORT",
       "provenance": {
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -2542,7 +2889,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -2569,7 +2916,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -2596,7 +2943,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -2623,7 +2970,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -2650,7 +2997,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -2677,7 +3024,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -2704,7 +3051,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -2731,7 +3078,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -2740,6 +3087,46 @@
       "title": "Mistral AI Mistral 7B Instruct",
       "recommendedVersion": null,
       "lifecycleEvents": [
+        {
+          "lifecycleEventType": "EXTENDED_SUPPORT_END",
+          "date": "2027-03-30",
+          "regions": [
+            "all"
+          ],
+          "impactRisks": [
+            "AVAILABILITY"
+          ],
+          "description": "Model is no longer available for inference",
+          "behavior": {
+            "conditionalOn": null,
+            "outcome": "EOL_INACCESSIBLE",
+            "note": "At EOL the model is completely inaccessible in all regions; API requests fail. No in-place upgrade, migrate to another model.",
+            "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/understanding-amazon-bedrock-model-lifecycle/",
+            "confidence": "VERIFIED"
+          }
+        },
+        {
+          "lifecycleEventType": "STANDARD_SUPPORT_END",
+          "date": "2026-09-30",
+          "regions": [
+            "all"
+          ],
+          "impactRisks": [
+            "END_OF_SUPPORT"
+          ],
+          "description": "Model enters Legacy state — no longer actively maintained",
+          "behavior": {
+            "conditionalOn": "accountActivity",
+            "branches": {
+              "active": "ENTERS_LEGACY",
+              "inactive_15d": "ACCESS_LOSS_IF_INACTIVE"
+            },
+            "default": "ENTERS_LEGACY",
+            "note": "Model enters Legacy (>=6 months notice before EOL). Existing active users continue; new provisioned throughput blocked; new customers may be unable to access; inactive accounts (no inference call for 15+ days) may lose access. Public-extended-access sub-phase may raise pricing.",
+            "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/understanding-amazon-bedrock-model-lifecycle/",
+            "confidence": "VERIFIED"
+          }
+        },
         {
           "lifecycleEventType": "SUPPORTED",
           "date": "2024-03-01",
@@ -2753,12 +3140,12 @@
       "serviceCode": "bedrock",
       "engine": "mistral",
       "versionNumber": null,
-      "status": "STANDARD_SUPPORT",
+      "status": "EXTENDED_SUPPORT",
       "provenance": {
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -2785,7 +3172,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -2812,7 +3199,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -2839,7 +3226,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -2848,6 +3235,46 @@
       "title": "Mistral AI Mixtral 8x7B Instruct",
       "recommendedVersion": null,
       "lifecycleEvents": [
+        {
+          "lifecycleEventType": "EXTENDED_SUPPORT_END",
+          "date": "2027-03-30",
+          "regions": [
+            "all"
+          ],
+          "impactRisks": [
+            "AVAILABILITY"
+          ],
+          "description": "Model is no longer available for inference",
+          "behavior": {
+            "conditionalOn": null,
+            "outcome": "EOL_INACCESSIBLE",
+            "note": "At EOL the model is completely inaccessible in all regions; API requests fail. No in-place upgrade, migrate to another model.",
+            "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/understanding-amazon-bedrock-model-lifecycle/",
+            "confidence": "VERIFIED"
+          }
+        },
+        {
+          "lifecycleEventType": "STANDARD_SUPPORT_END",
+          "date": "2026-09-30",
+          "regions": [
+            "all"
+          ],
+          "impactRisks": [
+            "END_OF_SUPPORT"
+          ],
+          "description": "Model enters Legacy state — no longer actively maintained",
+          "behavior": {
+            "conditionalOn": "accountActivity",
+            "branches": {
+              "active": "ENTERS_LEGACY",
+              "inactive_15d": "ACCESS_LOSS_IF_INACTIVE"
+            },
+            "default": "ENTERS_LEGACY",
+            "note": "Model enters Legacy (>=6 months notice before EOL). Existing active users continue; new provisioned throughput blocked; new customers may be unable to access; inactive accounts (no inference call for 15+ days) may lose access. Public-extended-access sub-phase may raise pricing.",
+            "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/understanding-amazon-bedrock-model-lifecycle/",
+            "confidence": "VERIFIED"
+          }
+        },
         {
           "lifecycleEventType": "SUPPORTED",
           "date": "2024-03-01",
@@ -2861,12 +3288,12 @@
       "serviceCode": "bedrock",
       "engine": "mistral",
       "versionNumber": null,
-      "status": "STANDARD_SUPPORT",
+      "status": "EXTENDED_SUPPORT",
       "provenance": {
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -2893,7 +3320,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -2920,7 +3347,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -2947,7 +3374,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -2974,7 +3401,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -3001,7 +3428,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -3028,7 +3455,34 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
+      }
+    },
+    {
+      "service": "BEDROCK",
+      "version": "moonshotai.kimi-k3.1",
+      "title": "Moonshot AI Kimi K3.1",
+      "recommendedVersion": null,
+      "lifecycleEvents": [
+        {
+          "lifecycleEventType": "SUPPORTED",
+          "date": "2026-11-06",
+          "regions": [
+            "all"
+          ],
+          "impactRisks": [],
+          "description": "Moonshot AI Kimi K3.1 available on Amazon Bedrock"
+        }
+      ],
+      "serviceCode": "bedrock",
+      "engine": "moonshotai",
+      "versionNumber": null,
+      "status": "STANDARD_SUPPORT",
+      "provenance": {
+        "source": "API",
+        "confidence": "VERIFIED",
+        "sourceUrl": null,
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -3055,7 +3509,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -3082,7 +3536,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -3109,7 +3563,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -3136,7 +3590,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -3163,7 +3617,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -3190,7 +3644,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -3217,7 +3671,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -3244,7 +3698,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -3271,7 +3725,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -3298,7 +3752,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -3325,7 +3779,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -3352,7 +3806,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -3379,7 +3833,34 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
+      }
+    },
+    {
+      "service": "BEDROCK",
+      "version": "openai.gpt-6.1-terra",
+      "title": "OpenAI GPT-6.1 Terra",
+      "recommendedVersion": null,
+      "lifecycleEvents": [
+        {
+          "lifecycleEventType": "SUPPORTED",
+          "date": "2026-10-23",
+          "regions": [
+            "all"
+          ],
+          "impactRisks": [],
+          "description": "OpenAI GPT-6.1 Terra available on Amazon Bedrock"
+        }
+      ],
+      "serviceCode": "bedrock",
+      "engine": "openai",
+      "versionNumber": null,
+      "status": "STANDARD_SUPPORT",
+      "provenance": {
+        "source": "API",
+        "confidence": "VERIFIED",
+        "sourceUrl": null,
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -3406,7 +3887,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -3433,7 +3914,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -3460,7 +3941,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -3487,7 +3968,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -3514,7 +3995,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -3541,7 +4022,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -3568,7 +4049,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -3595,7 +4076,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -3622,7 +4103,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -3649,7 +4130,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -3676,7 +4157,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -3703,7 +4184,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -3730,7 +4211,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -3757,7 +4238,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -3784,7 +4265,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -3811,7 +4292,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -3838,7 +4319,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -3865,7 +4346,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -3892,7 +4373,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -3919,7 +4400,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -3946,7 +4427,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -3973,7 +4454,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -4040,7 +4521,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -4067,7 +4548,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -4076,6 +4557,46 @@
       "title": "TwelveLabs Pegasus v1.2",
       "recommendedVersion": null,
       "lifecycleEvents": [
+        {
+          "lifecycleEventType": "EXTENDED_SUPPORT_END",
+          "date": "2027-03-22",
+          "regions": [
+            "all"
+          ],
+          "impactRisks": [
+            "AVAILABILITY"
+          ],
+          "description": "Model is no longer available for inference",
+          "behavior": {
+            "conditionalOn": null,
+            "outcome": "EOL_INACCESSIBLE",
+            "note": "At EOL the model is completely inaccessible in all regions; API requests fail. No in-place upgrade, migrate to another model.",
+            "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/understanding-amazon-bedrock-model-lifecycle/",
+            "confidence": "VERIFIED"
+          }
+        },
+        {
+          "lifecycleEventType": "STANDARD_SUPPORT_END",
+          "date": "2026-09-22",
+          "regions": [
+            "all"
+          ],
+          "impactRisks": [
+            "END_OF_SUPPORT"
+          ],
+          "description": "Model enters Legacy state — no longer actively maintained",
+          "behavior": {
+            "conditionalOn": "accountActivity",
+            "branches": {
+              "active": "ENTERS_LEGACY",
+              "inactive_15d": "ACCESS_LOSS_IF_INACTIVE"
+            },
+            "default": "ENTERS_LEGACY",
+            "note": "Model enters Legacy (>=6 months notice before EOL). Existing active users continue; new provisioned throughput blocked; new customers may be unable to access; inactive accounts (no inference call for 15+ days) may lose access. Public-extended-access sub-phase may raise pricing.",
+            "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/understanding-amazon-bedrock-model-lifecycle/",
+            "confidence": "VERIFIED"
+          }
+        },
         {
           "lifecycleEventType": "SUPPORTED",
           "date": "2025-12-16",
@@ -4089,12 +4610,12 @@
       "serviceCode": "bedrock",
       "engine": "twelvelabs",
       "versionNumber": null,
-      "status": "STANDARD_SUPPORT",
+      "status": "EXTENDED_SUPPORT",
       "provenance": {
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -4121,7 +4642,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -4148,7 +4669,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -4157,6 +4678,46 @@
       "title": "Writer Palmyra X4",
       "recommendedVersion": null,
       "lifecycleEvents": [
+        {
+          "lifecycleEventType": "EXTENDED_SUPPORT_END",
+          "date": "2027-03-09",
+          "regions": [
+            "all"
+          ],
+          "impactRisks": [
+            "AVAILABILITY"
+          ],
+          "description": "Model is no longer available for inference",
+          "behavior": {
+            "conditionalOn": null,
+            "outcome": "EOL_INACCESSIBLE",
+            "note": "At EOL the model is completely inaccessible in all regions; API requests fail. No in-place upgrade, migrate to another model.",
+            "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/understanding-amazon-bedrock-model-lifecycle/",
+            "confidence": "VERIFIED"
+          }
+        },
+        {
+          "lifecycleEventType": "STANDARD_SUPPORT_END",
+          "date": "2026-09-09",
+          "regions": [
+            "all"
+          ],
+          "impactRisks": [
+            "END_OF_SUPPORT"
+          ],
+          "description": "Model enters Legacy state — no longer actively maintained",
+          "behavior": {
+            "conditionalOn": "accountActivity",
+            "branches": {
+              "active": "ENTERS_LEGACY",
+              "inactive_15d": "ACCESS_LOSS_IF_INACTIVE"
+            },
+            "default": "ENTERS_LEGACY",
+            "note": "Model enters Legacy (>=6 months notice before EOL). Existing active users continue; new provisioned throughput blocked; new customers may be unable to access; inactive accounts (no inference call for 15+ days) may lose access. Public-extended-access sub-phase may raise pricing.",
+            "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/understanding-amazon-bedrock-model-lifecycle/",
+            "confidence": "VERIFIED"
+          }
+        },
         {
           "lifecycleEventType": "SUPPORTED",
           "date": "2025-11-21",
@@ -4170,12 +4731,12 @@
       "serviceCode": "bedrock",
       "engine": "writer",
       "versionNumber": null,
-      "status": "STANDARD_SUPPORT",
+      "status": "EXTENDED_SUPPORT",
       "provenance": {
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -4184,6 +4745,46 @@
       "title": "Writer Palmyra X5",
       "recommendedVersion": null,
       "lifecycleEvents": [
+        {
+          "lifecycleEventType": "EXTENDED_SUPPORT_END",
+          "date": "2027-03-21",
+          "regions": [
+            "all"
+          ],
+          "impactRisks": [
+            "AVAILABILITY"
+          ],
+          "description": "Model is no longer available for inference",
+          "behavior": {
+            "conditionalOn": null,
+            "outcome": "EOL_INACCESSIBLE",
+            "note": "At EOL the model is completely inaccessible in all regions; API requests fail. No in-place upgrade, migrate to another model.",
+            "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/understanding-amazon-bedrock-model-lifecycle/",
+            "confidence": "VERIFIED"
+          }
+        },
+        {
+          "lifecycleEventType": "STANDARD_SUPPORT_END",
+          "date": "2026-09-21",
+          "regions": [
+            "all"
+          ],
+          "impactRisks": [
+            "END_OF_SUPPORT"
+          ],
+          "description": "Model enters Legacy state — no longer actively maintained",
+          "behavior": {
+            "conditionalOn": "accountActivity",
+            "branches": {
+              "active": "ENTERS_LEGACY",
+              "inactive_15d": "ACCESS_LOSS_IF_INACTIVE"
+            },
+            "default": "ENTERS_LEGACY",
+            "note": "Model enters Legacy (>=6 months notice before EOL). Existing active users continue; new provisioned throughput blocked; new customers may be unable to access; inactive accounts (no inference call for 15+ days) may lose access. Public-extended-access sub-phase may raise pricing.",
+            "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/understanding-amazon-bedrock-model-lifecycle/",
+            "confidence": "VERIFIED"
+          }
+        },
         {
           "lifecycleEventType": "SUPPORTED",
           "date": "2025-11-21",
@@ -4197,12 +4798,12 @@
       "serviceCode": "bedrock",
       "engine": "writer",
       "versionNumber": null,
-      "status": "STANDARD_SUPPORT",
+      "status": "EXTENDED_SUPPORT",
       "provenance": {
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -4229,7 +4830,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -4256,7 +4857,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -4283,7 +4884,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -4310,7 +4911,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -4337,7 +4938,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -4364,7 +4965,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -4429,7 +5030,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -4456,7 +5057,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -4483,7 +5084,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -4510,7 +5111,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -4537,7 +5138,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -4564,7 +5165,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -4633,7 +5234,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -4697,12 +5298,12 @@
       "serviceCode": "eks",
       "engine": null,
       "versionNumber": "1.31",
-      "status": "EXTENDED_SUPPORT",
+      "status": "END_OF_LIFE",
       "provenance": {
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -4771,7 +5372,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -4840,7 +5441,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -4909,7 +5510,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -4978,7 +5579,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -5047,7 +5648,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -5116,7 +5717,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -5172,7 +5773,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -5228,7 +5829,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -5284,7 +5885,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -5340,7 +5941,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -5367,7 +5968,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -5394,7 +5995,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -5421,7 +6022,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -5448,7 +6049,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -5475,7 +6076,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -5502,7 +6103,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -5529,7 +6130,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -5556,7 +6157,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -5583,7 +6184,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -5594,7 +6195,7 @@
       "lifecycleEvents": [
         {
           "lifecycleEventType": "END_OF_LIFE",
-          "date": "2027-08-01",
+          "date": "2027-09-01",
           "regions": [
             "all"
           ],
@@ -5603,6 +6204,12 @@
             "END_OF_SUPPORT"
           ],
           "description": "End of support — version no longer available",
+          "correction": {
+            "apiDate": "2027-08-01",
+            "source": "DOCS_CRAWLED",
+            "sourceUrl": "https://docs.aws.amazon.com/emr/latest/ReleaseGuide/emr-standard-support.html",
+            "lastVerified": "2026-11-18"
+          },
           "behavior": {
             "conditionalOn": null,
             "outcome": "CREATE_BLOCKED",
@@ -5613,7 +6220,7 @@
         },
         {
           "lifecycleEventType": "END_OF_SUPPORT",
-          "date": "2026-07-31",
+          "date": "2026-09-01",
           "regions": [
             "all"
           ],
@@ -5621,6 +6228,12 @@
             "END_OF_SUPPORT"
           ],
           "description": "Bridge support ends for Amazon EMR releases from January 1, 2013 to July 25, 2024",
+          "correction": {
+            "apiDate": "2026-07-31",
+            "source": "DOCS_CRAWLED",
+            "sourceUrl": "https://docs.aws.amazon.com/emr/latest/ReleaseGuide/emr-standard-support.html",
+            "lastVerified": "2026-11-18"
+          },
           "behavior": {
             "conditionalOn": null,
             "outcome": "RUNS_UNPATCHED",
@@ -5645,9 +6258,9 @@
       "status": "DEPRECATED",
       "provenance": {
         "source": "API",
-        "confidence": "VERIFIED",
+        "confidence": "NEEDS_REVIEW",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -5658,7 +6271,7 @@
       "lifecycleEvents": [
         {
           "lifecycleEventType": "END_OF_LIFE",
-          "date": "2027-08-01",
+          "date": "2027-09-01",
           "regions": [
             "all"
           ],
@@ -5667,6 +6280,12 @@
             "AVAILABILITY"
           ],
           "description": "End of support — version no longer available",
+          "correction": {
+            "apiDate": "2027-08-01",
+            "source": "DOCS_CRAWLED",
+            "sourceUrl": "https://docs.aws.amazon.com/emr/latest/ReleaseGuide/emr-standard-support.html",
+            "lastVerified": "2026-11-18"
+          },
           "behavior": {
             "conditionalOn": null,
             "outcome": "CREATE_BLOCKED",
@@ -5677,7 +6296,7 @@
         },
         {
           "lifecycleEventType": "END_OF_SUPPORT",
-          "date": "2026-07-31",
+          "date": "2026-09-01",
           "regions": [
             "all"
           ],
@@ -5685,6 +6304,12 @@
             "END_OF_SUPPORT"
           ],
           "description": "Bridge support ends for Amazon EMR releases from January 1, 2013 to July 25, 2024",
+          "correction": {
+            "apiDate": "2026-07-31",
+            "source": "DOCS_CRAWLED",
+            "sourceUrl": "https://docs.aws.amazon.com/emr/latest/ReleaseGuide/emr-standard-support.html",
+            "lastVerified": "2026-11-18"
+          },
           "behavior": {
             "conditionalOn": null,
             "outcome": "RUNS_UNPATCHED",
@@ -5709,9 +6334,9 @@
       "status": "DEPRECATED",
       "provenance": {
         "source": "API",
-        "confidence": "VERIFIED",
+        "confidence": "NEEDS_REVIEW",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -5722,7 +6347,7 @@
       "lifecycleEvents": [
         {
           "lifecycleEventType": "END_OF_LIFE",
-          "date": "2027-08-01",
+          "date": "2027-09-01",
           "regions": [
             "all"
           ],
@@ -5731,6 +6356,12 @@
             "END_OF_SUPPORT"
           ],
           "description": "End of support — version no longer available",
+          "correction": {
+            "apiDate": "2027-08-01",
+            "source": "DOCS_CRAWLED",
+            "sourceUrl": "https://docs.aws.amazon.com/emr/latest/ReleaseGuide/emr-standard-support.html",
+            "lastVerified": "2026-11-18"
+          },
           "behavior": {
             "conditionalOn": null,
             "outcome": "CREATE_BLOCKED",
@@ -5741,7 +6372,7 @@
         },
         {
           "lifecycleEventType": "END_OF_SUPPORT",
-          "date": "2026-07-31",
+          "date": "2026-09-01",
           "regions": [
             "all"
           ],
@@ -5749,6 +6380,12 @@
             "END_OF_SUPPORT"
           ],
           "description": "Bridge support ends for Amazon EMR releases from January 1, 2013 to July 25, 2024",
+          "correction": {
+            "apiDate": "2026-07-31",
+            "source": "DOCS_CRAWLED",
+            "sourceUrl": "https://docs.aws.amazon.com/emr/latest/ReleaseGuide/emr-standard-support.html",
+            "lastVerified": "2026-11-18"
+          },
           "behavior": {
             "conditionalOn": null,
             "outcome": "RUNS_UNPATCHED",
@@ -5773,9 +6410,9 @@
       "status": "DEPRECATED",
       "provenance": {
         "source": "API",
-        "confidence": "VERIFIED",
+        "confidence": "NEEDS_REVIEW",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -5786,7 +6423,7 @@
       "lifecycleEvents": [
         {
           "lifecycleEventType": "END_OF_LIFE",
-          "date": "2027-08-01",
+          "date": "2027-09-01",
           "regions": [
             "all"
           ],
@@ -5795,6 +6432,12 @@
             "END_OF_SUPPORT"
           ],
           "description": "End of support — version no longer available",
+          "correction": {
+            "apiDate": "2027-08-01",
+            "source": "DOCS_CRAWLED",
+            "sourceUrl": "https://docs.aws.amazon.com/emr/latest/ReleaseGuide/emr-standard-support.html",
+            "lastVerified": "2026-11-18"
+          },
           "behavior": {
             "conditionalOn": null,
             "outcome": "CREATE_BLOCKED",
@@ -5805,7 +6448,7 @@
         },
         {
           "lifecycleEventType": "END_OF_SUPPORT",
-          "date": "2026-07-31",
+          "date": "2026-09-01",
           "regions": [
             "all"
           ],
@@ -5813,6 +6456,12 @@
             "END_OF_SUPPORT"
           ],
           "description": "Bridge support ends for Amazon EMR releases from January 1, 2013 to July 25, 2024",
+          "correction": {
+            "apiDate": "2026-07-31",
+            "source": "DOCS_CRAWLED",
+            "sourceUrl": "https://docs.aws.amazon.com/emr/latest/ReleaseGuide/emr-standard-support.html",
+            "lastVerified": "2026-11-18"
+          },
           "behavior": {
             "conditionalOn": null,
             "outcome": "RUNS_UNPATCHED",
@@ -5837,9 +6486,9 @@
       "status": "DEPRECATED",
       "provenance": {
         "source": "API",
-        "confidence": "VERIFIED",
+        "confidence": "NEEDS_REVIEW",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -5850,7 +6499,7 @@
       "lifecycleEvents": [
         {
           "lifecycleEventType": "END_OF_LIFE",
-          "date": "2027-08-01",
+          "date": "2027-09-01",
           "regions": [
             "all"
           ],
@@ -5859,6 +6508,12 @@
             "END_OF_SUPPORT"
           ],
           "description": "End of Life — version no longer available",
+          "correction": {
+            "apiDate": "2027-08-01",
+            "source": "DOCS_CRAWLED",
+            "sourceUrl": "https://docs.aws.amazon.com/emr/latest/ReleaseGuide/emr-standard-support.html",
+            "lastVerified": "2026-11-18"
+          },
           "behavior": {
             "conditionalOn": null,
             "outcome": "CREATE_BLOCKED",
@@ -5869,7 +6524,7 @@
         },
         {
           "lifecycleEventType": "END_OF_SUPPORT",
-          "date": "2026-07-31",
+          "date": "2026-09-01",
           "regions": [
             "all"
           ],
@@ -5877,6 +6532,12 @@
             "END_OF_SUPPORT"
           ],
           "description": "Bridge support ends for Amazon EMR releases from January 1, 2013 to July 25, 2024",
+          "correction": {
+            "apiDate": "2026-07-31",
+            "source": "DOCS_CRAWLED",
+            "sourceUrl": "https://docs.aws.amazon.com/emr/latest/ReleaseGuide/emr-standard-support.html",
+            "lastVerified": "2026-11-18"
+          },
           "behavior": {
             "conditionalOn": null,
             "outcome": "RUNS_UNPATCHED",
@@ -5901,9 +6562,9 @@
       "status": "DEPRECATED",
       "provenance": {
         "source": "API",
-        "confidence": "VERIFIED",
+        "confidence": "NEEDS_REVIEW",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -5914,7 +6575,7 @@
       "lifecycleEvents": [
         {
           "lifecycleEventType": "END_OF_LIFE",
-          "date": "2027-08-01",
+          "date": "2028-08-31",
           "regions": [
             "all"
           ],
@@ -5923,6 +6584,12 @@
             "AVAILABILITY"
           ],
           "description": "End of support — version no longer available",
+          "correction": {
+            "apiDate": "2027-08-01",
+            "source": "DOCS_CRAWLED",
+            "sourceUrl": "https://docs.aws.amazon.com/emr/latest/ReleaseGuide/emr-standard-support.html",
+            "lastVerified": "2026-11-18"
+          },
           "behavior": {
             "conditionalOn": null,
             "outcome": "CREATE_BLOCKED",
@@ -5933,7 +6600,7 @@
         },
         {
           "lifecycleEventType": "END_OF_SUPPORT",
-          "date": "2026-07-31",
+          "date": "2027-08-31",
           "regions": [
             "all"
           ],
@@ -5941,6 +6608,12 @@
             "END_OF_SUPPORT"
           ],
           "description": "Bridge support ends for Amazon EMR releases from January 1, 2013 to July 25, 2024",
+          "correction": {
+            "apiDate": "2026-07-31",
+            "source": "DOCS_CRAWLED",
+            "sourceUrl": "https://docs.aws.amazon.com/emr/latest/ReleaseGuide/emr-standard-support.html",
+            "lastVerified": "2026-11-18"
+          },
           "behavior": {
             "conditionalOn": null,
             "outcome": "RUNS_UNPATCHED",
@@ -5962,12 +6635,12 @@
       "serviceCode": "emr",
       "engine": null,
       "versionNumber": "7.0.0-7.2.x",
-      "status": "DEPRECATED",
+      "status": "STANDARD_SUPPORT",
       "provenance": {
         "source": "API",
-        "confidence": "VERIFIED",
+        "confidence": "NEEDS_REVIEW",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -5978,7 +6651,7 @@
       "lifecycleEvents": [
         {
           "lifecycleEventType": "END_OF_LIFE",
-          "date": "2027-10-16",
+          "date": "2028-08-31",
           "regions": [
             "all"
           ],
@@ -5986,6 +6659,12 @@
             "AVAILABILITY"
           ],
           "description": "End of life — Amazon EMR 7.3.0 removed from API and SDK",
+          "correction": {
+            "apiDate": "2027-10-16",
+            "source": "DOCS_CRAWLED",
+            "sourceUrl": "https://docs.aws.amazon.com/emr/latest/ReleaseGuide/emr-standard-support.html",
+            "lastVerified": "2026-11-18"
+          },
           "behavior": {
             "conditionalOn": null,
             "outcome": "CREATE_BLOCKED",
@@ -5996,7 +6675,7 @@
         },
         {
           "lifecycleEventType": "END_OF_SUPPORT",
-          "date": "2026-10-16",
+          "date": "2027-08-31",
           "regions": [
             "all"
           ],
@@ -6004,6 +6683,12 @@
             "END_OF_SUPPORT"
           ],
           "description": "End of support - Amazon EMR 7.3.0",
+          "correction": {
+            "apiDate": "2026-10-16",
+            "source": "DOCS_CRAWLED",
+            "sourceUrl": "https://docs.aws.amazon.com/emr/latest/ReleaseGuide/emr-standard-support.html",
+            "lastVerified": "2026-11-18"
+          },
           "behavior": {
             "conditionalOn": null,
             "outcome": "RUNS_UNPATCHED",
@@ -6025,12 +6710,12 @@
       "serviceCode": "emr",
       "engine": null,
       "versionNumber": "7.3.0",
-      "status": "DEPRECATED",
+      "status": "STANDARD_SUPPORT",
       "provenance": {
         "source": "API",
-        "confidence": "VERIFIED",
+        "confidence": "NEEDS_REVIEW",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -6041,7 +6726,7 @@
       "lifecycleEvents": [
         {
           "lifecycleEventType": "END_OF_LIFE",
-          "date": "2027-11-13",
+          "date": "2028-08-31",
           "regions": [
             "all"
           ],
@@ -6049,6 +6734,12 @@
             "AVAILABILITY"
           ],
           "description": "End of life — Amazon EMR 7.4.0 removed from API and SDK",
+          "correction": {
+            "apiDate": "2027-11-13",
+            "source": "DOCS_CRAWLED",
+            "sourceUrl": "https://docs.aws.amazon.com/emr/latest/ReleaseGuide/emr-standard-support.html",
+            "lastVerified": "2026-11-18"
+          },
           "behavior": {
             "conditionalOn": null,
             "outcome": "CREATE_BLOCKED",
@@ -6059,7 +6750,7 @@
         },
         {
           "lifecycleEventType": "END_OF_SUPPORT",
-          "date": "2026-11-13",
+          "date": "2027-08-31",
           "regions": [
             "all"
           ],
@@ -6067,6 +6758,12 @@
             "END_OF_SUPPORT"
           ],
           "description": "End of support - Amazon EMR 7.4.0",
+          "correction": {
+            "apiDate": "2026-11-13",
+            "source": "DOCS_CRAWLED",
+            "sourceUrl": "https://docs.aws.amazon.com/emr/latest/ReleaseGuide/emr-standard-support.html",
+            "lastVerified": "2026-11-18"
+          },
           "behavior": {
             "conditionalOn": null,
             "outcome": "RUNS_UNPATCHED",
@@ -6091,9 +6788,9 @@
       "status": "STANDARD_SUPPORT",
       "provenance": {
         "source": "API",
-        "confidence": "VERIFIED",
+        "confidence": "NEEDS_REVIEW",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -6104,7 +6801,7 @@
       "lifecycleEvents": [
         {
           "lifecycleEventType": "END_OF_LIFE",
-          "date": "2027-11-21",
+          "date": "2028-08-31",
           "regions": [
             "all"
           ],
@@ -6112,6 +6809,12 @@
             "AVAILABILITY"
           ],
           "description": "End of life — Amazon EMR 7.5.0 removed from API and SDK",
+          "correction": {
+            "apiDate": "2027-11-21",
+            "source": "DOCS_CRAWLED",
+            "sourceUrl": "https://docs.aws.amazon.com/emr/latest/ReleaseGuide/emr-standard-support.html",
+            "lastVerified": "2026-11-18"
+          },
           "behavior": {
             "conditionalOn": null,
             "outcome": "CREATE_BLOCKED",
@@ -6122,7 +6825,7 @@
         },
         {
           "lifecycleEventType": "END_OF_SUPPORT",
-          "date": "2026-11-21",
+          "date": "2027-08-31",
           "regions": [
             "all"
           ],
@@ -6130,6 +6833,12 @@
             "END_OF_SUPPORT"
           ],
           "description": "End of support - Amazon EMR 7.5.0",
+          "correction": {
+            "apiDate": "2026-11-21",
+            "source": "DOCS_CRAWLED",
+            "sourceUrl": "https://docs.aws.amazon.com/emr/latest/ReleaseGuide/emr-standard-support.html",
+            "lastVerified": "2026-11-18"
+          },
           "behavior": {
             "conditionalOn": null,
             "outcome": "RUNS_UNPATCHED",
@@ -6154,9 +6863,9 @@
       "status": "STANDARD_SUPPORT",
       "provenance": {
         "source": "API",
-        "confidence": "VERIFIED",
+        "confidence": "NEEDS_REVIEW",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -6167,7 +6876,7 @@
       "lifecycleEvents": [
         {
           "lifecycleEventType": "END_OF_LIFE",
-          "date": "2028-01-10",
+          "date": "2028-08-31",
           "regions": [
             "all"
           ],
@@ -6175,6 +6884,12 @@
             "AVAILABILITY"
           ],
           "description": "End of life — Amazon EMR 7.6.0 removed from API and SDK",
+          "correction": {
+            "apiDate": "2028-01-10",
+            "source": "DOCS_CRAWLED",
+            "sourceUrl": "https://docs.aws.amazon.com/emr/latest/ReleaseGuide/emr-standard-support.html",
+            "lastVerified": "2026-11-18"
+          },
           "behavior": {
             "conditionalOn": null,
             "outcome": "CREATE_BLOCKED",
@@ -6185,7 +6900,7 @@
         },
         {
           "lifecycleEventType": "END_OF_SUPPORT",
-          "date": "2027-01-10",
+          "date": "2027-08-31",
           "regions": [
             "all"
           ],
@@ -6194,6 +6909,12 @@
             "AVAILABILITY"
           ],
           "description": "End of support - Amazon EMR 7.6.0",
+          "correction": {
+            "apiDate": "2027-01-10",
+            "source": "DOCS_CRAWLED",
+            "sourceUrl": "https://docs.aws.amazon.com/emr/latest/ReleaseGuide/emr-standard-support.html",
+            "lastVerified": "2026-11-18"
+          },
           "behavior": {
             "conditionalOn": null,
             "outcome": "RUNS_UNPATCHED",
@@ -6218,9 +6939,9 @@
       "status": "STANDARD_SUPPORT",
       "provenance": {
         "source": "API",
-        "confidence": "VERIFIED",
+        "confidence": "NEEDS_REVIEW",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -6231,7 +6952,7 @@
       "lifecycleEvents": [
         {
           "lifecycleEventType": "END_OF_LIFE",
-          "date": "2028-02-06",
+          "date": "2028-08-31",
           "regions": [
             "all"
           ],
@@ -6239,6 +6960,12 @@
             "AVAILABILITY"
           ],
           "description": "End of life — Amazon EMR 7.7.0 removed from API and SDK",
+          "correction": {
+            "apiDate": "2028-02-06",
+            "source": "DOCS_CRAWLED",
+            "sourceUrl": "https://docs.aws.amazon.com/emr/latest/ReleaseGuide/emr-standard-support.html",
+            "lastVerified": "2026-11-18"
+          },
           "behavior": {
             "conditionalOn": null,
             "outcome": "CREATE_BLOCKED",
@@ -6249,7 +6976,7 @@
         },
         {
           "lifecycleEventType": "END_OF_SUPPORT",
-          "date": "2027-02-06",
+          "date": "2027-08-31",
           "regions": [
             "all"
           ],
@@ -6258,6 +6985,12 @@
             "AVAILABILITY"
           ],
           "description": "End of support - Amazon EMR 7.7.0",
+          "correction": {
+            "apiDate": "2027-02-06",
+            "source": "DOCS_CRAWLED",
+            "sourceUrl": "https://docs.aws.amazon.com/emr/latest/ReleaseGuide/emr-standard-support.html",
+            "lastVerified": "2026-11-18"
+          },
           "behavior": {
             "conditionalOn": null,
             "outcome": "RUNS_UNPATCHED",
@@ -6282,9 +7015,9 @@
       "status": "STANDARD_SUPPORT",
       "provenance": {
         "source": "API",
-        "confidence": "VERIFIED",
+        "confidence": "NEEDS_REVIEW",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -6295,7 +7028,7 @@
       "lifecycleEvents": [
         {
           "lifecycleEventType": "END_OF_LIFE",
-          "date": "2028-03-07",
+          "date": "2028-08-31",
           "regions": [
             "all"
           ],
@@ -6303,6 +7036,12 @@
             "AVAILABILITY"
           ],
           "description": "End of life — Amazon EMR 7.8.0 removed from API and SDK",
+          "correction": {
+            "apiDate": "2028-03-07",
+            "source": "DOCS_CRAWLED",
+            "sourceUrl": "https://docs.aws.amazon.com/emr/latest/ReleaseGuide/emr-standard-support.html",
+            "lastVerified": "2026-11-18"
+          },
           "behavior": {
             "conditionalOn": null,
             "outcome": "CREATE_BLOCKED",
@@ -6313,7 +7052,7 @@
         },
         {
           "lifecycleEventType": "END_OF_SUPPORT",
-          "date": "2027-03-07",
+          "date": "2027-08-31",
           "regions": [
             "all"
           ],
@@ -6322,6 +7061,12 @@
             "AVAILABILITY"
           ],
           "description": "End of support - Amazon EMR 7.8.0",
+          "correction": {
+            "apiDate": "2027-03-07",
+            "source": "DOCS_CRAWLED",
+            "sourceUrl": "https://docs.aws.amazon.com/emr/latest/ReleaseGuide/emr-standard-support.html",
+            "lastVerified": "2026-11-18"
+          },
           "behavior": {
             "conditionalOn": null,
             "outcome": "RUNS_UNPATCHED",
@@ -6346,9 +7091,9 @@
       "status": "STANDARD_SUPPORT",
       "provenance": {
         "source": "API",
-        "confidence": "VERIFIED",
+        "confidence": "NEEDS_REVIEW",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -6359,7 +7104,7 @@
       "lifecycleEvents": [
         {
           "lifecycleEventType": "END_OF_LIFE",
-          "date": "2028-05-19",
+          "date": "2028-08-31",
           "regions": [
             "all"
           ],
@@ -6367,6 +7112,12 @@
             "AVAILABILITY"
           ],
           "description": "End of life — Amazon EMR 7.9.0 removed from API and SDK",
+          "correction": {
+            "apiDate": "2028-05-19",
+            "source": "DOCS_CRAWLED",
+            "sourceUrl": "https://docs.aws.amazon.com/emr/latest/ReleaseGuide/emr-standard-support.html",
+            "lastVerified": "2026-11-18"
+          },
           "behavior": {
             "conditionalOn": null,
             "outcome": "CREATE_BLOCKED",
@@ -6377,7 +7128,7 @@
         },
         {
           "lifecycleEventType": "END_OF_SUPPORT",
-          "date": "2027-05-20",
+          "date": "2027-08-31",
           "regions": [
             "all"
           ],
@@ -6386,6 +7137,12 @@
             "AVAILABILITY"
           ],
           "description": "End of support - Amazon EMR 7.9.0",
+          "correction": {
+            "apiDate": "2027-05-20",
+            "source": "DOCS_CRAWLED",
+            "sourceUrl": "https://docs.aws.amazon.com/emr/latest/ReleaseGuide/emr-standard-support.html",
+            "lastVerified": "2026-11-18"
+          },
           "behavior": {
             "conditionalOn": null,
             "outcome": "RUNS_UNPATCHED",
@@ -6410,9 +7167,9 @@
       "status": "STANDARD_SUPPORT",
       "provenance": {
         "source": "API",
-        "confidence": "VERIFIED",
+        "confidence": "NEEDS_REVIEW",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -6423,7 +7180,7 @@
       "lifecycleEvents": [
         {
           "lifecycleEventType": "END_OF_LIFE",
-          "date": "2028-08-15",
+          "date": "2028-08-31",
           "regions": [
             "all"
           ],
@@ -6431,6 +7188,12 @@
             "AVAILABILITY"
           ],
           "description": "End of life — Amazon EMR 7.10.0 removed from API and SDK",
+          "correction": {
+            "apiDate": "2028-08-15",
+            "source": "DOCS_CRAWLED",
+            "sourceUrl": "https://docs.aws.amazon.com/emr/latest/ReleaseGuide/emr-standard-support.html",
+            "lastVerified": "2026-11-18"
+          },
           "behavior": {
             "conditionalOn": null,
             "outcome": "CREATE_BLOCKED",
@@ -6441,7 +7204,7 @@
         },
         {
           "lifecycleEventType": "END_OF_SUPPORT",
-          "date": "2027-08-16",
+          "date": "2027-08-31",
           "regions": [
             "all"
           ],
@@ -6450,6 +7213,12 @@
             "AVAILABILITY"
           ],
           "description": "End of support - Amazon EMR 7.10.0",
+          "correction": {
+            "apiDate": "2027-08-16",
+            "source": "DOCS_CRAWLED",
+            "sourceUrl": "https://docs.aws.amazon.com/emr/latest/ReleaseGuide/emr-standard-support.html",
+            "lastVerified": "2026-11-18"
+          },
           "behavior": {
             "conditionalOn": null,
             "outcome": "RUNS_UNPATCHED",
@@ -6474,9 +7243,9 @@
       "status": "STANDARD_SUPPORT",
       "provenance": {
         "source": "API",
-        "confidence": "VERIFIED",
+        "confidence": "NEEDS_REVIEW",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -6540,7 +7309,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -6604,7 +7373,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -6668,7 +7437,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -6732,7 +7501,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -6804,7 +7573,7 @@
         "source": "DOCS_CRAWLED",
         "confidence": "NEEDS_REVIEW",
         "sourceUrl": "https://docs.aws.amazon.com/lambda/latest/dg/lambda-runtimes.html",
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-11-18"
       }
     },
     {
@@ -6871,12 +7640,12 @@
       "serviceCode": "lambda",
       "engine": "dotnet",
       "versionNumber": "8",
-      "status": "STANDARD_SUPPORT",
+      "status": "DEPRECATED",
       "provenance": {
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -6907,12 +7676,12 @@
       "serviceCode": "lambda",
       "engine": "dotnet",
       "versionNumber": "9",
-      "status": "STANDARD_SUPPORT",
+      "status": "DEPRECATED",
       "provenance": {
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -6984,7 +7753,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -7056,7 +7825,7 @@
         "source": "DOCS_CRAWLED",
         "confidence": "NEEDS_REVIEW",
         "sourceUrl": "https://docs.aws.amazon.com/lambda/latest/dg/lambda-runtimes.html",
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-11-18"
       }
     },
     {
@@ -7128,7 +7897,7 @@
         "source": "DOCS_CRAWLED",
         "confidence": "NEEDS_REVIEW",
         "sourceUrl": "https://docs.aws.amazon.com/lambda/latest/dg/lambda-runtimes.html",
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-11-18"
       }
     },
     {
@@ -7200,7 +7969,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -7272,7 +8041,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -7344,7 +8113,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -7416,7 +8185,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -7488,7 +8257,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -7560,7 +8329,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -7632,7 +8401,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -7704,7 +8473,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -7776,7 +8545,7 @@
         "source": "DOCS_CRAWLED",
         "confidence": "NEEDS_REVIEW",
         "sourceUrl": "https://docs.aws.amazon.com/lambda/latest/dg/lambda-runtimes.html",
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-11-18"
       }
     },
     {
@@ -7848,7 +8617,7 @@
         "source": "DOCS_CRAWLED",
         "confidence": "NEEDS_REVIEW",
         "sourceUrl": "https://docs.aws.amazon.com/lambda/latest/dg/lambda-runtimes.html",
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-11-18"
       }
     },
     {
@@ -7920,7 +8689,7 @@
         "source": "DOCS_CRAWLED",
         "confidence": "NEEDS_REVIEW",
         "sourceUrl": "https://docs.aws.amazon.com/lambda/latest/dg/lambda-runtimes.html",
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-11-18"
       }
     },
     {
@@ -7992,7 +8761,7 @@
         "source": "DOCS_CRAWLED",
         "confidence": "NEEDS_REVIEW",
         "sourceUrl": "https://docs.aws.amazon.com/lambda/latest/dg/lambda-runtimes.html",
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-11-18"
       }
     },
     {
@@ -8011,12 +8780,6 @@
             "AVAILABILITY"
           ],
           "description": "Cannot create new Lambda functions using this runtime",
-          "correction": {
-            "apiDate": "2027-06-01",
-            "source": "DOCS_CRAWLED",
-            "sourceUrl": "https://docs.aws.amazon.com/lambda/latest/dg/lambda-runtimes.html",
-            "lastVerified": "2026-10-24"
-          },
           "behavior": {
             "conditionalOn": null,
             "outcome": "CREATE_BLOCKED",
@@ -8035,12 +8798,6 @@
             "AVAILABILITY"
           ],
           "description": "Cannot update existing Lambda functions using this runtime",
-          "correction": {
-            "apiDate": "2027-07-01",
-            "source": "DOCS_CRAWLED",
-            "sourceUrl": "https://docs.aws.amazon.com/lambda/latest/dg/lambda-runtimes.html",
-            "lastVerified": "2026-10-24"
-          },
           "behavior": {
             "conditionalOn": null,
             "outcome": "UPDATE_BLOCKED",
@@ -8051,14 +8808,20 @@
         },
         {
           "lifecycleEventType": "END_OF_SUPPORT",
-          "date": "2027-04-30",
+          "date": "2027-05-30",
           "regions": [
             "all"
           ],
           "impactRisks": [
             "END_OF_SUPPORT"
           ],
-          "description": "Runtime no longer receives security patches or updates",
+          "description": "Runtime deprecated — no longer receives security patches or technical support",
+          "correction": {
+            "apiDate": "2027-04-30",
+            "source": "DOCS_CRAWLED",
+            "sourceUrl": "https://docs.aws.amazon.com/lambda/latest/dg/lambda-runtimes.html",
+            "lastVerified": "2026-11-18"
+          },
           "behavior": {
             "conditionalOn": null,
             "outcome": "RUNS_UNPATCHED",
@@ -8076,7 +8839,7 @@
         "source": "API",
         "confidence": "NEEDS_REVIEW",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -8148,7 +8911,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -8156,16 +8919,89 @@
       "version": "nodejs26.x",
       "title": "Node.js 26 Lambda Runtime",
       "recommendedVersion": null,
-      "lifecycleEvents": [],
+      "lifecycleEvents": [
+        {
+          "lifecycleEventType": "BLOCK_RESOURCE_CREATE",
+          "date": "2029-06-01",
+          "regions": [
+            "all"
+          ],
+          "impactRisks": [
+            "AVAILABILITY"
+          ],
+          "description": "Cannot create new Lambda functions using this runtime",
+          "correction": {
+            "apiDate": null,
+            "source": "DOCS_CRAWLED",
+            "sourceUrl": "https://docs.aws.amazon.com/lambda/latest/dg/lambda-runtimes.html",
+            "lastVerified": "2026-11-26"
+          },
+          "behavior": {
+            "conditionalOn": null,
+            "outcome": "CREATE_BLOCKED",
+            "note": "At least 30 days after deprecation, cannot create new functions on this runtime.",
+            "sourceUrl": "https://docs.aws.amazon.com/lambda/latest/dg/lambda-runtimes.html",
+            "confidence": "VERIFIED"
+          }
+        },
+        {
+          "lifecycleEventType": "BLOCK_RESOURCE_UPDATE",
+          "date": "2029-07-01",
+          "regions": [
+            "all"
+          ],
+          "impactRisks": [
+            "AVAILABILITY"
+          ],
+          "description": "Cannot update existing Lambda functions using this runtime",
+          "correction": {
+            "apiDate": null,
+            "source": "DOCS_CRAWLED",
+            "sourceUrl": "https://docs.aws.amazon.com/lambda/latest/dg/lambda-runtimes.html",
+            "lastVerified": "2026-11-26"
+          },
+          "behavior": {
+            "conditionalOn": null,
+            "outcome": "UPDATE_BLOCKED",
+            "note": "At least 60 days after deprecation, cannot update code/config of existing functions (except to a supported runtime).",
+            "sourceUrl": "https://docs.aws.amazon.com/lambda/latest/dg/lambda-runtimes.html",
+            "confidence": "VERIFIED"
+          }
+        },
+        {
+          "lifecycleEventType": "END_OF_SUPPORT",
+          "date": "2029-04-30",
+          "regions": [
+            "all"
+          ],
+          "impactRisks": [
+            "END_OF_SUPPORT"
+          ],
+          "description": "Runtime no longer receives security patches or updates",
+          "correction": {
+            "apiDate": null,
+            "source": "DOCS_CRAWLED",
+            "sourceUrl": "https://docs.aws.amazon.com/lambda/latest/dg/lambda-runtimes.html",
+            "lastVerified": "2026-11-26"
+          },
+          "behavior": {
+            "conditionalOn": null,
+            "outcome": "RUNS_UNPATCHED",
+            "note": "Runtime deprecated, no security patches, but function invocations continue INDEFINITELY. No extended support, never force-upgraded or stopped.",
+            "sourceUrl": "https://docs.aws.amazon.com/lambda/latest/dg/lambda-runtimes.html",
+            "confidence": "VERIFIED"
+          }
+        }
+      ],
       "serviceCode": "lambda",
       "engine": "nodejs",
       "versionNumber": "26.x",
       "status": "STANDARD_SUPPORT",
       "provenance": {
         "source": "API",
-        "confidence": "VERIFIED",
+        "confidence": "NEEDS_REVIEW",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -8237,7 +9073,7 @@
         "source": "DOCS_CRAWLED",
         "confidence": "NEEDS_REVIEW",
         "sourceUrl": "https://docs.aws.amazon.com/lambda/latest/dg/lambda-runtimes.html",
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-11-18"
       }
     },
     {
@@ -8309,7 +9145,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -8381,7 +9217,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -8453,7 +9289,7 @@
         "source": "DOCS_CRAWLED",
         "confidence": "NEEDS_REVIEW",
         "sourceUrl": "https://docs.aws.amazon.com/lambda/latest/dg/lambda-runtimes.html",
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-11-18"
       }
     },
     {
@@ -8525,7 +9361,7 @@
         "source": "DOCS_CRAWLED",
         "confidence": "NEEDS_REVIEW",
         "sourceUrl": "https://docs.aws.amazon.com/lambda/latest/dg/lambda-runtimes.html",
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-11-18"
       }
     },
     {
@@ -8597,7 +9433,7 @@
         "source": "DOCS_CRAWLED",
         "confidence": "NEEDS_REVIEW",
         "sourceUrl": "https://docs.aws.amazon.com/lambda/latest/dg/lambda-runtimes.html",
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-11-18"
       }
     },
     {
@@ -8664,12 +9500,12 @@
       "serviceCode": "lambda",
       "engine": "python",
       "versionNumber": "3.10",
-      "status": "STANDARD_SUPPORT",
+      "status": "DEPRECATED",
       "provenance": {
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -8741,7 +9577,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -8813,7 +9649,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -8885,7 +9721,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -8957,7 +9793,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -8965,16 +9801,89 @@
       "version": "python3.15",
       "title": "Python 3.15 Lambda Runtime",
       "recommendedVersion": null,
-      "lifecycleEvents": [],
+      "lifecycleEvents": [
+        {
+          "lifecycleEventType": "BLOCK_RESOURCE_CREATE",
+          "date": "2029-07-31",
+          "regions": [
+            "all"
+          ],
+          "impactRisks": [
+            "AVAILABILITY"
+          ],
+          "description": "Cannot create new Lambda functions using this runtime",
+          "correction": {
+            "apiDate": null,
+            "source": "DOCS_CRAWLED",
+            "sourceUrl": "https://docs.aws.amazon.com/lambda/latest/dg/lambda-runtimes.html",
+            "lastVerified": "2026-11-26"
+          },
+          "behavior": {
+            "conditionalOn": null,
+            "outcome": "CREATE_BLOCKED",
+            "note": "At least 30 days after deprecation, cannot create new functions on this runtime.",
+            "sourceUrl": "https://docs.aws.amazon.com/lambda/latest/dg/lambda-runtimes.html",
+            "confidence": "VERIFIED"
+          }
+        },
+        {
+          "lifecycleEventType": "BLOCK_RESOURCE_UPDATE",
+          "date": "2029-08-31",
+          "regions": [
+            "all"
+          ],
+          "impactRisks": [
+            "AVAILABILITY"
+          ],
+          "description": "Cannot update existing Lambda functions using this runtime",
+          "correction": {
+            "apiDate": null,
+            "source": "DOCS_CRAWLED",
+            "sourceUrl": "https://docs.aws.amazon.com/lambda/latest/dg/lambda-runtimes.html",
+            "lastVerified": "2026-11-26"
+          },
+          "behavior": {
+            "conditionalOn": null,
+            "outcome": "UPDATE_BLOCKED",
+            "note": "At least 60 days after deprecation, cannot update code/config of existing functions (except to a supported runtime).",
+            "sourceUrl": "https://docs.aws.amazon.com/lambda/latest/dg/lambda-runtimes.html",
+            "confidence": "VERIFIED"
+          }
+        },
+        {
+          "lifecycleEventType": "END_OF_SUPPORT",
+          "date": "2029-06-30",
+          "regions": [
+            "all"
+          ],
+          "impactRisks": [
+            "END_OF_SUPPORT"
+          ],
+          "description": "Runtime no longer receives security patches or updates",
+          "correction": {
+            "apiDate": null,
+            "source": "DOCS_CRAWLED",
+            "sourceUrl": "https://docs.aws.amazon.com/lambda/latest/dg/lambda-runtimes.html",
+            "lastVerified": "2026-11-26"
+          },
+          "behavior": {
+            "conditionalOn": null,
+            "outcome": "RUNS_UNPATCHED",
+            "note": "Runtime deprecated, no security patches, but function invocations continue INDEFINITELY. No extended support, never force-upgraded or stopped.",
+            "sourceUrl": "https://docs.aws.amazon.com/lambda/latest/dg/lambda-runtimes.html",
+            "confidence": "VERIFIED"
+          }
+        }
+      ],
       "serviceCode": "lambda",
       "engine": "python",
       "versionNumber": "3.15",
       "status": "STANDARD_SUPPORT",
       "provenance": {
         "source": "API",
-        "confidence": "VERIFIED",
+        "confidence": "NEEDS_REVIEW",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -9046,7 +9955,7 @@
         "source": "DOCS_CRAWLED",
         "confidence": "NEEDS_REVIEW",
         "sourceUrl": "https://docs.aws.amazon.com/lambda/latest/dg/lambda-runtimes.html",
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-11-18"
       }
     },
     {
@@ -9118,7 +10027,7 @@
         "source": "DOCS_CRAWLED",
         "confidence": "NEEDS_REVIEW",
         "sourceUrl": "https://docs.aws.amazon.com/lambda/latest/dg/lambda-runtimes.html",
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-11-18"
       }
     },
     {
@@ -9190,7 +10099,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -9262,7 +10171,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -9334,7 +10243,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -9371,7 +10280,7 @@
         "source": "DOCS_CRAWLED",
         "confidence": "NEEDS_REVIEW",
         "sourceUrl": "https://docs.aws.amazon.com/amazon-mq/latest/developer-guide/activemq-version-management.html",
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-11-18"
       }
     },
     {
@@ -9408,7 +10317,7 @@
         "source": "DOCS_CRAWLED",
         "confidence": "NEEDS_REVIEW",
         "sourceUrl": "https://docs.aws.amazon.com/amazon-mq/latest/developer-guide/activemq-version-management.html",
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-11-18"
       }
     },
     {
@@ -9445,7 +10354,7 @@
         "source": "DOCS_CRAWLED",
         "confidence": "NEEDS_REVIEW",
         "sourceUrl": "https://docs.aws.amazon.com/amazon-mq/latest/developer-guide/activemq-version-management.html",
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-11-18"
       }
     },
     {
@@ -9462,7 +10371,7 @@
         "source": "DOCS_CRAWLED",
         "confidence": "NEEDS_REVIEW",
         "sourceUrl": "https://docs.aws.amazon.com/amazon-mq/latest/developer-guide/activemq-version-management.html",
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-11-18"
       }
     },
     {
@@ -9479,7 +10388,7 @@
         "source": "DOCS_CRAWLED",
         "confidence": "NEEDS_REVIEW",
         "sourceUrl": "https://docs.aws.amazon.com/amazon-mq/latest/developer-guide/activemq-version-management.html",
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-11-18"
       }
     },
     {
@@ -9516,7 +10425,7 @@
         "source": "DOCS_CRAWLED",
         "confidence": "NEEDS_REVIEW",
         "sourceUrl": "https://docs.aws.amazon.com/amazon-mq/latest/developer-guide/rabbitmq-version-support.html",
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-11-18"
       }
     },
     {
@@ -9533,7 +10442,7 @@
         "source": "DOCS_CRAWLED",
         "confidence": "NEEDS_REVIEW",
         "sourceUrl": "https://docs.aws.amazon.com/amazon-mq/latest/developer-guide/rabbitmq-version-support.html",
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-11-18"
       }
     },
     {
@@ -9550,7 +10459,7 @@
         "source": "DOCS_CRAWLED",
         "confidence": "NEEDS_REVIEW",
         "sourceUrl": "https://docs.aws.amazon.com/amazon-mq/latest/developer-guide/rabbitmq-version-support.html",
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-11-18"
       }
     },
     {
@@ -9567,7 +10476,7 @@
         "source": "DOCS_CRAWLED",
         "confidence": "NEEDS_REVIEW",
         "sourceUrl": "https://docs.aws.amazon.com/amazon-mq/latest/developer-guide/rabbitmq-version-support.html",
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-11-18"
       }
     },
     {
@@ -9604,7 +10513,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -9641,7 +10550,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -9687,7 +10596,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -9733,7 +10642,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -9779,7 +10688,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -9825,7 +10734,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -9871,7 +10780,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -9917,7 +10826,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -9963,7 +10872,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -10009,7 +10918,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -10055,7 +10964,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -10101,7 +11010,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -10147,7 +11056,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -10193,7 +11102,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -10239,7 +11148,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -10285,7 +11194,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -10331,7 +11240,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -10377,7 +11286,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -10423,7 +11332,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -10469,7 +11378,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -10515,7 +11424,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -10561,7 +11470,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -10607,7 +11516,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -10653,7 +11562,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -10718,7 +11627,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -10745,7 +11654,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -10772,7 +11681,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -10799,7 +11708,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -10826,7 +11735,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -10853,7 +11762,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -10909,7 +11818,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -10965,7 +11874,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -11021,7 +11930,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -11077,7 +11986,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -11133,7 +12042,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -11189,7 +12098,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -11245,7 +12154,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -11301,7 +12210,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -11357,7 +12266,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -11413,7 +12322,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -11469,7 +12378,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -11525,7 +12434,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -11581,7 +12490,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -11637,7 +12546,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -11693,7 +12602,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -11749,7 +12658,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -11805,7 +12714,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -11861,7 +12770,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -11917,7 +12826,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -11973,7 +12882,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -12029,7 +12938,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -12085,7 +12994,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -12141,7 +13050,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -12197,7 +13106,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -12253,7 +13162,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -12309,7 +13218,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -12365,7 +13274,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -12421,7 +13330,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -12477,7 +13386,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -12533,7 +13442,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -12589,7 +13498,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -12645,7 +13554,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -12662,7 +13571,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -12679,7 +13588,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -12696,7 +13605,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -12716,12 +13625,6 @@
             "BILLING"
           ],
           "description": "Standard Support End for Amazon RDS for MariaDB 10.5",
-          "correction": {
-            "apiDate": "2026-02-28",
-            "source": "DOCS_CRAWLED",
-            "sourceUrl": "https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/MariaDB.Concepts.VersionMgmt.html",
-            "lastVerified": "2026-10-24"
-          },
           "behavior": {
             "conditionalOn": null,
             "outcome": "AUTO_UPGRADE",
@@ -12746,9 +13649,9 @@
       "status": "DEPRECATED",
       "provenance": {
         "source": "API",
-        "confidence": "NEEDS_REVIEW",
+        "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -12794,7 +13697,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -12840,7 +13743,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -12886,7 +13789,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -12897,7 +13800,7 @@
       "lifecycleEvents": [
         {
           "lifecycleEventType": "STANDARD_SUPPORT_END",
-          "date": null,
+          "date": "2028-06-30",
           "regions": [
             "all"
           ],
@@ -12906,12 +13809,6 @@
             "BILLING"
           ],
           "description": "Standard Support End for Amazon RDS for MariaDB 11.8",
-          "correction": {
-            "apiDate": "2030-06-30",
-            "source": "DOCS_CRAWLED",
-            "sourceUrl": "https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/MariaDB.Concepts.VersionMgmt.html",
-            "lastVerified": "2026-10-24"
-          },
           "behavior": {
             "conditionalOn": null,
             "outcome": "AUTO_UPGRADE",
@@ -12936,9 +13833,9 @@
       "status": "STANDARD_SUPPORT",
       "provenance": {
         "source": "API",
-        "confidence": "NEEDS_REVIEW",
+        "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -12947,6 +13844,25 @@
       "title": "Amazon RDS for MariaDB 12.3",
       "recommendedVersion": null,
       "lifecycleEvents": [
+        {
+          "lifecycleEventType": "STANDARD_SUPPORT_END",
+          "date": "2029-06-30",
+          "regions": [
+            "all"
+          ],
+          "impactRisks": [
+            "END_OF_SUPPORT",
+            "BILLING"
+          ],
+          "description": "Standard Support End for Amazon RDS for MariaDB 12.3",
+          "behavior": {
+            "conditionalOn": null,
+            "outcome": "AUTO_UPGRADE",
+            "note": "RDS Extended Support is not available for RDS for MariaDB (MySQL and PostgreSQL only), so no Extended Support charges apply. When a major version is deprecated, RDS gives at least 6 months' notice, then applies an automatic upgrade to the next major version during maintenance windows. The API still tags this event BILLING.",
+            "sourceUrl": "https://aws.amazon.com/rds/faqs/",
+            "confidence": "VERIFIED"
+          }
+        },
         {
           "lifecycleEventType": "SUPPORTED",
           "date": "2026-08-07",
@@ -12962,10 +13878,10 @@
       "versionNumber": "12.3",
       "status": "STANDARD_SUPPORT",
       "provenance": {
-        "source": "DOCS_CRAWLED",
-        "confidence": "NEEDS_REVIEW",
-        "sourceUrl": "https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/MariaDB.Concepts.VersionMgmt.html",
-        "lastVerified": "2026-10-24"
+        "source": "API",
+        "confidence": "VERIFIED",
+        "sourceUrl": null,
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -13034,7 +13950,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -13103,7 +14019,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -13172,7 +14088,76 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
+      }
+    },
+    {
+      "service": "RDS",
+      "version": "mysql/9.7",
+      "title": "Amazon RDS for MySQL 9.7",
+      "recommendedVersion": null,
+      "lifecycleEvents": [
+        {
+          "lifecycleEventType": "EXTENDED_SUPPORT_END",
+          "date": "2034-07-31",
+          "regions": [
+            "all"
+          ],
+          "impactRisks": [
+            "END_OF_SUPPORT",
+            "AVAILABILITY"
+          ],
+          "description": "Extended Support End for Amazon RDS for MySQL 9.7",
+          "behavior": {
+            "conditionalOn": null,
+            "outcome": "AUTO_UPGRADE",
+            "note": "Up to 3 years extended; after that, if not upgraded, Amazon RDS automatically upgrades the major engine version.",
+            "sourceUrl": "https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/extended-support.html",
+            "confidence": "VERIFIED"
+          }
+        },
+        {
+          "lifecycleEventType": "STANDARD_SUPPORT_END",
+          "date": "2031-07-31",
+          "regions": [
+            "all"
+          ],
+          "impactRisks": [
+            "END_OF_SUPPORT",
+            "BILLING"
+          ],
+          "description": "Standard Support End for Amazon RDS for MySQL 9.7",
+          "behavior": {
+            "conditionalOn": "EngineLifecycleSupport",
+            "branches": {
+              "open-source-rds-extended-support": "CHARGES_APPLY",
+              "open-source-rds-extended-support-disabled": "AUTO_UPGRADE"
+            },
+            "default": "CHARGES_APPLY",
+            "note": "Default auto-enrolls in Extended Support (charges) and auto-upgrades the minor version. If enrollment disabled, auto-upgrades to next supported major instead.",
+            "sourceUrl": "https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/extended-support-overview.html",
+            "confidence": "VERIFIED"
+          }
+        },
+        {
+          "lifecycleEventType": "SUPPORTED",
+          "date": "2026-11-18",
+          "regions": [
+            "all"
+          ],
+          "impactRisks": [],
+          "description": "Amazon RDS for MySQL 9.7 released on Amazon RDS"
+        }
+      ],
+      "serviceCode": "rds",
+      "engine": "mysql",
+      "versionNumber": "9.7",
+      "status": "STANDARD_SUPPORT",
+      "provenance": {
+        "source": "DOCS_CRAWLED",
+        "confidence": "NEEDS_REVIEW",
+        "sourceUrl": "https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/MySQL.Concepts.VersionMgmt.html",
+        "lastVerified": "2026-11-18"
       }
     },
     {
@@ -13241,7 +14226,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -13310,7 +14295,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -13379,7 +14364,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -13448,7 +14433,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -13517,7 +14502,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -13580,7 +14565,7 @@
             "apiDate": "2023-11-17",
             "source": "DOCS_CRAWLED",
             "sourceUrl": "https://docs.aws.amazon.com/AmazonRDS/latest/PostgreSQLReleaseNotes/postgresql-release-calendar.html",
-            "lastVerified": "2026-10-24"
+            "lastVerified": "2026-11-18"
           }
         }
       ],
@@ -13592,7 +14577,7 @@
         "source": "API",
         "confidence": "NEEDS_REVIEW",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -13661,7 +14646,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -13730,7 +14715,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -13799,7 +14784,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -13868,7 +14853,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -13885,7 +14870,7 @@
         "source": "DOCS_CRAWLED",
         "confidence": "NEEDS_REVIEW",
         "sourceUrl": "https://docs.aws.amazon.com/AmazonRDS/latest/AuroraMySQLReleaseNotes/AuroraMySQL.release-calendars.html",
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-11-18"
       }
     },
     {
@@ -13954,7 +14939,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -14023,7 +15008,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -14092,7 +15077,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -14155,7 +15140,7 @@
             "apiDate": "2022-03-10",
             "source": "DOCS_CRAWLED",
             "sourceUrl": "https://docs.aws.amazon.com/AmazonRDS/latest/AuroraPostgreSQLReleaseNotes/aurorapostgresql-release-calendar.html",
-            "lastVerified": "2026-10-24"
+            "lastVerified": "2026-11-18"
           }
         }
       ],
@@ -14167,7 +15152,7 @@
         "source": "API",
         "confidence": "NEEDS_REVIEW",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -14236,7 +15221,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -14305,7 +15290,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -14374,7 +15359,7 @@
         "source": "API",
         "confidence": "VERIFIED",
         "sourceUrl": null,
-        "lastVerified": "2026-10-24"
+        "lastVerified": "2026-11-26"
       }
     },
     {
@@ -14443,7 +15428,7 @@
         "source": "DOCS_CRAWLED",
         "confidence": "NEEDS_REVIEW",
         "sourceUrl": "https://docs.aws.amazon.com/AmazonRDS/latest/AuroraPostgreSQLReleaseNotes/aurorapostgresql-release-calendar.html",
-        "lastVerified": "2026-10-21"
+        "lastVerified": "2026-11-18"
       }
     }
   ]
